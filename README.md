@@ -98,3 +98,9 @@
   + Ray
   + Time
   + MarkDown
+  + Git
+    - [commit之后，想撤销commit](https://blog.csdn.net/w958796636/article/details/53611133)
+      - git checkout
+      - git reset [--mixed [--soft [--hard ]]]
+      - git stash
+      - git stage

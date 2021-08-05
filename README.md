@@ -71,9 +71,9 @@
   - [ ] 阅读Attention源码
   - [ ] 实现Center Loss
   - [ ] 阅读Transformer源码并理解
-  - ~~[x] [度量学习]()~~
-  - ~~[x] 阅读[Focal CTC Loss](https://downloads.hindawi.com/journals/complexity/2019/9345861.pdf)~~
-  - ~~[x] Center Loss~~ 
+  - [x] ~~[度量学习]()~~
+  - [x] ~~阅读[Focal CTC Loss](https://downloads.hindawi.com/journals/complexity/2019/9345861.pdf)~~
+  - [x] ~~Center Loss~~ 
     + Code
       - [pytorch-center-loss](https://github.com/KaiyangZhou/pytorch-center-loss)
       - [crnn-ctc-centerloss](https://github.com/tommyMessi/crnn_ctc-centerloss)

@@ -19,7 +19,7 @@
     + [CHROME](https://www.isical.ac.in/~crohme/index.html)
     + [CHRAOME竞赛地址](http://www.iapr-tc11.org/mediawiki/index.php/CROHME:_Competition_on_Recognition_of_Online_Handwritten_Mathematical_Expressions)
   - [Datasets per Topic](http://tc11.cvc.uab.es/datasets/type/)
-  - [OCR 大全](https://github.com/WenmuZhou/OCR_DataSet)
+  - [OCR Dataset 大全](https://github.com/WenmuZhou/OCR_DataSet)
 ----
 ## DataSet
   - [graviti](https://gas.graviti.cn/open-datasets)
@@ -60,6 +60,7 @@
 ## 格式处理相关
   + pprint
   + rich
+  + [python-tabulate](https://github.com/astanin/python-tabulate)
 
 ---
 
@@ -109,12 +110,22 @@
 ## [Other]()
   + [行人识重 deep-person-reid](https://github.com/KaiyangZhou/deep-person-reid "using pytorch-center-loss")
   + [pytorch-metric-learning](https://github.com/KevinMusgrave/pytorch-metric-learning) 
+  + [DexiNed 边缘检测](https://github.com/xavysp/DexiNed)
 
 ----
 
 ## Pytorch
   + [自定义操作torch.autograd.Function](https://zhuanlan.zhihu.com/p/344802526)
   + [pytorch-loss](https://github.com/CoinCheung/pytorch-loss)
+  + BatchNorm
+    + 很重要，也很有效
+    + [Training BatchNorm and Only BatchNorm: On the Expressive Power of Random Features in CNNs](https://arxiv.org/abs/2003.00152)
+  + [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch '半监督')
+
+---
+
+## 可视化
+  - [Tools-to-Design-or-Visualize-Architecture-of-Neural-Network](https://github.com/ashishpatel26/Tools-to-Design-or-Visualize-Architecture-of-Neural-Network)
 
 ---
 
@@ -132,16 +143,28 @@
 
 ---
 
+## Ubuntu 
+  - [zsh](https://ohmyz.sh/#install)
+  - [fzf](https://github.com/junegunn/fzf)
+  - [pip](https://www.runoob.com/w3cnote/pip-cn-mirror.html)
+  - usermod / passwd 修改默认目录
+  - chmod / chown 修改文件权限
+---
 ## 数学
   - [Animation engine for explanatory math videos](https://github.com/3b1b/manim)
     - [3b1b](https://space.bilibili.com/88461692/)
 
 ---
 
-## 蒸馏
+## 蒸馏、弱监督、半监督、自学习、无监督
   - [ICLR 2021 | SEED：自监督蒸馏学习，显著提升小模型性能！](https://www.aminer.cn/research_report/607965a1e409f29eb73e2e97)
     - [SEED: Self-supervised Distillation For Visual Representation](https://arxiv.org/abs/2101.04731)
   - [Three mysteries in deep learning: Ensemble, knowledge distillation, and self-distillation](https://www.microsoft.com/en-us/research/blog/three-mysteries-in-deep-learning-ensemble-knowledge-distillation-and-self-distillation/)
+  - [pseudo-labeling-to-deal-with-small-datasets-what-why-how](https://towardsdatascience.com/pseudo-labeling-to-deal-with-small-datasets-what-why-how-fd6f903213af)
+
+---
+## 数据可视化
+  - [an-introduction-to-t-sne-with-python-example](https://towardsdatascience.com/an-introduction-to-t-sne-with-python-example-5a3a293108d1)
 
 ---
 ## 图像检索
@@ -156,3 +179,25 @@
 
 ## 加速
   - [contiguous_pytorch_params](https://github.com/PhilJd/contiguous_pytorch_params)
+
+---
+## OpenCV
+  - [编译OpenCV](https://www.jianshu.com/p/8fd19e45e01b) 
+
+---
+## 编译/运行库相关
+  - ldd
+  - cmake
+  - make
+
+---
+## 论文-Search
+  - arxiv-vanity
+  - arxiv
+  - [sci-hub](https://www.sci-hub.shop/)
+
+---
+
+## Github
+  - [fastgit](hub.fastgit.org)
+  - Github520

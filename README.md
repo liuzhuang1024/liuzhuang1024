@@ -171,12 +171,25 @@
   - [autofaiss](https://github.com/criteo/autofaiss)
   - [faiss]()
 
+---
 ## OCR
   - [sightseq](https://github.com/zhiqwang/sightseq)
     - [lightseq](https://github.com/bytedance/lightseq)
   - [mmocr](https://github.com/open-mmlab/mmocr)
   - [DAVAR-Lab-OCR](https://github.com/hikopensource/DAVAR-Lab-OCR)
+  - [deep-text-recognition-benchmark](https://github.com/clovaai/deep-text-recognition-benchmark)
 
+---
+## C++
+  - [folly](https://github.com/facebook/folly)
+  - [入门](https://segmentfault.com/a/1190000037727214)
+
+---
+
+## Python
+  - help
+    - [code example](https://www.programcreek.com/python/)
+---
 ## 加速
   - [contiguous_pytorch_params](https://github.com/PhilJd/contiguous_pytorch_params)
 

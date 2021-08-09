@@ -14,7 +14,7 @@
   - [Image-Local-Attention](https://github.com/zzd1992/Image-Local-Attention)
 
 ---
-## 常用网站
+## 常用数据集网站
   - CHROME
     + [CHROME](https://www.isical.ac.in/~crohme/index.html)
     + [CHRAOME竞赛地址](http://www.iapr-tc11.org/mediawiki/index.php/CROHME:_Competition_on_Recognition_of_Online_Handwritten_Mathematical_Expressions)
@@ -41,6 +41,8 @@
 ## 目标检测
   + [ATSS 目标检测采样策略](https://github.com/sfzhang15/ATSS)
   + [WeightedBoxesFusion 目标检测集成方法](https://github.com/ZFTurbo/Weighted-Boxes-Fusion)
+  + [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX)
+  + [YOLOV5](https://github.com/ultralytics/yolov5)
 
 ---
 ## MarkDown
@@ -89,6 +91,7 @@
 
 ---
 ## TODO
+  - [ ] tldtr
   - [ ] 阅读master源码
   - [ ] 阅读codeWAP源码
   - [ ] 阅读Attention源码
@@ -149,6 +152,7 @@
   - [pip](https://www.runoob.com/w3cnote/pip-cn-mirror.html)
   - usermod / passwd 修改默认目录
   - chmod / chown 修改文件权限
+  - gpustat
 ---
 ## 数学
   - [Animation engine for explanatory math videos](https://github.com/3b1b/manim)
@@ -156,11 +160,16 @@
 
 ---
 
+## LeetCode
+  - [LeetCode 题库](https://leetcode-cn.com/problemset/all/)
+---
 ## 蒸馏、弱监督、半监督、自学习、无监督
   - [ICLR 2021 | SEED：自监督蒸馏学习，显著提升小模型性能！](https://www.aminer.cn/research_report/607965a1e409f29eb73e2e97)
     - [SEED: Self-supervised Distillation For Visual Representation](https://arxiv.org/abs/2101.04731)
   - [Three mysteries in deep learning: Ensemble, knowledge distillation, and self-distillation](https://www.microsoft.com/en-us/research/blog/three-mysteries-in-deep-learning-ensemble-knowledge-distillation-and-self-distillation/)
   - [pseudo-labeling-to-deal-with-small-datasets-what-why-how](https://towardsdatascience.com/pseudo-labeling-to-deal-with-small-datasets-what-why-how-fd6f903213af)
+  - [R-Drop](https://github.com/dropreg/R-Drop)
+  - [STR-Fewer-Labels](https://github.com/ku21fan/STR-Fewer-Labels)
 
 ---
 ## 数据可视化
@@ -178,6 +187,12 @@
   - [mmocr](https://github.com/open-mmlab/mmocr)
   - [DAVAR-Lab-OCR](https://github.com/hikopensource/DAVAR-Lab-OCR)
   - [deep-text-recognition-benchmark](https://github.com/clovaai/deep-text-recognition-benchmark)
+  - [vedastr](https://github.com/Media-Smart/vedastr)
+  - [KISS: Keeping it Simple for Scene Text Recognition.](https://github.com/Bartzi/kiss)
+  - [textocr facebook](https://textvqa.org/?p=/textocr)
+  - [STR-Fewer-Labels](https://github.com/ku21fan/STR-Fewer-Labels)
+  - 数据集
+    - [OCR Dataset 大全](https://github.com/WenmuZhou/OCR_DataSet)
 
 ---
 ## C++
@@ -214,3 +229,13 @@
 ## Github
   - [fastgit](hub.fastgit.org)
   - Github520
+
+---
+## 部署
+- [tensorrtx 众多应用仓库](https://github.com/wang-xinyu/tensorrtx)
+
+---
+## 自建云盘
+  - [自建云盘教程](https://zhuanlan.zhihu.com/p/44103820)
+  - [win 局域网共享](https://zhuanlan.zhihu.com/p/83983289)
+  - [smb://]()

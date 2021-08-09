@@ -1,16 +1,24 @@
-### <div align="center">工作<img src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel5.png"/>整理</div>
+**<div align="center">工作<img src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel5.png"/>整理</div>**
 
 ----
-## 公式识别代码
+## 公式识别
   + [im2latex](https://github.com/guillaumegenthial/im2latex)
   + [math-formula-recognition](https://github.com/jungomi/math-formula-recognition)
   + **[Pytorch-Handwritten-Mathematical-Expression-Recognition](https://github.com/whywhs/Pytorch-Handwritten-Mathematical-Expression-Recognition)**
   + [BTTR](https://github.com/Green-Wood/BTTR)
   + [Master-Ocr]()
   + [Master-Table]()
+  + [文章]()
+    + [Seq2Seq for LaTeX generation](https://guillaumegenthial.github.io/image-to-latex.html)
+    + [基于Seq2Seq的公式识别引擎](https://zhuanlan.zhihu.com/p/183182208)
+  + 论文
+    + [Multi-Scale Attention with Dense Encoder for Handwritten Mathematical Expression Recognition](https://arxiv.org/pdf/1801.03530.pdf)
+    + [Watch, attend and parse: An end-to-end neural network based approach to handwritten mathematical expression recognition](http://staff.ustc.edu.cn/~jundu/Publications/publications/PR17-1.pdf)
+    + [MASTER: Multi-Aspect Non-local Network forScene Text Recognition](https://arxiv.org/pdf/1910.02562.pdf "master-ocr")
+    + [Handwritten Mathematical Expression Recognition with Bidirectionally Trained Transformer](https://arxiv.org/abs/2105.02412)
 ---
 ## 注意力机制
-  + [External-Attention-pytorch](https://github.com/xmu-xiaoma666/External-Attention-pytorch)
+  - [External-Attention-pytorch](https://github.com/xmu-xiaoma666/External-Attention-pytorch)
   - [Image-Local-Attention](https://github.com/zzd1992/Image-Local-Attention)
 
 ---
@@ -25,19 +33,6 @@
   - [graviti](https://gas.graviti.cn/open-datasets)
   - [超神经](https://hyper.ai/datasets)
 ----
-## 论文
-  + [Multi-Scale Attention with Dense Encoder for Handwritten Mathematical Expression Recognition](https://arxiv.org/pdf/1801.03530.pdf)
-  + [Watch, attend and parse: An end-to-end neural network based approach to handwritten mathematical expression recognition](http://staff.ustc.edu.cn/~jundu/Publications/publications/PR17-1.pdf)
-  + [MASTER: Multi-Aspect Non-local Network forScene Text Recognition](https://arxiv.org/pdf/1910.02562.pdf "master-ocr")
-  + [Center-Loss](https://ydwen.github.io/papers/WenECCV16.pdf)
-  + [Handwritten Mathematical Expression Recognition with Bidirectionally Trained Transformer](https://arxiv.org/abs/2105.02412)
-----
-
-## 文章
-  + [Seq2Seq for LaTeX generation](https://guillaumegenthial.github.io/image-to-latex.html)
-  + [基于Seq2Seq的公式识别引擎](https://zhuanlan.zhihu.com/p/183182208)
-
-----
 ## 目标检测
   + [ATSS 目标检测采样策略](https://github.com/sfzhang15/ATSS)
   + [WeightedBoxesFusion 目标检测集成方法](https://github.com/ZFTurbo/Weighted-Boxes-Fusion)
@@ -48,7 +43,7 @@
 ## MarkDown
   + [MarkDown-常用操作](https://x-pp.github.io/2019/04/18/markdown%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/)
   + [拓展](https://blog.csdn.net/m0_37925202/article/details/80461714)
-
+  + [Markdown快速入门](https://sspai.com/post/45816)
 ---
 
 ## 字符串处理相关
@@ -95,14 +90,21 @@
   - [ ] 阅读master源码
   - [ ] 阅读codeWAP源码
   - [ ] 阅读Attention源码
-  - [x] ~~实现Center Loss~~
+  - [x] 实现Center Loss
+  - [ ] 实现ACE
+  - [x] 实现SWA
+  - [x] 实现Pytorch AMP
+  - [ ] 从头实现CRNN，实现Encoder-Decoder
+  - [ ] 自己实现一套训练框架
   - [ ] 阅读Transformer源码并理解
-  - [x] ~~[度量学习]()~~
-  - [x] ~~阅读[Focal CTC Loss](https://downloads.hindawi.com/journals/complexity/2019/9345861.pdf)~~
-  - [x] ~~Center Loss~~ 
+  - [x] [度量学习]()
+  - [x] 阅读[Focal CTC Loss](https://downloads.hindawi.com/journals/complexity/2019/9345861.pdf)
+  - [x] Center Loss
     + Code
       - [pytorch-center-loss](https://github.com/KaiyangZhou/pytorch-center-loss)
       - [crnn-ctc-centerloss](https://github.com/tommyMessi/crnn_ctc-centerloss)
+    + 论文
+      + [Center-Loss](https://ydwen.github.io/papers/WenECCV16.pdf)
     + 文章
       - [辅助理解 1](https://blog.csdn.net/fxwfxw7037681/article/details/114440117)
       - [辅助理解 2](https://blog.csdn.net/jacke121/article/details/90480434?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-2.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-2.control)
@@ -123,7 +125,16 @@
   + BatchNorm
     + 很重要，也很有效
     + [Training BatchNorm and Only BatchNorm: On the Expressive Power of Random Features in CNNs](https://arxiv.org/abs/2003.00152)
-  + [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch '半监督')
+  + 模型加速
+    + [contiguous_pytorch_params](https://github.com/PhilJd/contiguous_pytorch_params)
+    + [DDP]()
+    + [Pytorch amp/apex](https://pytorch.org/blog/accelerating-training-on-nvidia-gpus-with-pytorch-automatic-mixed-precision/)
+      + [多精度训练教程 非官网](https://mp.weixin.qq.com/s/HKWsM6iDNCmDsu7aDeDwbw)
+  + 无监督
+    + [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch '半监督')
+    + [Dino]('无监督')
+  + Pytorch 入门
+    + [code-of-learn-deep-learning-with-pytorch](https://github.com/L1aoXingyu/code-of-learn-deep-learning-with-pytorch)
 
 ---
 
@@ -168,8 +179,10 @@
     - [SEED: Self-supervised Distillation For Visual Representation](https://arxiv.org/abs/2101.04731)
   - [Three mysteries in deep learning: Ensemble, knowledge distillation, and self-distillation](https://www.microsoft.com/en-us/research/blog/three-mysteries-in-deep-learning-ensemble-knowledge-distillation-and-self-distillation/)
   - [pseudo-labeling-to-deal-with-small-datasets-what-why-how](https://towardsdatascience.com/pseudo-labeling-to-deal-with-small-datasets-what-why-how-fd6f903213af)
-  - [R-Drop](https://github.com/dropreg/R-Drop)
+  - **[R-Drop](https://github.com/dropreg/R-Drop)**
   - [STR-Fewer-Labels](https://github.com/ku21fan/STR-Fewer-Labels)
+  - [Sequence-to-Sequence Contrastive Learning for Text Recognition
+](https://arxiv.org/abs/2012.10873)
 
 ---
 ## 数据可视化
@@ -181,19 +194,37 @@
   - [faiss]()
 
 ---
-## OCR
+## **OCR**
   - [sightseq](https://github.com/zhiqwang/sightseq)
     - [lightseq](https://github.com/bytedance/lightseq)
   - [mmocr](https://github.com/open-mmlab/mmocr)
   - [DAVAR-Lab-OCR](https://github.com/hikopensource/DAVAR-Lab-OCR)
+    - ACE LOSS
+      - [ACE loss](https://github.com/hikopensource/DAVAR-Lab-OCR/tree/main/demo/text_recognition/ace)
+      - [Aggregation-Cross-Entropy](https://github.com/summerlvsong/Aggregation-Cross-Entropy)
+    - [rflearning](https://github.com/hikopensource/DAVAR-Lab-OCR/tree/main/demo/text_recognition/rflearning 'Reciprocal Feature Learning via Explicit andImplicit Tasks in Scene Text Recognition')
   - [deep-text-recognition-benchmark](https://github.com/clovaai/deep-text-recognition-benchmark)
   - [vedastr](https://github.com/Media-Smart/vedastr)
   - [KISS: Keeping it Simple for Scene Text Recognition.](https://github.com/Bartzi/kiss)
+  - **[mtl-text-recognition](https://github.com/bityigoss/mtl-text-recognition)**
   - [textocr facebook](https://textvqa.org/?p=/textocr)
-  - [STR-Fewer-Labels](https://github.com/ku21fan/STR-Fewer-Labels)
+  - 弱监督
+    - [STR-Fewer-Labels](https://github.com/ku21fan/STR-Fewer-Labels)
+    - [Sequence-to-Sequence Contrastive Learning for Text Recognition
+](https://arxiv.org/abs/2012.10873)
+  - TODO
+    - [ ] [SAR-Strong-Baseline-for-Text-Recognition](https://github.com/wangpengnorman/SAR-Strong-Baseline-for-Text-Recognition)
+    - [ ] [SEED](https://github.com/Pay20Y/SEED 'SEED: Semantics Enhanced Encoder-Decoder Framework for Scene Text Recognition From Qiao Zhi')
   - 数据集
     - [OCR Dataset 大全](https://github.com/WenmuZhou/OCR_DataSet)
-
+  - [实战]()
+    - [WenmuZhou PytorchOCR (包含部署模块)](https://github.com/WenmuZhou/PytorchOCR)
+    - [BADBADBADBOY pytorchOCR (包含center-loss以及剪枝)](https://github.com/BADBADBADBOY/pytorchOCR)
+    - [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
+      - [PaddleOCR2Pytorch](https://github.com/frotms/PaddleOCR2Pytorch)
+      - [RapidOCR](https://github.com/RapidAI/RapidOCR)
+  - [文章]()
+    - [一文读懂CRNN+CTC文字识别](https://zhuanlan.zhihu.com/p/43534801)
 ---
 ## C++
   - [folly](https://github.com/facebook/folly)
@@ -204,10 +235,6 @@
 ## Python
   - help
     - [code example](https://www.programcreek.com/python/)
----
-## 加速
-  - [contiguous_pytorch_params](https://github.com/PhilJd/contiguous_pytorch_params)
-
 ---
 ## OpenCV
   - [编译OpenCV](https://www.jianshu.com/p/8fd19e45e01b) 
@@ -223,6 +250,7 @@
   - arxiv-vanity
   - arxiv
   - [sci-hub](https://www.sci-hub.shop/)
+  - [connectedpapers](https://www.connectedpapers.com/)
 
 ---
 
@@ -233,9 +261,16 @@
 ---
 ## 部署
 - [tensorrtx 众多应用仓库](https://github.com/wang-xinyu/tensorrtx)
+- [Savior](https://github.com/novioleo/Savior)
+- [triton]()
+  - [server](https://github.com/triton-inference-server/server)
+
 
 ---
 ## 自建云盘
   - [自建云盘教程](https://zhuanlan.zhihu.com/p/44103820)
   - [win 局域网共享](https://zhuanlan.zhihu.com/p/83983289)
   - [smb://]()
+---
+## 工作
+  - [张大妈](https://hizdm.cn/city/beijing/)

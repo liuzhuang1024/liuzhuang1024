@@ -16,6 +16,7 @@
     + [Watch, attend and parse: An end-to-end neural network based approach to handwritten mathematical expression recognition](http://staff.ustc.edu.cn/~jundu/Publications/publications/PR17-1.pdf)
     + [MASTER: Multi-Aspect Non-local Network forScene Text Recognition](https://arxiv.org/pdf/1910.02562.pdf "master-ocr")
     + [Handwritten Mathematical Expression Recognition with Bidirectionally Trained Transformer](https://arxiv.org/abs/2105.02412)
+    + [Recognizing handwritten mathematical expressions via paired dual loss attentionnetwork and printed mathematical expressions](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w34/Le_Recognizing_Handwritten_Mathematical_Expressions_via_Paired_Dual_Loss_Attention_Network_CVPRW_2020_paper.pdf '有点自监督的意思')
 ---
 ## 注意力机制
   - [External-Attention-pytorch](https://github.com/xmu-xiaoma666/External-Attention-pytorch)
@@ -61,7 +62,7 @@
 
 ---
 
-## 模型训练trick
+## [trick 大全]()
   + 数据增广
   + 梯度正则
   + 学习率调整方法
@@ -73,9 +74,14 @@
   + [SWA](https://github.com/timgaripov/swa)
     - [PyTorch 1.6 now includes Stochastic Weight Averaging](https://pytorch.org/blog/pytorch-1.6-now-includes-stochastic-weight-averaging/)
     - [SWALR](https://arxiv.org/abs/1803.05407)
-  + 自集成
-  
-
+  + 自集成(swa)/自蒸馏(self-distillation
+)
+  + [Test Time Augmentation（TTA）]('对数据增广后进行预测')
+  + [Ensemble-Pytorch](https://github.com/TorchEnsemble-Community/Ensemble-Pytorch)
+  + [MEAL-V2 KL散度以及对抗损失](https://github.com/szq0214/MEAL-V2)
+  + 数据平衡
+    + [如何处理非平衡数据](https://www.junjianli.cn/2019/12/26/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E9%9D%9E%E5%B9%B3%E8%A1%A1%E6%95%B0%E6%8D%AE/)
+    + [Pytorch不均衡数据集采样器](https://zhuanlan.zhihu.com/p/391830097)
 ---
 ## 冠军解决方案
   + [ICDAR2021-公式检测](https://github.com/Yuxiang1995/ICDAR2021_MFD)
@@ -135,6 +141,7 @@
     + [Dino]('无监督')
   + Pytorch 入门
     + [code-of-learn-deep-learning-with-pytorch](https://github.com/L1aoXingyu/code-of-learn-deep-learning-with-pytorch)
+  + [KL散度理解以及使用pytorch计算KL散度](https://zhuanlan.zhihu.com/p/339613080)
 
 ---
 
@@ -175,6 +182,8 @@
   - [LeetCode 题库](https://leetcode-cn.com/problemset/all/)
 ---
 ## 蒸馏、弱监督、半监督、自学习、无监督
+  - [微调预训练模型的新姿势——自集成和自蒸馏
+](https://zhuanlan.zhihu.com/p/133804801)
   - [ICLR 2021 | SEED：自监督蒸馏学习，显著提升小模型性能！](https://www.aminer.cn/research_report/607965a1e409f29eb73e2e97)
     - [SEED: Self-supervised Distillation For Visual Representation](https://arxiv.org/abs/2101.04731)
   - [Three mysteries in deep learning: Ensemble, knowledge distillation, and self-distillation](https://www.microsoft.com/en-us/research/blog/three-mysteries-in-deep-learning-ensemble-knowledge-distillation-and-self-distillation/)
@@ -183,7 +192,13 @@
   - [STR-Fewer-Labels](https://github.com/ku21fan/STR-Fewer-Labels)
   - [Sequence-to-Sequence Contrastive Learning for Text Recognition
 ](https://arxiv.org/abs/2012.10873)
-
+  - 自蒸馏
+    - [Be Your Own Teacher: Improve the Performance of Convolutional NeuralNetworks via Self Distillation](https://arxiv.org/pdf/1905.08094.pdf)
+    - [Even your Teacher Needs Guidance: Ground-Truth Targets Dampen Regularization Imposed by Self-Distillation
+](https://arxiv.org/pdf/2102.13088.pdf)
+    - [Data-Distortion Guided Self-Distillation for Deep Neural Networks
+](https://github.com/youngerous/ddgsd-pytorch 'code')
+  - [awesome-knowledge-distillation](https://github.com/dkozlov/awesome-knowledge-distillation)
 ---
 ## 数据可视化
   - [an-introduction-to-t-sne-with-python-example](https://towardsdatascience.com/an-introduction-to-t-sne-with-python-example-5a3a293108d1)
@@ -202,7 +217,7 @@
     - ACE LOSS
       - [ACE loss](https://github.com/hikopensource/DAVAR-Lab-OCR/tree/main/demo/text_recognition/ace)
       - [Aggregation-Cross-Entropy](https://github.com/summerlvsong/Aggregation-Cross-Entropy)
-    - [rflearning](https://github.com/hikopensource/DAVAR-Lab-OCR/tree/main/demo/text_recognition/rflearning 'Reciprocal Feature Learning via Explicit andImplicit Tasks in Scene Text Recognition')
+    - [rflearning](https://github.com/hikopensource/DAVAR-Lab-OCR/tree/main/demo/text_recognition/rflearning 'Reciprocal Feature Learning via Explicit and Implicit Tasks in Scene Text Recognition')
   - [deep-text-recognition-benchmark](https://github.com/clovaai/deep-text-recognition-benchmark)
   - [vedastr](https://github.com/Media-Smart/vedastr)
   - [KISS: Keeping it Simple for Scene Text Recognition.](https://github.com/Bartzi/kiss)
@@ -225,6 +240,19 @@
       - [RapidOCR](https://github.com/RapidAI/RapidOCR)
   - [文章]()
     - [一文读懂CRNN+CTC文字识别](https://zhuanlan.zhihu.com/p/43534801)
+    - [完全解析RNN, Seq2Seq, Attention注意力机制](https://zhuanlan.zhihu.com/p/51383402)
+    - [OCR文字识别—基于CTC/Attention/ACE的三大解码算法](https://mp.weixin.qq.com/s/rQbfwIF_SYRRxRTN-hnUgg)
+    - [CTC Algorithm Explained Part 1：Training the Network（CTC算法详解之训练篇）](https://xiaodu.io/ctc-explained/)
+    - [三年磨一剑——微信OCR图片文字提取](https://mp.weixin.qq.com/s/6IGXof3KWVnN8z1i2YOqJA)
+    - [葫芦哥 B站](https://space.bilibili.com/130717410?spm_id_from=333.788.b_765f7570696e666f.1)
+
+---
+## Transformer
+  - Vision Transformer
+    - [CvT](https://github.com/microsoft/CvT)
+  - NLP Transformer
+    - []()
+
 ---
 ## C++
   - [folly](https://github.com/facebook/folly)

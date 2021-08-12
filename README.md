@@ -40,6 +40,7 @@
   + [WeightedBoxesFusion 目标检测集成方法](https://github.com/ZFTurbo/Weighted-Boxes-Fusion)
   + [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX)
   + [YOLOV5](https://github.com/ultralytics/yolov5)
+  + [DOTA-DOAI 多方向检测](https://github.com/SJTU-Thinklab-Det/DOTA-DOAI)
 
 ---
 ## MarkDown
@@ -164,6 +165,8 @@
       - git reset [--mixed [--soft [--hard ]]]
       - git stash
       - git stage
+  + [torchtracer：一个管理 PyTorch AI 实验项目的工具](https://oidiotlin.com/torchtracer/)
+  + [overleaf latex](https://www.overleaf.com/project)
 
 ---
 
@@ -245,12 +248,16 @@
       - [PaddleOCR2Pytorch](https://github.com/frotms/PaddleOCR2Pytorch)
       - [RapidOCR](https://github.com/RapidAI/RapidOCR)
   - [文章]()
-    - [一文读懂CRNN+CTC文字识别](https://zhuanlan.zhihu.com/p/43534801)
-    - [完全解析RNN, Seq2Seq, Attention注意力机制](https://zhuanlan.zhihu.com/p/51383402)
-    - [OCR文字识别—基于CTC/Attention/ACE的三大解码算法](https://mp.weixin.qq.com/s/rQbfwIF_SYRRxRTN-hnUgg)
+    - [白 大佬]()
+      - [一文读懂CRNN+CTC文字识别](https://zhuanlan.zhihu.com/p/43534801)
+      - [完全解析RNN, Seq2Seq, Attention注意力机制](https://zhuanlan.zhihu.com/p/51383402)
+      - [OCR文字识别—基于CTC/Attention/ACE的三大解码算法](https://mp.weixin.qq.com/s/rQbfwIF_SYRRxRTN-hnUgg)
+      - [文字识别方法整理](https://zhuanlan.zhihu.com/p/65707543)
+      - [A simple overview of RNN, LSTM and Attention Mechanism](https://medium.com/swlh/a-simple-overview-of-rnn-lstm-and-attention-mechanism-9e844763d07b)
     - [CTC Algorithm Explained Part 1：Training the Network（CTC算法详解之训练篇）](https://xiaodu.io/ctc-explained/)
     - [三年磨一剑——微信OCR图片文字提取](https://mp.weixin.qq.com/s/6IGXof3KWVnN8z1i2YOqJA)
     - [葫芦哥 B站](https://space.bilibili.com/130717410?spm_id_from=333.788.b_765f7570696e666f.1)
+    
 
 ---
 ## Transformer
@@ -298,8 +305,12 @@
 - [Savior](https://github.com/novioleo/Savior)
 - [triton]()
   - [server](https://github.com/triton-inference-server/server)
+- [async-ml-inference FastAPI + Celery](https://github.com/FerrariDG/async-ml-inference)
 
-
+---
+## 图像修复/超分
+  - [Cross-Camera Convolutional Color Constancy](https://github.com/mahmoudnafifi/C5)
+  - []()
 ---
 ## 自建云盘
   - [自建云盘教程](https://zhuanlan.zhihu.com/p/44103820)

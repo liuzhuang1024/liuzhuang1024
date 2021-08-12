@@ -4,6 +4,7 @@
 ## 公式识别
   + [im2latex](https://github.com/guillaumegenthial/im2latex)
   + [math-formula-recognition](https://github.com/jungomi/math-formula-recognition)
+  + [image-to-latex](https://github.com/kingyiusuen/image-to-latex)
   + **[Pytorch-Handwritten-Mathematical-Expression-Recognition](https://github.com/whywhs/Pytorch-Handwritten-Mathematical-Expression-Recognition)**
   + [BTTR](https://github.com/Green-Wood/BTTR)
   + [Master-Ocr]()
@@ -122,6 +123,7 @@
   + [行人识重 deep-person-reid](https://github.com/KaiyangZhou/deep-person-reid "using pytorch-center-loss")
   + [pytorch-metric-learning](https://github.com/KevinMusgrave/pytorch-metric-learning) 
   + [DexiNed 边缘检测](https://github.com/xavysp/DexiNed)
+  + [Screenshot-to-code Image-to-html](https://github.com/emilwallner/Screenshot-to-code)
 
 ----
 
@@ -141,6 +143,7 @@
     + [Dino]('无监督')
   + Pytorch 入门
     + [code-of-learn-deep-learning-with-pytorch](https://github.com/L1aoXingyu/code-of-learn-deep-learning-with-pytorch)
+    + [PyTorch-Tutorial 莫烦](https://github.com/MorvanZhou/PyTorch-Tutorial)
   + [KL散度理解以及使用pytorch计算KL散度](https://zhuanlan.zhihu.com/p/339613080)
 
 ---
@@ -221,12 +224,15 @@
   - [deep-text-recognition-benchmark](https://github.com/clovaai/deep-text-recognition-benchmark)
   - [vedastr](https://github.com/Media-Smart/vedastr)
   - [KISS: Keeping it Simple for Scene Text Recognition.](https://github.com/Bartzi/kiss)
+    - [SEE 包含Rotation Dropout](https://github.com/Bartzi/see?utm_source=catalyzex.com)
   - **[mtl-text-recognition](https://github.com/bityigoss/mtl-text-recognition)**
   - [textocr facebook](https://textvqa.org/?p=/textocr)
   - 弱监督
     - [STR-Fewer-Labels](https://github.com/ku21fan/STR-Fewer-Labels)
     - [Sequence-to-Sequence Contrastive Learning for Text Recognition
 ](https://arxiv.org/abs/2012.10873)
+  - [文档矫正]()
+    - [Dewarping-Document-Image-By-Displacement-Flow-Estimation](https:// github.com/gwxie/Dewarping-Document-Image-By-Displacement-Flow-Estimation)
   - TODO
     - [ ] [SAR-Strong-Baseline-for-Text-Recognition](https://github.com/wangpengnorman/SAR-Strong-Baseline-for-Text-Recognition)
     - [ ] [SEED](https://github.com/Pay20Y/SEED 'SEED: Semantics Enhanced Encoder-Decoder Framework for Scene Text Recognition From Qiao Zhi')

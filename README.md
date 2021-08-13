@@ -1,6 +1,10 @@
 **<div align="center">工作<img src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel5.png"/>整理</div>**
 
 ----
+## 目录
+[TOC]
+
+----
 ## 公式识别
   + [im2latex](https://github.com/guillaumegenthial/im2latex)
   + [math-formula-recognition](https://github.com/jungomi/math-formula-recognition)
@@ -30,10 +34,16 @@
     + [CHRAOME竞赛地址](http://www.iapr-tc11.org/mediawiki/index.php/CROHME:_Competition_on_Recognition_of_Online_Handwritten_Mathematical_Expressions)
   - [Datasets per Topic](http://tc11.cvc.uab.es/datasets/type/)
   - [OCR Dataset 大全](https://github.com/WenmuZhou/OCR_DataSet)
+
 ----
+
 ## DataSet
   - [graviti](https://gas.graviti.cn/open-datasets)
   - [超神经](https://hyper.ai/datasets)
+  - 数据合成
+    + [最完美的数学公式转图片：纯Python实现，可设置字体、字号、颜色和分辨率](https://zhuanlan.zhihu.com/p/383951999)  
+
+
 ----
 ## 目标检测
   + [ATSS 目标检测采样策略](https://github.com/sfzhang15/ATSS)
@@ -87,7 +97,9 @@
 ---
 ## 冠军解决方案
   + [ICDAR2021-公式检测](https://github.com/Yuxiang1995/ICDAR2021_MFD)
-
+---
+## 机器学习
+  + [炼丹神器｜端到端的机器学习和模型管理工具PyCaret](https://mp.weixin.qq.com/s/zCKD1FxgR6Z-3Qjd4cWXFQ)
 ---
 ## Reading
   + [Seq2Seq for LaTeX generation](https://guillaumegenthial.github.io/image-to-latex.html)
@@ -167,6 +179,14 @@
       - git stage
   + [torchtracer：一个管理 PyTorch AI 实验项目的工具](https://oidiotlin.com/torchtracer/)
   + [overleaf latex](https://www.overleaf.com/project)
+  + 命令行工具
+    + bash
+    + zsh
+    + fzf
+    + tmux
+    + screen
+    + hyper
+    + iTerm
 
 ---
 

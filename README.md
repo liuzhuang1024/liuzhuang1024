@@ -34,6 +34,7 @@
     + [CHRAOME竞赛地址](http://www.iapr-tc11.org/mediawiki/index.php/CROHME:_Competition_on_Recognition_of_Online_Handwritten_Mathematical_Expressions)
   - [Datasets per Topic](http://tc11.cvc.uab.es/datasets/type/)
   - [OCR Dataset 大全](https://github.com/WenmuZhou/OCR_DataSet)
+  - [OBBDetection](https://github.com/jbwang1997/OBBDetection)
 
 ----
 
@@ -42,6 +43,8 @@
   - [超神经](https://hyper.ai/datasets)
   - 数据合成
     + [最完美的数学公式转图片：纯Python实现，可设置字体、字号、颜色和分辨率](https://zhuanlan.zhihu.com/p/383951999)  
+  - [OCR_ICDAR_label_revise](https://github.com/zcswdt/OCR_ICDAR_label_revise)
+  - [OCR Dataset 大全](https://github.com/WenmuZhou/OCR_DataSet)
 
 
 ----
@@ -101,10 +104,6 @@
 ## 机器学习
   + [炼丹神器｜端到端的机器学习和模型管理工具PyCaret](https://mp.weixin.qq.com/s/zCKD1FxgR6Z-3Qjd4cWXFQ)
 ---
-## Reading
-  + [Seq2Seq for LaTeX generation](https://guillaumegenthial.github.io/image-to-latex.html)
-
----
 ## TODO
   - [ ] tldtr
   - [ ] 阅读master源码
@@ -151,6 +150,8 @@
     + [DDP]()
     + [Pytorch amp/apex](https://pytorch.org/blog/accelerating-training-on-nvidia-gpus-with-pytorch-automatic-mixed-precision/)
       + [多精度训练教程 非官网](https://mp.weixin.qq.com/s/HKWsM6iDNCmDsu7aDeDwbw)
+    + [fairscale](https://github.com/facebookresearch/fairscale)
+    + [Pytorch MP](https://discuss.pytorch.org/t/return-from-mp-spawn/94302/2)
   + 无监督
     + [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch '半监督')
     + [Dino]('无监督')
@@ -259,8 +260,6 @@
   - TODO
     - [ ] [SAR-Strong-Baseline-for-Text-Recognition](https://github.com/wangpengnorman/SAR-Strong-Baseline-for-Text-Recognition)
     - [ ] [SEED](https://github.com/Pay20Y/SEED 'SEED: Semantics Enhanced Encoder-Decoder Framework for Scene Text Recognition From Qiao Zhi')
-  - 数据集
-    - [OCR Dataset 大全](https://github.com/WenmuZhou/OCR_DataSet)
   - [实战]()
     - [WenmuZhou PytorchOCR (包含部署模块)](https://github.com/WenmuZhou/PytorchOCR)
     - [BADBADBADBOY pytorchOCR (包含center-loss以及剪枝)](https://github.com/BADBADBADBOY/pytorchOCR)
@@ -283,8 +282,8 @@
 ## Transformer
   - Vision Transformer
     - [CvT](https://github.com/microsoft/CvT)
-  - NLP Transformer
-    - []()
+  - [x-transformers](https://github.com/lucidrains/x-transformers)
+  - [huggingface transformers](https://github.com/huggingface/transformers)
 
 ---
 ## C++
@@ -326,11 +325,12 @@
 - [triton]()
   - [server](https://github.com/triton-inference-server/server)
 - [async-ml-inference FastAPI + Celery](https://github.com/FerrariDG/async-ml-inference)
+- [SDBI(Simple Dynamic Batching Inference)](https://github.com/YellowOldOdd/SDBI)
 
 ---
 ## 图像修复/超分
   - [Cross-Camera Convolutional Color Constancy](https://github.com/mahmoudnafifi/C5)
-  - []()
+  - [NVlabs imaginaire](https://github.com/NVlabs/imaginaire)
 ---
 ## 自建云盘
   - [自建云盘教程](https://zhuanlan.zhihu.com/p/44103820)
@@ -339,3 +339,15 @@
 ---
 ## 工作
   - [张大妈](https://hizdm.cn/city/beijing/)
+---
+## 教程/学习
+  - [ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses)
+  - [莫凡]()
+----
+## 语音
+  - [espnet 包含语音大部分功能](https://github.com/espnet/espnet)
+---
+## UI开发
+  - [electron](https://github.com/electron/electron)
+  - [QT]()
+## Fighting

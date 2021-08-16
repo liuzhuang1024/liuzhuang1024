@@ -69,14 +69,6 @@
   + re
 
 ---
-
-## 格式处理相关
-  + pprint
-  + rich
-  + [python-tabulate](https://github.com/astanin/python-tabulate)
-
----
-
 ## [trick 大全]()
   + 数据增广
   + 梯度正则
@@ -188,6 +180,17 @@
     + screen
     + hyper
     + iTerm
+    + Vim
+      + [Vim 菜鸟](https://www.runoob.com/linux/linux-vim.html)
+      + [Vim 入门](https://github.com/wsdjeg/vim-galore-zh_cn)
+      + [Vim 插件](https://zhuanlan.zhihu.com/p/139847548)
+    + 环境配置
+      + [深度学习环境以及一众工具](https://github.com/aimuch/iAI)
+      + [lambda-stack-deep-learning-software](https://lambdalabs.com/lambda-stack-deep-learning-software)
+    + 穿透
+      + frp
+      + cploar
+      + ssh
 
 ---
 
@@ -295,6 +298,10 @@
 ## Python
   - help
     - [code example](https://www.programcreek.com/python/)
+  - 格式处理相关
+    + pprint
+    + rich
+    + [python-tabulate](https://github.com/astanin/python-tabulate)
 ---
 ## OpenCV
   - [编译OpenCV](https://www.jianshu.com/p/8fd19e45e01b) 
@@ -317,6 +324,9 @@
 ## Github
   - [fastgit](hub.fastgit.org)
   - Github520
+  - 插件
+    - proxy
+    - 
 
 ---
 ## 部署
@@ -337,7 +347,7 @@
   - [win 局域网共享](https://zhuanlan.zhihu.com/p/83983289)
   - [smb://]()
 ---
-## 工作
+## 工作&&职业规划&&心里辅导
   - [张大妈](https://hizdm.cn/city/beijing/)
 ---
 ## 教程/学习
@@ -350,4 +360,27 @@
 ## UI开发
   - [electron](https://github.com/electron/electron)
   - [QT]()
+---
+## 健身
+  - [改善圆肩驼背](https://www.zhihu.com/zvideo/1397900110991364096)
+---
+## 阅读
+  - 万域之主
+  - 斗罗大陆
+  - 明朝那些事
+  - 公众号
+    - 量子位
+    - Cver
+    - 52CV
+    - 极市
+  - 常用网站
+    - Github
+    - 知乎
+    - enmmmm
+---
+## 游戏
+  - FC模拟器
+  - 
+
+---
 ## Fighting

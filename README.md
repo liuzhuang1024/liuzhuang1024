@@ -34,7 +34,7 @@
     + [CHRAOME竞赛地址](http://www.iapr-tc11.org/mediawiki/index.php/CROHME:_Competition_on_Recognition_of_Online_Handwritten_Mathematical_Expressions)
   - [Datasets per Topic](http://tc11.cvc.uab.es/datasets/type/)
   - [OCR Dataset 大全](https://github.com/WenmuZhou/OCR_DataSet)
-  - [OBBDetection](https://github.com/jbwang1997/OBBDetection)
+
 
 ----
 
@@ -45,6 +45,11 @@
     + [最完美的数学公式转图片：纯Python实现，可设置字体、字号、颜色和分辨率](https://zhuanlan.zhihu.com/p/383951999)  
   - [OCR_ICDAR_label_revise](https://github.com/zcswdt/OCR_ICDAR_label_revise)
   - [OCR Dataset 大全](https://github.com/WenmuZhou/OCR_DataSet)
+  - OCR数据增广
+    - [straug](https://github.com/roatienza/straug)
+    - [Text-Image-Augmentation-python](https://github.com/RubanSeven/Text-Image-Augmentation-python)
+  - 常规数据增广
+    - 
 
 
 ----
@@ -54,6 +59,7 @@
   + [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX)
   + [YOLOV5](https://github.com/ultralytics/yolov5)
   + [DOTA-DOAI 多方向检测](https://github.com/SJTU-Thinklab-Det/DOTA-DOAI)
+  + [OBBDetection](https://github.com/jbwang1997/OBBDetection)
 
 ---
 ## MarkDown
@@ -259,7 +265,8 @@
     - [Sequence-to-Sequence Contrastive Learning for Text Recognition
 ](https://arxiv.org/abs/2012.10873)
   - [文档矫正]()
-    - [Dewarping-Document-Image-By-Displacement-Flow-Estimation](https:// github.com/gwxie/Dewarping-Document-Image-By-Displacement-Flow-Estimation)
+    - [Dewarping-Document-Image-By-Displacement-Flow-Estimation](https://github.com/gwxie/Dewarping-Document-Image-By-Displacement-Flow-Estimation)
+    - [PiecewiseUnwarp](https://github.com/sagniklp/PiecewiseUnwarp)
   - TODO
     - [ ] [SAR-Strong-Baseline-for-Text-Recognition](https://github.com/wangpengnorman/SAR-Strong-Baseline-for-Text-Recognition)
     - [ ] [SEED](https://github.com/Pay20Y/SEED 'SEED: Semantics Enhanced Encoder-Decoder Framework for Scene Text Recognition From Qiao Zhi')

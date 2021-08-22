@@ -26,15 +26,12 @@
 ## 注意力机制
   - [External-Attention-pytorch](https://github.com/xmu-xiaoma666/External-Attention-pytorch)
   - [Image-Local-Attention](https://github.com/zzd1992/Image-Local-Attention)
-
----
-## 常用数据集网站
-  - CHROME
-    + [CHROME](https://www.isical.ac.in/~crohme/index.html)
-    + [CHRAOME竞赛地址](http://www.iapr-tc11.org/mediawiki/index.php/CROHME:_Competition_on_Recognition_of_Online_Handwritten_Mathematical_Expressions)
-  - [Datasets per Topic](http://tc11.cvc.uab.es/datasets/type/)
-  - [OCR Dataset 大全](https://github.com/WenmuZhou/OCR_DataSet)
-
+  - 文章
+    - [一文看懂 Attention（本质原理+3大优点+5大类型）](https://easyaitech.medium.com/%E4%B8%80%E6%96%87%E7%9C%8B%E6%87%82-attention-%E6%9C%AC%E8%B4%A8%E5%8E%9F%E7%90%86-3%E5%A4%A7%E4%BC%98%E7%82%B9-5%E5%A4%A7%E7%B1%BB%E5%9E%8B-e4fbe4b6d030)
+    - [自注意力机制的PyTorch实现](https://blog.csdn.net/qq_39438086/article/details/109480953)
+    - [PyTorch教程: seq2seq机器翻译及代码实现](https://zhuanlan.zhihu.com/p/64773265)
+    - [序列到序列 (Seq2Seq) 和注意力机制 (Attention Machanism)](https://leovan.me/cn/2018/10/seq2seq-and-attention-machanism/)
+    - [用pytorch实现RNN（两种构造RNN的方法；序列到序列的训练）,PyTorch,方式](https://www.pythonf.cn/read/147065)
 
 ----
 
@@ -43,24 +40,42 @@
   - [超神经](https://hyper.ai/datasets)
   - 数据合成
     + [最完美的数学公式转图片：纯Python实现，可设置字体、字号、颜色和分辨率](https://zhuanlan.zhihu.com/p/383951999)  
-  - [OCR_ICDAR_label_revise](https://github.com/zcswdt/OCR_ICDAR_label_revise)
-  - [OCR Dataset 大全](https://github.com/WenmuZhou/OCR_DataSet)
-  - OCR数据增广
-    - [straug](https://github.com/roatienza/straug)
-    - [Text-Image-Augmentation-python](https://github.com/RubanSeven/Text-Image-Augmentation-python)
-  - 常规数据增广
-    - 
+  - OCR
+    - [OCR_ICDAR_label_revise](https://github.com/zcswdt/OCR_ICDAR_label_revise)
+    - [OCR Dataset 大全](https://github.com/WenmuZhou/OCR_DataSet)
+  - 数据增广
+    - OCR数据增广
+      - [straug](https://github.com/roatienza/straug)
+      - [Text-Image-Augmentation-python](https://github.com/RubanSeven/Text-Image-Augmentation-python)
+    - [FMix](https://github.com/ecs-vlc/FMix)
+    - [Mixup]()
+
+  + 常用数据集网站
+    - CHROME
+      + [CHROME](https://www.isical.ac.in/~crohme/index.html)
+      + [CHRAOME竞赛地址](http://www.iapr-tc11.org/mediawiki/index.php/CROHME:_Competition_on_Recognition_of_Online_Handwritten_Mathematical_Expressions)
+      - [Datasets per Topic](http://tc11.cvc.uab.es/datasets/type/)
+
+
 
 
 ----
 ## 目标检测
   + [ATSS 目标检测采样策略](https://github.com/sfzhang15/ATSS)
   + [WeightedBoxesFusion 目标检测集成方法](https://github.com/ZFTurbo/Weighted-Boxes-Fusion)
-  + [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX)
-  + [YOLOV5](https://github.com/ultralytics/yolov5)
-  + [DOTA-DOAI 多方向检测](https://github.com/SJTU-Thinklab-Det/DOTA-DOAI)
-  + [OBBDetection](https://github.com/jbwang1997/OBBDetection)
 
+  + 单阶段
+    + [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX)
+    + [YOLOV5](https://github.com/ultralytics/yolov5)
+    + [TOOD](https://github.com/fcjian/TOOD)
+
+  + 多方向
+    + [DOTA-DOAI 多方向检测](https://github.com/SJTU-Thinklab-Det/DOTA-DOAI)
+    + [OBBDetection](https://github.com/jbwang1997/OBBDetection)
+    + [YOLOv5_DOTA_OBB](https://github.com/hukaixuan19970627/YOLOv5_DOTA_OBB)
+---
+## 语义分割(暂停)
+  - [Fast-SCNN-pytorch](https://github.com/Tramac/Fast-SCNN-pytorch)
 ---
 ## MarkDown
   + [MarkDown-常用操作](https://x-pp.github.io/2019/04/18/markdown%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/)
@@ -87,8 +102,7 @@
   + [SWA](https://github.com/timgaripov/swa)
     - [PyTorch 1.6 now includes Stochastic Weight Averaging](https://pytorch.org/blog/pytorch-1.6-now-includes-stochastic-weight-averaging/)
     - [SWALR](https://arxiv.org/abs/1803.05407)
-  + 自集成(swa)/自蒸馏(self-distillation
-)
+  + 自集成(swa)/自蒸馏(self-distillation)
   + [Test Time Augmentation（TTA）]('对数据增广后进行预测')
   + [Ensemble-Pytorch](https://github.com/TorchEnsemble-Community/Ensemble-Pytorch)
   + [MEAL-V2 KL散度以及对抗损失](https://github.com/szq0214/MEAL-V2)
@@ -129,19 +143,22 @@
     
 
 ----
-## [Other]()
+## Other
   + [行人识重 deep-person-reid](https://github.com/KaiyangZhou/deep-person-reid "using pytorch-center-loss")
-  + [pytorch-metric-learning](https://github.com/KevinMusgrave/pytorch-metric-learning) 
   + [DexiNed 边缘检测](https://github.com/xavysp/DexiNed)
   + [Screenshot-to-code Image-to-html](https://github.com/emilwallner/Screenshot-to-code)
+  + 语音
+    + [Realtime-Voice-Clone-Chinese](https://github.com/babysor/Realtime-Voice-Clone-Chinese)
+    + [espnet 包含语音大部分功能](https://github.com/espnet/espnet)
+  + [LearningToCountEverything](https://github.com/cvlab-stonybrook/LearningToCountEverything)
 
 ----
 
 ## Pytorch
+  + [pytorch-metric-learning](https://github.com/KevinMusgrave/pytorch-metric-learning) 
   + [自定义操作torch.autograd.Function](https://zhuanlan.zhihu.com/p/344802526)
   + [pytorch-loss](https://github.com/CoinCheung/pytorch-loss)
-  + BatchNorm
-    + 很重要，也很有效
+  + BatchNorm 很重要，也很有效
     + [Training BatchNorm and Only BatchNorm: On the Expressive Power of Random Features in CNNs](https://arxiv.org/abs/2003.00152)
   + 模型加速
     + [contiguous_pytorch_params](https://github.com/PhilJd/contiguous_pytorch_params)
@@ -157,11 +174,16 @@
     + [code-of-learn-deep-learning-with-pytorch](https://github.com/L1aoXingyu/code-of-learn-deep-learning-with-pytorch)
     + [PyTorch-Tutorial 莫烦](https://github.com/MorvanZhou/PyTorch-Tutorial)
   + [KL散度理解以及使用pytorch计算KL散度](https://zhuanlan.zhihu.com/p/339613080)
-
----
-
-## 可视化
-  - [Tools-to-Design-or-Visualize-Architecture-of-Neural-Network](https://github.com/ashishpatel26/Tools-to-Design-or-Visualize-Architecture-of-Neural-Network)
+  + [AutoClip: Adaptive Gradient Clipping](https://github.com/pseeth/autoclip)
+  + [timm]()
+  + [Test Time Augmentation（TTA）]('对数据增广后进行预测')
+  + [Ensemble-Pytorch](https://github.com/TorchEnsemble-Community/Ensemble-Pytorch)
+  + [MEAL-V2 KL散度以及对抗损失](https://github.com/szq0214/MEAL-V2)
+  + 数据平衡
+    + [如何处理非平衡数据](https://www.junjianli.cn/2019/12/26/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E9%9D%9E%E5%B9%B3%E8%A1%A1%E6%95%B0%E6%8D%AE/)
+    + [Pytorch不均衡数据集采样器](https://zhuanlan.zhihu.com/p/391830097)
+    + [imbalanced-dataset-sampler](https://github.com/ufoym/imbalanced-dataset-sampler)
+    + [Class-balanced-loss-pytorch](https://github.com/vandit15/Class-balanced-loss-pytorch)
 
 ---
 
@@ -190,13 +212,28 @@
       + [Vim 菜鸟](https://www.runoob.com/linux/linux-vim.html)
       + [Vim 入门](https://github.com/wsdjeg/vim-galore-zh_cn)
       + [Vim 插件](https://zhuanlan.zhihu.com/p/139847548)
-    + 环境配置
-      + [深度学习环境以及一众工具](https://github.com/aimuch/iAI)
-      + [lambda-stack-deep-learning-software](https://lambdalabs.com/lambda-stack-deep-learning-software)
-    + 穿透
-      + frp
-      + cploar
-      + ssh
+  + 环境配置
+    + [深度学习环境以及一众工具](https://github.com/aimuch/iAI)
+    + [lambda-stack-deep-learning-software](https://lambdalabs.com/lambda-stack-deep-learning-software)
+  + 穿透
+    + frp
+    + cploar
+    + ssh
+    + zerotier
+    + clash
+  + Win
+    + win 自启动目录 shell:startup
+  +  自建云盘
+     - [自建云盘教程](https://zhuanlan.zhihu.com/p/44103820)
+     - [win 局域网共享](https://zhuanlan.zhihu.com/p/83983289)
+     - [smb://]()
+  + Github
+    - [fastgit](hub.fastgit.org)
+    - Github520
+  - chrome
+  - brave
+  - 插件
+    - proxy
 
 ---
 
@@ -236,8 +273,13 @@
 ](https://github.com/youngerous/ddgsd-pytorch 'code')
   - [awesome-knowledge-distillation](https://github.com/dkozlov/awesome-knowledge-distillation)
 ---
-## 数据可视化
-  - [an-introduction-to-t-sne-with-python-example](https://towardsdatascience.com/an-introduction-to-t-sne-with-python-example-5a3a293108d1)
+## 可视化
+  - 数据可视化
+    - [an-introduction-to-t-sne-with-python-example](https://towardsdatascience.com/an-introduction-to-t-sne-with-python-example-5a3a293108d1)
+    + [apache Superset](https://github.com/apache/superset)
+  - 模型可视化
+    - [Tools-to-Design-or-Visualize-Architecture-of-Neural-Network](https://github.com/ashishpatel26/Tools-to-Design-or-Visualize-Architecture-of-Neural-Network)
+    - [Score-CAM](https://github.com/haofanwang/Score-CAM)
 
 ---
 ## 图像检索
@@ -276,6 +318,7 @@
     - [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
       - [PaddleOCR2Pytorch](https://github.com/frotms/PaddleOCR2Pytorch)
       - [RapidOCR](https://github.com/RapidAI/RapidOCR)
+      - [AgentOCR](https://github.com/AgentMaker/AgentOCR)
   - [文章]()
     - [白 大佬]()
       - [一文读懂CRNN+CTC文字识别](https://zhuanlan.zhihu.com/p/43534801)
@@ -325,34 +368,24 @@
   - arxiv
   - [sci-hub](https://www.sci-hub.shop/)
   - [connectedpapers](https://www.connectedpapers.com/)
-
----
-
-## Github
-  - [fastgit](hub.fastgit.org)
-  - Github520
-  - 插件
-    - proxy
-    - 
+  - Zotero
 
 ---
 ## 部署
+- [Flask+Gunicorn+Nginx]()
 - [tensorrtx 众多应用仓库](https://github.com/wang-xinyu/tensorrtx)
 - [Savior](https://github.com/novioleo/Savior)
 - [triton]()
   - [server](https://github.com/triton-inference-server/server)
 - [async-ml-inference FastAPI + Celery](https://github.com/FerrariDG/async-ml-inference)
 - [SDBI(Simple Dynamic Batching Inference)](https://github.com/YellowOldOdd/SDBI)
+- [Flask 应用如何部署](https://www.cnblogs.com/hellohorld/p/10033720.html)
+- 
 
 ---
 ## 图像修复/超分
   - [Cross-Camera Convolutional Color Constancy](https://github.com/mahmoudnafifi/C5)
   - [NVlabs imaginaire](https://github.com/NVlabs/imaginaire)
----
-## 自建云盘
-  - [自建云盘教程](https://zhuanlan.zhihu.com/p/44103820)
-  - [win 局域网共享](https://zhuanlan.zhihu.com/p/83983289)
-  - [smb://]()
 ---
 ## 工作&&职业规划&&心里辅导
   - [张大妈](https://hizdm.cn/city/beijing/)
@@ -360,10 +393,8 @@
 ## 教程/学习
   - [ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses)
   - [莫凡]()
+  - [zh-v2.d2l.ai](https://zh-v2.d2l.ai/index.html)
 ----
-## 语音
-  - [espnet 包含语音大部分功能](https://github.com/espnet/espnet)
----
 ## UI开发
   - [electron](https://github.com/electron/electron)
   - [QT]()
@@ -387,7 +418,12 @@
 ---
 ## 游戏
   - FC模拟器
-  - 
+  - [games](https://github.com/leereilly/games)
+  - [poki](https://poki.cn/)
 
+---
+## 项目
+  - ssss
+  - 
 ---
 ## Fighting

@@ -190,8 +190,8 @@
     + [imbalanced-dataset-sampler](https://github.com/ufoym/imbalanced-dataset-sampler)
     + [Class-balanced-loss-pytorch](https://github.com/vandit15/Class-balanced-loss-pytorch)
   + CNN
-    + [DiverseBranchBlock](https://github.com/DingXiaoH/DiverseBranchBlock 'Diverse Branch Block: Building a Convolution as an Inception-like Unit
-')
+    + [DiverseBranchBlock](https://github.com/DingXiaoH/DiverseBranchBlock 'Diverse Branch Block: Building a Convolution as an Inception-like Unit')
+  + [lightly 弱监督](https://github.com/lightly-ai/lightly)
 
 ---
 
@@ -200,6 +200,7 @@
   + wandb
   + Time
   + MarkDown
+  + gpustat
   + Git
     - [commit之后，想撤销commit](https://blog.csdn.net/w958796636/article/details/53611133)
       - git checkout
@@ -289,7 +290,9 @@
     + [apache Superset](https://github.com/apache/superset)
   - 模型可视化
     - [Tools-to-Design-or-Visualize-Architecture-of-Neural-Network](https://github.com/ashishpatel26/Tools-to-Design-or-Visualize-Architecture-of-Neural-Network)
+  - 注意力可视化
     - [Score-CAM](https://github.com/haofanwang/Score-CAM)
+    - [Visualizer](https://github.com/luo3300612/Visualizer)
 
 ---
 ## 图像检索
@@ -298,6 +301,7 @@
 
 ---
 ## **OCR**
+  - [评估](https://rrc.cvc.uab.es/?ch=16&com=tasks)
   - [sightseq](https://github.com/zhiqwang/sightseq)
     - [lightseq](https://github.com/bytedance/lightseq)
   - [mmocr](https://github.com/open-mmlab/mmocr)
@@ -307,6 +311,7 @@
       - [Aggregation-Cross-Entropy](https://github.com/summerlvsong/Aggregation-Cross-Entropy)
     - [rflearning](https://github.com/hikopensource/DAVAR-Lab-OCR/tree/main/demo/text_recognition/rflearning 'Reciprocal Feature Learning via Explicit and Implicit Tasks in Scene Text Recognition')
   - [deep-text-recognition-benchmark](https://github.com/clovaai/deep-text-recognition-benchmark)
+  - [deep-text-recognition-benchmark --vit ocr](https://github.com/roatienza/deep-text-recognition-benchmark)
   - [vedastr](https://github.com/Media-Smart/vedastr)
   - [KISS: Keeping it Simple for Scene Text Recognition.](https://github.com/Bartzi/kiss)
     - [SEE 包含Rotation Dropout](https://github.com/Bartzi/see?utm_source=catalyzex.com)
@@ -396,11 +401,13 @@
 - [Flask 应用如何部署](https://www.cnblogs.com/hellohorld/p/10033720.html)
 - [fastapi](https://github.com/tiangolo/fastapi)
 - [ncnn](https://github.com/Tencent/ncnn)
+- [QPT](https://github.com/QPT-Family/QPT)
 
 ---
 ## 图像修复/超分
   - [Cross-Camera Convolutional Color Constancy](https://github.com/mahmoudnafifi/C5)
   - [NVlabs imaginaire](https://github.com/NVlabs/imaginaire)
+  - [MIMO-UNet](https://github.com/chosj95/MIMO-UNet)
 ---
 ## 工作&&职业规划&&心里辅导
   - [张大妈](https://hizdm.cn/city/beijing/)
@@ -409,6 +416,7 @@
   - [ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses)
   - [莫凡]()
   - [zh-v2.d2l.ai](https://zh-v2.d2l.ai/index.html)
+  - [52cv ICCV2021](https://github.com/52CV/ICCV-Papers/blob/main/ICCV2021.md)
 ----
 ## UI开发
   - [electron](https://github.com/electron/electron)

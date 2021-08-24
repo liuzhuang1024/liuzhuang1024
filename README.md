@@ -32,6 +32,9 @@
     - [PyTorch教程: seq2seq机器翻译及代码实现](https://zhuanlan.zhihu.com/p/64773265)
     - [序列到序列 (Seq2Seq) 和注意力机制 (Attention Machanism)](https://leovan.me/cn/2018/10/seq2seq-and-attention-machanism/)
     - [用pytorch实现RNN（两种构造RNN的方法；序列到序列的训练）,PyTorch,方式](https://www.pythonf.cn/read/147065)
+    - [动画图解Attention机制，让你一看就明白](https://sentqr.com/85lw)
+    - [Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
+    - [Attention Craving RNNS: Building Up To Transformer Networks](https://towardsdatascience.com/attention-craving-rnns-a-journey-into-attention-mechanisms-eec840fbc26f)
 
 ----
 
@@ -68,6 +71,8 @@
     + [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX)
     + [YOLOV5](https://github.com/ultralytics/yolov5)
     + [TOOD](https://github.com/fcjian/TOOD)
+    + [nanodet](https://github.com/RangiLyu/nanodet)
+    + [Yolo-FastestV2](https://github.com/dog-qiuqiu/Yolo-FastestV2)
 
   + 多方向
     + [DOTA-DOAI 多方向检测](https://github.com/SJTU-Thinklab-Det/DOTA-DOAI)
@@ -184,6 +189,9 @@
     + [Pytorch不均衡数据集采样器](https://zhuanlan.zhihu.com/p/391830097)
     + [imbalanced-dataset-sampler](https://github.com/ufoym/imbalanced-dataset-sampler)
     + [Class-balanced-loss-pytorch](https://github.com/vandit15/Class-balanced-loss-pytorch)
+  + CNN
+    + [DiverseBranchBlock](https://github.com/DingXiaoH/DiverseBranchBlock 'Diverse Branch Block: Building a Convolution as an Inception-like Unit
+')
 
 ---
 
@@ -272,6 +280,8 @@
     - [Data-Distortion Guided Self-Distillation for Deep Neural Networks
 ](https://github.com/youngerous/ddgsd-pytorch 'code')
   - [awesome-knowledge-distillation](https://github.com/dkozlov/awesome-knowledge-distillation)
+
+- [Visualizer](https://github.com/luo3300612/Visualizer)
 ---
 ## 可视化
   - 数据可视化
@@ -312,7 +322,7 @@
   - TODO
     - [ ] [SAR-Strong-Baseline-for-Text-Recognition](https://github.com/wangpengnorman/SAR-Strong-Baseline-for-Text-Recognition)
     - [ ] [SEED](https://github.com/Pay20Y/SEED 'SEED: Semantics Enhanced Encoder-Decoder Framework for Scene Text Recognition From Qiao Zhi')
-  - [实战]()
+  - [实战]()`学习相关的部署操作以及框架应用`
     - [WenmuZhou PytorchOCR (包含部署模块)](https://github.com/WenmuZhou/PytorchOCR)
     - [BADBADBADBOY pytorchOCR (包含center-loss以及剪枝)](https://github.com/BADBADBADBOY/pytorchOCR)
     - [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
@@ -335,6 +345,7 @@
 ## Transformer
   - Vision Transformer
     - [CvT](https://github.com/microsoft/CvT)
+    - [performer-pytorch](https://github.com/lucidrains/performer-pytorch)
   - [x-transformers](https://github.com/lucidrains/x-transformers)
   - [huggingface transformers](https://github.com/huggingface/transformers)
 
@@ -352,6 +363,9 @@
     + pprint
     + rich
     + [python-tabulate](https://github.com/astanin/python-tabulate)
+    + [Typer]()
+    + [click]()
+    + [args]()
 ---
 ## OpenCV
   - [编译OpenCV](https://www.jianshu.com/p/8fd19e45e01b) 
@@ -380,7 +394,8 @@
 - [async-ml-inference FastAPI + Celery](https://github.com/FerrariDG/async-ml-inference)
 - [SDBI(Simple Dynamic Batching Inference)](https://github.com/YellowOldOdd/SDBI)
 - [Flask 应用如何部署](https://www.cnblogs.com/hellohorld/p/10033720.html)
-- 
+- [fastapi](https://github.com/tiangolo/fastapi)
+- [ncnn](https://github.com/Tencent/ncnn)
 
 ---
 ## 图像修复/超分

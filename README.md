@@ -6,11 +6,13 @@
 
 ----
 ## 公式识别
-  + [im2latex](https://github.com/guillaumegenthial/im2latex)
-  + [math-formula-recognition](https://github.com/jungomi/math-formula-recognition)
-  + [image-to-latex](https://github.com/kingyiusuen/image-to-latex)
-  + **[Pytorch-Handwritten-Mathematical-Expression-Recognition](https://github.com/whywhs/Pytorch-Handwritten-Mathematical-Expression-Recognition)**
-  + [BTTR](https://github.com/Green-Wood/BTTR)
+  + [LaTeX-OCR pix2tex: Using a ViT to convert images of equations into LaTeX code.](https://github.com/lukas-blecher/LaTeX-OCR)
+  + [image-to-latex transformer](https://github.com/kingyiusuen/image-to-latex)
+  + [im2latex: Seq2Seq model with Attention + Beam Search for Image to LaTeX, similar to Show, Attend and Tell and Harvard's paper and dataset.](https://github.com/guillaumegenthial/im2latex)
+  + [im2latex: Pytorch implemention of Deep CNN Encoder + LSTM Decoder with Attention for Image to Latex](https://github.com/luopeixiang/im2latex)
+  + [math-formula-recognition WAP](https://github.com/jungomi/math-formula-recognition)
+  + **[Pytorch-Handwritten-Mathematical-Expression-Recognition WAP](https://github.com/whywhs/Pytorch-Handwritten-Mathematical-Expression-Recognition)**
+  + [BTTR: BiTransformer](https://github.com/Green-Wood/BTTR)
   + [Master-Ocr]()
   + [Master-Table]()
   + [文章]()
@@ -22,6 +24,8 @@
     + [MASTER: Multi-Aspect Non-local Network forScene Text Recognition](https://arxiv.org/pdf/1910.02562.pdf "master-ocr")
     + [Handwritten Mathematical Expression Recognition with Bidirectionally Trained Transformer](https://arxiv.org/abs/2105.02412)
     + [Recognizing handwritten mathematical expressions via paired dual loss attentionnetwork and printed mathematical expressions](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w34/Le_Recognizing_Handwritten_Mathematical_Expressions_via_Paired_Dual_Loss_Attention_Network_CVPRW_2020_paper.pdf '有点自监督的意思')
+    + [DenseWAP-TD](http://proceedings.mlr.press/v119/zhang20g/zhang20g.pdf)
+    + [Handwritten Mathematical Expression Recognition with Bidirectionally Trained Transformer](https://arxiv.org/abs/2105.02412)
 ---
 ## 注意力机制
   - [External-Attention-pytorch](https://github.com/xmu-xiaoma666/External-Attention-pytorch)
@@ -66,13 +70,16 @@
 ## 目标检测
   + [ATSS 目标检测采样策略](https://github.com/sfzhang15/ATSS)
   + [WeightedBoxesFusion 目标检测集成方法](https://github.com/ZFTurbo/Weighted-Boxes-Fusion)
-
+  + [SoftTeacher](https://github.com/microsoft/SoftTeacher)
   + 单阶段
     + [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX)
     + [YOLOV5](https://github.com/ultralytics/yolov5)
     + [TOOD](https://github.com/fcjian/TOOD)
     + [nanodet](https://github.com/RangiLyu/nanodet)
     + [Yolo-FastestV2](https://github.com/dog-qiuqiu/Yolo-FastestV2)
+    + [yolov5-rt-stack](https://github.com/zhiqwang/yolov5-rt-stack)
+  + 部署
+    + [YOLOv5_NCNN](https://github.com/cmdbug/YOLOv5_NCNN)
 
   + 多方向
     + [DOTA-DOAI 多方向检测](https://github.com/SJTU-Thinklab-Det/DOTA-DOAI)
@@ -156,10 +163,15 @@
     + [Realtime-Voice-Clone-Chinese](https://github.com/babysor/Realtime-Voice-Clone-Chinese)
     + [espnet 包含语音大部分功能](https://github.com/espnet/espnet)
   + [LearningToCountEverything](https://github.com/cvlab-stonybrook/LearningToCountEverything)
+  + [skelnet 基于Unet的骨架识别](https://github.com/roatienza/skelnet)
+  + [pytorch-tools](https://github.com/bonlime/pytorch-tools)
+  + [soho Seeing Out of tHe bOx: End-to-End Pre-training for Vision-Language Representation Learning](https://github.com/researchmm/soho)
+  + [pillow-simd pillow加速](https://github.com/uploadcare/pillow-simd)
 
 ----
 
 ## Pytorch
+  + [pytorch-optimizer](https://github.com/jettify/pytorch-optimizer)
   + [pytorch-metric-learning](https://github.com/KevinMusgrave/pytorch-metric-learning) 
   + [自定义操作torch.autograd.Function](https://zhuanlan.zhihu.com/p/344802526)
   + [pytorch-loss](https://github.com/CoinCheung/pytorch-loss)
@@ -180,7 +192,7 @@
     + [PyTorch-Tutorial 莫烦](https://github.com/MorvanZhou/PyTorch-Tutorial)
   + [KL散度理解以及使用pytorch计算KL散度](https://zhuanlan.zhihu.com/p/339613080)
   + [AutoClip: Adaptive Gradient Clipping](https://github.com/pseeth/autoclip)
-  + [timm]()
+  + [timm](https://github.com/rwightman/pytorch-image-models)
   + [Test Time Augmentation（TTA）]('对数据增广后进行预测')
   + [Ensemble-Pytorch](https://github.com/TorchEnsemble-Community/Ensemble-Pytorch)
   + [MEAL-V2 KL散度以及对抗损失](https://github.com/szq0214/MEAL-V2)
@@ -192,6 +204,7 @@
   + CNN
     + [DiverseBranchBlock](https://github.com/DingXiaoH/DiverseBranchBlock 'Diverse Branch Block: Building a Convolution as an Inception-like Unit')
   + [lightly 弱监督](https://github.com/lightly-ai/lightly)
+  + [pytorch-template](https://github.com/victoresque/pytorch-template)
 
 ---
 
@@ -236,13 +249,19 @@
      - [自建云盘教程](https://zhuanlan.zhihu.com/p/44103820)
      - [win 局域网共享](https://zhuanlan.zhihu.com/p/83983289)
      - [smb://]()
+     - [nextcloud](https://github.com/nextcloud/server)
   + Github
     - [fastgit](hub.fastgit.org)
     - Github520
+    - [github1s](https://github.com/conwnet/github1s)
+    - [code-server](https://github.com/cdr/code-server)
+  - 订阅
+    - [✈️ 免费机场 / 免费VPN -> 自动获取免 clash/v2ray/trojan/sr/ssr 订阅链接，间隔6小时持续更新 | 科学上网 | 翻墙](https://github.com/ermaozi/get_subscribe)
   - chrome
   - brave
-  - 插件
-    - proxy
+  - 代理
+    + switch-hosts
+    + SwitchyOmega
 
 ---
 
@@ -293,6 +312,8 @@
   - 注意力可视化
     - [Score-CAM](https://github.com/haofanwang/Score-CAM)
     - [Visualizer](https://github.com/luo3300612/Visualizer)
+  - 绘图
+    - [cheatsheets  from matplotlib](https://github.com/matplotlib/cheatsheets)
 
 ---
 ## 图像检索
@@ -344,6 +365,7 @@
     - [CTC Algorithm Explained Part 1：Training the Network（CTC算法详解之训练篇）](https://xiaodu.io/ctc-explained/)
     - [三年磨一剑——微信OCR图片文字提取](https://mp.weixin.qq.com/s/6IGXof3KWVnN8z1i2YOqJA)
     - [葫芦哥 B站](https://space.bilibili.com/130717410?spm_id_from=333.788.b_765f7570696e666f.1)
+  - [PDF-Resume-Information-Extraction](https://github.com/Agwave/PDF-Resume-Information-Extraction)
     
 
 ---
@@ -352,6 +374,7 @@
     - [CvT](https://github.com/microsoft/CvT)
     - [performer-pytorch](https://github.com/lucidrains/performer-pytorch)
   - [x-transformers](https://github.com/lucidrains/x-transformers)
+  - [longformer](https://github.com/allenai/longformer)
   - [huggingface transformers](https://github.com/huggingface/transformers)
 
 ---
@@ -371,6 +394,7 @@
     + [Typer]()
     + [click]()
     + [args]()
+    + [icecream]()
 ---
 ## OpenCV
   - [编译OpenCV](https://www.jianshu.com/p/8fd19e45e01b) 
@@ -402,12 +426,20 @@
 - [fastapi](https://github.com/tiangolo/fastapi)
 - [ncnn](https://github.com/Tencent/ncnn)
 - [QPT](https://github.com/QPT-Family/QPT)
+- [deepdetect: Deep Learning API and Server in C++14 support for Caffe, Caffe2, PyTorch,TensorRT, Dlib, NCNN, Tensorflow, XGBoost and TSNE](https://github.com/jolibrain/deepdetect)
+- [jetson-inference](https://github.com/dusty-nv/jetson-inference)
+- [tensorrtx](https://github.com/wang-xinyu/tensorrtx)
+- [TRTorch](https://github.com/NVIDIA/TRTorch)
+- [mmdetection-to-tensorrt](https://github.com/grimoire/mmdetection-to-tensorrt)
+- [volksdep](https://github.com/Media-Smart/volksdep)
 
 ---
 ## 图像修复/超分
   - [Cross-Camera Convolutional Color Constancy](https://github.com/mahmoudnafifi/C5)
   - [NVlabs imaginaire](https://github.com/NVlabs/imaginaire)
   - [MIMO-UNet](https://github.com/chosj95/MIMO-UNet)
+  - [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN)
+  - [BasicSR-examples](https://github.com/xinntao/BasicSR-examples)
 ---
 ## 工作&&职业规划&&心里辅导
   - [张大妈](https://hizdm.cn/city/beijing/)
@@ -417,6 +449,9 @@
   - [莫凡]()
   - [zh-v2.d2l.ai](https://zh-v2.d2l.ai/index.html)
   - [52cv ICCV2021](https://github.com/52CV/ICCV-Papers/blob/main/ICCV2021.md)
+  - [awesome-productivity-cn](https://github.com/eastlakeside/awesome-productivity-cn)
+  - [learnopencv](https://github.com/spmallick/learnopencv)
+  - [learning-machine: A handbook for ML built on answers.](https://github.com/rentruewang/learning-machine)
 ----
 ## UI开发
   - [electron](https://github.com/electron/electron)

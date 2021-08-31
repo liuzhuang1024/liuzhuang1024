@@ -167,11 +167,13 @@
   + [pytorch-tools](https://github.com/bonlime/pytorch-tools)
   + [soho Seeing Out of tHe bOx: End-to-End Pre-training for Vision-Language Representation Learning](https://github.com/researchmm/soho)
   + [pillow-simd pillow加速](https://github.com/uploadcare/pillow-simd)
+  + [pytracking](https://github.com/visionml/pytracking)
 
 ----
 
 ## Pytorch
   + [pytorch-optimizer](https://github.com/jettify/pytorch-optimizer)
+  + [victoresque/pytorch-template](https://github.com/victoresque/pytorch-template)
   + [pytorch-metric-learning](https://github.com/KevinMusgrave/pytorch-metric-learning) 
   + [自定义操作torch.autograd.Function](https://zhuanlan.zhihu.com/p/344802526)
   + [pytorch-loss](https://github.com/CoinCheung/pytorch-loss)
@@ -204,7 +206,9 @@
   + CNN
     + [DiverseBranchBlock](https://github.com/DingXiaoH/DiverseBranchBlock 'Diverse Branch Block: Building a Convolution as an Inception-like Unit')
   + [lightly 弱监督](https://github.com/lightly-ai/lightly)
-  + [pytorch-template](https://github.com/victoresque/pytorch-template)
+
+  + [mit-han-lab/once-for-all](https://github.com/mit-han-lab/once-for-all)
+  + [IntelLabs/distiller](https://github.com/IntelLabs/distiller)
 
 ---
 
@@ -304,16 +308,16 @@
 - [Visualizer](https://github.com/luo3300612/Visualizer)
 ---
 ## 可视化
-  - 数据可视化
-    - [an-introduction-to-t-sne-with-python-example](https://towardsdatascience.com/an-introduction-to-t-sne-with-python-example-5a3a293108d1)
-    + [apache Superset](https://github.com/apache/superset)
   - 模型可视化
     - [Tools-to-Design-or-Visualize-Architecture-of-Neural-Network](https://github.com/ashishpatel26/Tools-to-Design-or-Visualize-Architecture-of-Neural-Network)
   - 注意力可视化
     - [Score-CAM](https://github.com/haofanwang/Score-CAM)
     - [Visualizer](https://github.com/luo3300612/Visualizer)
-  - 绘图
-    - [cheatsheets  from matplotlib](https://github.com/matplotlib/cheatsheets)
+  - 绘图/数据可视化
+    - [cheatsheets from matplotlib](https://github.com/matplotlib/cheatsheets)
+    - [lux-org/lux for notebook](https://github.com/lux-org/lux)
+    - [an-introduction-to-t-sne-with-python-example](https://towardsdatascience.com/an-introduction-to-t-sne-with-python-example-5a3a293108d1)
+    - [apache Superset](https://github.com/apache/superset)
 
 ---
 ## 图像检索
@@ -376,6 +380,8 @@
   - [x-transformers](https://github.com/lucidrains/x-transformers)
   - [longformer](https://github.com/allenai/longformer)
   - [huggingface transformers](https://github.com/huggingface/transformers)
+  - [fast-transformers](https://github.com/idiap/fast-transformers)
+  - [NVIDIA FasterTransformer](https://github.com/NVIDIA/FasterTransformer)
 
 ---
 ## C++
@@ -415,23 +421,26 @@
 
 ---
 ## 部署
-- [Flask+Gunicorn+Nginx]()
-- [tensorrtx 众多应用仓库](https://github.com/wang-xinyu/tensorrtx)
-- [Savior](https://github.com/novioleo/Savior)
-- [triton]()
-  - [server](https://github.com/triton-inference-server/server)
-- [async-ml-inference FastAPI + Celery](https://github.com/FerrariDG/async-ml-inference)
-- [SDBI(Simple Dynamic Batching Inference)](https://github.com/YellowOldOdd/SDBI)
-- [Flask 应用如何部署](https://www.cnblogs.com/hellohorld/p/10033720.html)
-- [fastapi](https://github.com/tiangolo/fastapi)
-- [ncnn](https://github.com/Tencent/ncnn)
-- [QPT](https://github.com/QPT-Family/QPT)
-- [deepdetect: Deep Learning API and Server in C++14 support for Caffe, Caffe2, PyTorch,TensorRT, Dlib, NCNN, Tensorflow, XGBoost and TSNE](https://github.com/jolibrain/deepdetect)
-- [jetson-inference](https://github.com/dusty-nv/jetson-inference)
-- [tensorrtx](https://github.com/wang-xinyu/tensorrtx)
-- [TRTorch](https://github.com/NVIDIA/TRTorch)
-- [mmdetection-to-tensorrt](https://github.com/grimoire/mmdetection-to-tensorrt)
-- [volksdep](https://github.com/Media-Smart/volksdep)
+  - [Flask+Gunicorn+Nginx]()
+  - [tensorrtx 众多应用仓库](https://github.com/wang-xinyu/tensorrtx)
+  - [Savior](https://github.com/novioleo/Savior)
+  - [triton]()
+    - [server](https://github.com/triton-inference-server/server)
+  - [async-ml-inference FastAPI + Celery](https://github.com/FerrariDG/async-ml-inference)
+  - [SDBI(Simple Dynamic Batching Inference)](https://github.com/YellowOldOdd/SDBI)
+  - [Flask 应用如何部署](https://www.cnblogs.com/hellohorld/p/10033720.html)
+  - [fastapi](https://github.com/tiangolo/fastapi)
+  - [ncnn](https://github.com/Tencent/ncnn)
+  - [QPT](https://github.com/QPT-Family/QPT)
+  - [deepdetect: Deep Learning API and Server in C++14 support for Caffe, Caffe2, PyTorch,TensorRT, Dlib, NCNN, Tensorflow, XGBoost and TSNE](https://github.com/jolibrain/deepdetect)
+  - [jetson-inference](https://github.com/dusty-nv/jetson-inference)
+  - [tensorrtx](https://github.com/wang-xinyu/tensorrtx)
+  - [TRTorch](https://github.com/NVIDIA/TRTorch)
+  - [mmdetection-to-tensorrt](https://github.com/grimoire/mmdetection-to-tensorrt)
+  - [volksdep](https://github.com/Media-Smart/volksdep)
+  - [kubeflow/kfserving](https://github.com/kubeflow/kfserving)
+  - [ahkarami/Deep-Learning-in-Production](https://github.com/ahkarami/Deep-Learning-in-Production)
+  - [layerism/TensorRT-Inference-Server-Tutorial](https://github.com/layerism/TensorRT-Inference-Server-Tutorial)
 
 ---
 ## 图像修复/超分
@@ -448,7 +457,10 @@
   - [ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses)
   - [莫凡]()
   - [zh-v2.d2l.ai](https://zh-v2.d2l.ai/index.html)
-  - [52cv ICCV2021](https://github.com/52CV/ICCV-Papers/blob/main/ICCV2021.md)
+  - 顶会
+    - [52cv/ICCV2021](https://github.com/52CV/ICCV-Papers/blob/main/ICCV2021.md)
+    - [amusi/CVPR2021-Papers-with-Code](https://github.com/amusi/CVPR2021-Papers-with-Code)
+    - [52CV/CVPRW-2021-Papers](https://github.com/52CV/CVPRW-2021-Papers)
   - [awesome-productivity-cn](https://github.com/eastlakeside/awesome-productivity-cn)
   - [learnopencv](https://github.com/spmallick/learnopencv)
   - [learning-machine: A handbook for ML built on answers.](https://github.com/rentruewang/learning-machine)

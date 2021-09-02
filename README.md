@@ -6,6 +6,7 @@
 
 ----
 ## 公式识别
+  + [im2markup from Image-to-Markup Generation with Coarse-to-Fine Attention](https://github.com/harvardnlp/im2markup)
   + [LaTeX-OCR pix2tex: Using a ViT to convert images of equations into LaTeX code.](https://github.com/lukas-blecher/LaTeX-OCR)
   + [image-to-latex transformer](https://github.com/kingyiusuen/image-to-latex)
   + [im2latex: Seq2Seq model with Attention + Beam Search for Image to LaTeX, similar to Show, Attend and Tell and Harvard's paper and dataset.](https://github.com/guillaumegenthial/im2latex)
@@ -95,13 +96,6 @@
   + [Markdown快速入门](https://sspai.com/post/45816)
 ---
 
-## 字符串处理相关
-  + unicodedata
-  + string
-  + string.translate
-  + re
-
----
 ## [trick 大全]()
   + 数据增广
   + 梯度正则
@@ -166,6 +160,7 @@
   + [skelnet 基于Unet的骨架识别](https://github.com/roatienza/skelnet)
   + [pytorch-tools](https://github.com/bonlime/pytorch-tools)
   + [soho Seeing Out of tHe bOx: End-to-End Pre-training for Vision-Language Representation Learning](https://github.com/researchmm/soho)
+  - [PeterL1n/RobustVideoMatting](https://github.com/PeterL1n/RobustVideoMatting)
   + [pillow-simd pillow加速](https://github.com/uploadcare/pillow-simd)
   + [pytracking](https://github.com/visionml/pytracking)
 
@@ -238,9 +233,11 @@
       + [Vim 菜鸟](https://www.runoob.com/linux/linux-vim.html)
       + [Vim 入门](https://github.com/wsdjeg/vim-galore-zh_cn)
       + [Vim 插件](https://zhuanlan.zhihu.com/p/139847548)
-  + 环境配置
-    + [深度学习环境以及一众工具](https://github.com/aimuch/iAI)
+  + 深度学习/环境配置
     + [lambda-stack-deep-learning-software](https://lambdalabs.com/lambda-stack-deep-learning-software)
+    + [ufoym/deepo](https://github.com/ufoym/deepo)
+    + [Installing CUDA 10.2, CuDNN 7.6.5, TensorRT 7.0, Ubuntu 18.04](https://gist.github.com/tzvsi/222b3b22a847004a729744f89fe31255)
+
   + 穿透
     + frp
     + cploar
@@ -258,7 +255,6 @@
     - [fastgit](hub.fastgit.org)
     - Github520
     - [github1s](https://github.com/conwnet/github1s)
-    - [code-server](https://github.com/cdr/code-server)
   - 订阅
     - [✈️ 免费机场 / 免费VPN -> 自动获取免 clash/v2ray/trojan/sr/ssr 订阅链接，间隔6小时持续更新 | 科学上网 | 翻墙](https://github.com/ermaozi/get_subscribe)
   - chrome
@@ -266,16 +262,18 @@
   - 代理
     + switch-hosts
     + SwitchyOmega
+  - 导航
+    - [developer.ibm.com](https://developer.ibm.com/exchanges/models/)
+    - [hub.docker.com](https://hub.docker.com/)
+    - [paperswithcode.com](https://paperswithcode.com/)
+    - [modelzoo.co](https://modelzoo.co/)
+    - [jiqizhixin.com](https://www.jiqizhixin.com/sota)
+    - [catalyzex.com](https://www.catalyzex.com/)
+  - vscode
+    - [VSCode查找和替换正则表达式转义字符整理](https://www.huliujia.com/blog/a2c7dc8ec28aa650df1ff43c580785decdeba8bc/)
+    - [code-server](https://github.com/cdr/code-server)
 
----
 
-## Ubuntu 
-  - [zsh](https://ohmyz.sh/#install)
-  - [fzf](https://github.com/junegunn/fzf)
-  - [pip](https://www.runoob.com/w3cnote/pip-cn-mirror.html)
-  - usermod / passwd 修改默认目录
-  - chmod / chown 修改文件权限
-  - gpustat
 ---
 ## 数学
   - [Animation engine for explanatory math videos](https://github.com/3b1b/manim)
@@ -285,6 +283,7 @@
 
 ## LeetCode
   - [LeetCode 题库](https://leetcode-cn.com/problemset/all/)
+  - [afatcoder/LeetcodeTop](https://github.com/afatcoder/LeetcodeTop)
 ---
 ## 蒸馏、弱监督、半监督、自学习、无监督
   - [微调预训练模型的新姿势——自集成和自蒸馏
@@ -382,6 +381,7 @@
   - [huggingface transformers](https://github.com/huggingface/transformers)
   - [fast-transformers](https://github.com/idiap/fast-transformers)
   - [NVIDIA FasterTransformer](https://github.com/NVIDIA/FasterTransformer)
+  - [multidim-positional-encoding](https://github.com/tatp22/multidim-positional-encoding)
 
 ---
 ## C++
@@ -397,10 +397,24 @@
     + pprint
     + rich
     + [python-tabulate](https://github.com/astanin/python-tabulate)
+    + [prettytable]()
     + [Typer]()
     + [click]()
     + [args]()
     + [icecream]()
+  - 常用内置函数
+    - int
+    - bin
+    - oct
+    - hex
+    - ord
+    - chr
+  - 字符串处理相关
+    + unicodedata
+    + string
+    + string.translate
+    + re
+
 ---
 ## OpenCV
   - [编译OpenCV](https://www.jianshu.com/p/8fd19e45e01b) 
@@ -421,6 +435,17 @@
 
 ---
 ## 部署
+  - Ubuntu 
+    - [zsh](https://ohmyz.sh/#install)
+    - [fzf](https://github.com/junegunn/fzf)
+    - [pip](https://www.runoob.com/w3cnote/pip-cn-mirror.html)
+    - usermod / passwd 修改默认目录
+    - chmod / chown 修改文件权限
+    - gpustat
+    - 查看系统版本 `cat /etc/issue`
+    - 查看cuda安装成功 `nvcc -V`
+    - [CUDA环境配置文件](.profile)
+  - [NVIDIA/TensorRT](https://github.com/NVIDIA/TensorRT)
   - [Flask+Gunicorn+Nginx]()
   - [tensorrtx 众多应用仓库](https://github.com/wang-xinyu/tensorrtx)
   - [Savior](https://github.com/novioleo/Savior)
@@ -438,6 +463,7 @@
   - [TRTorch](https://github.com/NVIDIA/TRTorch)
   - [mmdetection-to-tensorrt](https://github.com/grimoire/mmdetection-to-tensorrt)
   - [volksdep](https://github.com/Media-Smart/volksdep)
+
   - [kubeflow/kfserving](https://github.com/kubeflow/kfserving)
   - [ahkarami/Deep-Learning-in-Production](https://github.com/ahkarami/Deep-Learning-in-Production)
   - [layerism/TensorRT-Inference-Server-Tutorial](https://github.com/layerism/TensorRT-Inference-Server-Tutorial)
@@ -449,9 +475,11 @@
   - [MIMO-UNet](https://github.com/chosj95/MIMO-UNet)
   - [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN)
   - [BasicSR-examples](https://github.com/xinntao/BasicSR-examples)
----
-## 工作&&职业规划&&心里辅导
-  - [张大妈](https://hizdm.cn/city/beijing/)
+
+----
+## UI开发
+  - [electron](https://github.com/electron/electron)
+  - [QT]()
 ---
 ## 教程/学习
   - [ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses)
@@ -464,15 +492,12 @@
   - [awesome-productivity-cn](https://github.com/eastlakeside/awesome-productivity-cn)
   - [learnopencv](https://github.com/spmallick/learnopencv)
   - [learning-machine: A handbook for ML built on answers.](https://github.com/rentruewang/learning-machine)
-----
-## UI开发
-  - [electron](https://github.com/electron/electron)
-  - [QT]()
+  - **[full-stack-deep-learning/fsdl-text-recognizer-2021-labs](https://github.com/full-stack-deep-learning/fsdl-text-recognizer-2021-labs)**
+## 个人发展
 ---
-## 健身
+### 健身
   - [改善圆肩驼背](https://www.zhihu.com/zvideo/1397900110991364096)
----
-## 阅读
+### 阅读
   - 万域之主
   - 斗罗大陆
   - 明朝那些事
@@ -485,14 +510,14 @@
     - Github
     - 知乎
     - enmmmm
----
-## 游戏
+### 游戏
   - FC模拟器
   - [games](https://github.com/leereilly/games)
   - [poki](https://poki.cn/)
+### 工作&&职业规划&&心里辅导
+  - [张大妈](https://hizdm.cn/city/beijing/)
 
----
-## 项目
+### 项目
   - ssss
   - 
 ---

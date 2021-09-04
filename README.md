@@ -64,11 +64,9 @@
       + [CHRAOME竞赛地址](http://www.iapr-tc11.org/mediawiki/index.php/CROHME:_Competition_on_Recognition_of_Online_Handwritten_Mathematical_Expressions)
       - [Datasets per Topic](http://tc11.cvc.uab.es/datasets/type/)
 
-
-
-
 ----
 ## 目标检测
+  + [Yolov5_DeepSort_Pytorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
   + [ATSS 目标检测采样策略](https://github.com/sfzhang15/ATSS)
   + [WeightedBoxesFusion 目标检测集成方法](https://github.com/ZFTurbo/Weighted-Boxes-Fusion)
   + [SoftTeacher](https://github.com/microsoft/SoftTeacher)
@@ -208,6 +206,7 @@
 ---
 
 ## 高效工具
+  + [命令行代理](profile)
   + Ray
   + wandb
   + Time
@@ -384,9 +383,7 @@
   - [multidim-positional-encoding](https://github.com/tatp22/multidim-positional-encoding)
 
 ---
-## C++
-  - [folly](https://github.com/facebook/folly)
-  - [入门](https://segmentfault.com/a/1190000037727214)
+
 
 ---
 
@@ -416,41 +413,41 @@
     + re
 
 ---
-## OpenCV
-  - [编译OpenCV](https://www.jianshu.com/p/8fd19e45e01b) 
-
----
-## 编译/运行库相关
-  - ldd
-  - cmake
-  - make
-
----
-## 论文-Search
-  - arxiv-vanity
-  - arxiv
-  - [sci-hub](https://www.sci-hub.shop/)
-  - [connectedpapers](https://www.connectedpapers.com/)
-  - Zotero
-
----
 ## 部署
+  - 编译/运行库相关
+    - ldd
+    - cmake
+    - make
+    - bazel 编译工具
+  - OpenCV
+    - [编译OpenCV](https://www.jianshu.com/p/8fd19e45e01b) 
   - Ubuntu 
     - [zsh](https://ohmyz.sh/#install)
     - [fzf](https://github.com/junegunn/fzf)
     - [pip](https://www.runoob.com/w3cnote/pip-cn-mirror.html)
     - usermod / passwd 修改默认目录
-    - chmod / chown 修改文件权限
-    - gpustat
+    - *chmod / chown 修改文件权限*
+    - gpustat 查看显卡的利用率
     - 查看系统版本 `cat /etc/issue`
     - 查看cuda安装成功 `nvcc -V`
-    - [CUDA环境配置文件](.profile)
-  - [NVIDIA/TensorRT](https://github.com/NVIDIA/TensorRT)
+    - [CUDA环境配置文件](profile)
+  - TensorRT
+    - [NVIDIA/TensorRT](https://github.com/NVIDIA/TensorRT)
+    - [NVIDIA-AI-IOT/torch2trt](https://github.com/NVIDIA-AI-IOT/torch2trt)
+    - [NVIDIA/TRTorch](https://github.com/NVIDIA/TRTorch)
+    - [shouxieai/tensorRT_cpp yolov5](https://github.com/shouxieai/tensorRT_cpp)
+    - [tensorrtx 众多应用仓库](https://github.com/wang-xinyu/tensorrtx)
+    - [jetson-inference](https://github.com/dusty-nv/jetson-inference)
+    - [mmdetection-to-tensorrt](https://github.com/grimoire/mmdetection-to-tensorrt)
+    - [volksdep](https://github.com/Media-Smart/volksdep)
+    - [layerism/TensorRT-Inference-Server-Tutorial](https://github.com/layerism/TensorRT-Inference-Server-Tutorial)
+    - [onnx/onnx-tensorrt](https://github.com/onnx/onnx-tensorrt)
+    - [onnx]()
+    - tensorrt/bin -> ./trtexec for onnx2rt
+    - [triton]()
+      - [server](https://github.com/triton-inference-server/server)
   - [Flask+Gunicorn+Nginx]()
-  - [tensorrtx 众多应用仓库](https://github.com/wang-xinyu/tensorrtx)
   - [Savior](https://github.com/novioleo/Savior)
-  - [triton]()
-    - [server](https://github.com/triton-inference-server/server)
   - [async-ml-inference FastAPI + Celery](https://github.com/FerrariDG/async-ml-inference)
   - [SDBI(Simple Dynamic Batching Inference)](https://github.com/YellowOldOdd/SDBI)
   - [Flask 应用如何部署](https://www.cnblogs.com/hellohorld/p/10033720.html)
@@ -458,15 +455,9 @@
   - [ncnn](https://github.com/Tencent/ncnn)
   - [QPT](https://github.com/QPT-Family/QPT)
   - [deepdetect: Deep Learning API and Server in C++14 support for Caffe, Caffe2, PyTorch,TensorRT, Dlib, NCNN, Tensorflow, XGBoost and TSNE](https://github.com/jolibrain/deepdetect)
-  - [jetson-inference](https://github.com/dusty-nv/jetson-inference)
-  - [tensorrtx](https://github.com/wang-xinyu/tensorrtx)
-  - [TRTorch](https://github.com/NVIDIA/TRTorch)
-  - [mmdetection-to-tensorrt](https://github.com/grimoire/mmdetection-to-tensorrt)
-  - [volksdep](https://github.com/Media-Smart/volksdep)
 
   - [kubeflow/kfserving](https://github.com/kubeflow/kfserving)
   - [ahkarami/Deep-Learning-in-Production](https://github.com/ahkarami/Deep-Learning-in-Production)
-  - [layerism/TensorRT-Inference-Server-Tutorial](https://github.com/layerism/TensorRT-Inference-Server-Tutorial)
 
 ---
 ## 图像修复/超分
@@ -475,24 +466,38 @@
   - [MIMO-UNet](https://github.com/chosj95/MIMO-UNet)
   - [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN)
   - [BasicSR-examples](https://github.com/xinntao/BasicSR-examples)
-
-----
-## UI开发
-  - [electron](https://github.com/electron/electron)
-  - [QT]()
+  - [xindongzhang/ECBSR](https://github.com/xindongzhang/ECBSR)
+  - [xiaomi-automl/FALSR](https://github.com/xiaomi-automl/FALSR)
 ---
 ## 教程/学习
+  - 正则
+    - [ziishaned/learn-regex](https://github.com/ziishaned/learn-regex)
+    - [cdoco/common-regex](https://github.com/cdoco/common-regex)
+    - [vi3k6i5/flashtext](https://github.com/vi3k6i5/flashtext)
+    - re
+  - C++
+    - [folly](https://github.com/facebook/folly)
+    - [入门](https://segmentfault.com/a/1190000037727214)
+  - 论文-Search
+    - arxiv-vanity
+    - arxiv
+    - [sci-hub](https://www.sci-hub.shop/)
+    - [connectedpapers](https://www.connectedpapers.com/)
+    - Zotero
+    - 顶会
+      - [52cv/ICCV2021](https://github.com/52CV/ICCV-Papers/blob/main/ICCV2021.md)
+      - [amusi/CVPR2021-Papers-with-Code](https://github.com/amusi/CVPR2021-Papers-with-Code)
+      - [52CV/CVPRW-2021-Papers](https://github.com/52CV/CVPRW-2021-Papers)
   - [ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses)
   - [莫凡]()
   - [zh-v2.d2l.ai](https://zh-v2.d2l.ai/index.html)
-  - 顶会
-    - [52cv/ICCV2021](https://github.com/52CV/ICCV-Papers/blob/main/ICCV2021.md)
-    - [amusi/CVPR2021-Papers-with-Code](https://github.com/amusi/CVPR2021-Papers-with-Code)
-    - [52CV/CVPRW-2021-Papers](https://github.com/52CV/CVPRW-2021-Papers)
   - [awesome-productivity-cn](https://github.com/eastlakeside/awesome-productivity-cn)
   - [learnopencv](https://github.com/spmallick/learnopencv)
   - [learning-machine: A handbook for ML built on answers.](https://github.com/rentruewang/learning-machine)
   - **[full-stack-deep-learning/fsdl-text-recognizer-2021-labs](https://github.com/full-stack-deep-learning/fsdl-text-recognizer-2021-labs)**
+  - UI开发
+    - [electron](https://github.com/electron/electron)
+    - [QT]()
 ## 个人发展
 ---
 ### 健身

@@ -8,7 +8,7 @@ export PATH="$PATH:/data/liuzhuang/cuda/bin"
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/data/liuzhuang/cuda/lib64"
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/data/liuzhuang/tensorrt/lib"
 
-# 导入torch
+# 设置torch环境变量
 export TORCH_PATH=$(dirname $(python -c "import torch; print(torch.__file__)"))
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$TORCH_PATH/lib/
 

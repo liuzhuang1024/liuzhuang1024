@@ -414,6 +414,7 @@
 
 ---
 ## 部署
+  - [编译libtorch相关](https://github.com/zhiqwang/yolov5-rt-stack/tree/master/deployment/libtorch)
   - 编译/运行库相关
     - ldd
     - cmake

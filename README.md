@@ -165,6 +165,7 @@
 ----
 
 ## Pytorch
+  + [pytorch/examples](https://github.com/pytorch/examples)
   + [pytorch-optimizer](https://github.com/jettify/pytorch-optimizer)
   + [victoresque/pytorch-template](https://github.com/victoresque/pytorch-template)
   + [pytorch-metric-learning](https://github.com/KevinMusgrave/pytorch-metric-learning) 
@@ -304,26 +305,9 @@
   - [awesome-knowledge-distillation](https://github.com/dkozlov/awesome-knowledge-distillation)
 
 - [Visualizer](https://github.com/luo3300612/Visualizer)
----
-## 可视化
-  - 模型可视化
-    - [Tools-to-Design-or-Visualize-Architecture-of-Neural-Network](https://github.com/ashishpatel26/Tools-to-Design-or-Visualize-Architecture-of-Neural-Network)
-  - 注意力可视化
-    - [Score-CAM](https://github.com/haofanwang/Score-CAM)
-    - [Visualizer](https://github.com/luo3300612/Visualizer)
-  - 绘图/数据可视化
-    - [cheatsheets from matplotlib](https://github.com/matplotlib/cheatsheets)
-    - [lux-org/lux for notebook](https://github.com/lux-org/lux)
-    - [an-introduction-to-t-sne-with-python-example](https://towardsdatascience.com/an-introduction-to-t-sne-with-python-example-5a3a293108d1)
-    - [apache Superset](https://github.com/apache/superset)
 
 ---
-## 图像检索
-  - [autofaiss](https://github.com/criteo/autofaiss)
-  - [faiss]()
-
----
-## **OCR**
+## OCR
   - [评估](https://rrc.cvc.uab.es/?ch=16&com=tasks)
   - [sightseq](https://github.com/zhiqwang/sightseq)
     - [lightseq](https://github.com/bytedance/lightseq)
@@ -375,6 +359,7 @@
   - Vision Transformer
     - [CvT](https://github.com/microsoft/CvT)
     - [performer-pytorch](https://github.com/lucidrains/performer-pytorch)
+    - - [yilunliao/vit-search](https://github.com/yilunliao/vit-search)
   - [x-transformers](https://github.com/lucidrains/x-transformers)
   - [longformer](https://github.com/allenai/longformer)
   - [huggingface transformers](https://github.com/huggingface/transformers)
@@ -469,6 +454,24 @@
   - [BasicSR-examples](https://github.com/xinntao/BasicSR-examples)
   - [xindongzhang/ECBSR](https://github.com/xindongzhang/ECBSR)
   - [xiaomi-automl/FALSR](https://github.com/xiaomi-automl/FALSR)
+  - [Thmen/EGVSR](https://github.com/Thmen/EGVSR)
+---
+## 图像检索
+  - [autofaiss](https://github.com/criteo/autofaiss)
+  - [faiss]()
+---
+## 可视化
+  - 模型可视化
+    - [Tools-to-Design-or-Visualize-Architecture-of-Neural-Network](https://github.com/ashishpatel26/Tools-to-Design-or-Visualize-Architecture-of-Neural-Network)
+  - 注意力可视化
+    - [Score-CAM](https://github.com/haofanwang/Score-CAM)
+    - [Visualizer](https://github.com/luo3300612/Visualizer)
+  - 绘图/数据可视化
+    - [cheatsheets from matplotlib](https://github.com/matplotlib/cheatsheets)
+    - [lux-org/lux for notebook](https://github.com/lux-org/lux)
+    - [an-introduction-to-t-sne-with-python-example](https://towardsdatascience.com/an-introduction-to-t-sne-with-python-example-5a3a293108d1)
+    - [apache Superset](https://github.com/apache/superset)
+
 ---
 ## 教程/学习
   - 正则

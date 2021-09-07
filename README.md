@@ -165,6 +165,7 @@
 ----
 
 ## Pytorch
+  + [pytorch/libtorch](https://github.com/pytorch/pytorch/blob/master/docs/libtorch.rst)
   + [pytorch/examples](https://github.com/pytorch/examples)
   + [pytorch-optimizer](https://github.com/jettify/pytorch-optimizer)
   + [victoresque/pytorch-template](https://github.com/victoresque/pytorch-template)
@@ -224,6 +225,7 @@
   + 命令行工具
     + bash
     + zsh
+    + starship
     + fzf
     + tmux
     + screen
@@ -369,9 +371,6 @@
 
 ---
 
-
----
-
 ## Python
   - help
     - [code example](https://www.programcreek.com/python/)
@@ -466,6 +465,7 @@
   - 注意力可视化
     - [Score-CAM](https://github.com/haofanwang/Score-CAM)
     - [Visualizer](https://github.com/luo3300612/Visualizer)
+    - [idiap/attention-sampling](https://github.com/idiap/attention-sampling)
   - 绘图/数据可视化
     - [cheatsheets from matplotlib](https://github.com/matplotlib/cheatsheets)
     - [lux-org/lux for notebook](https://github.com/lux-org/lux)

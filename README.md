@@ -46,6 +46,7 @@
 ## DataSet
   - [graviti](https://gas.graviti.cn/open-datasets)
   - [超神经](https://hyper.ai/datasets)
+  - *[zenodo.org](https://zenodo.org/)*
   - 数据合成
     + [最完美的数学公式转图片：纯Python实现，可设置字体、字号、颜色和分辨率](https://zhuanlan.zhihu.com/p/383951999)  
   - OCR
@@ -264,13 +265,7 @@
   - 代理
     + switch-hosts
     + SwitchyOmega
-  - 导航
-    - [developer.ibm.com](https://developer.ibm.com/exchanges/models/)
-    - [hub.docker.com](https://hub.docker.com/)
-    - [paperswithcode.com](https://paperswithcode.com/)
-    - [modelzoo.co](https://modelzoo.co/)
-    - [jiqizhixin.com](https://www.jiqizhixin.com/sota)
-    - [catalyzex.com](https://www.catalyzex.com/)
+
   - vscode
     - [VSCode查找和替换正则表达式转义字符整理](https://www.huliujia.com/blog/a2c7dc8ec28aa650df1ff43c580785decdeba8bc/)
     - [code-server](https://github.com/cdr/code-server)
@@ -487,6 +482,15 @@
     - arxiv
     - [sci-hub](https://www.sci-hub.shop/)
     - [connectedpapers](https://www.connectedpapers.com/)
+    - [paperswithcode/releasing-research-code](https://github.com/paperswithcode/releasing-research-code)
+    - [paperswithcode]()
+    - [模型搜索]()
+        - [developer.ibm.com](https://developer.ibm.com/exchanges/models/)
+        - [hub.docker.com](https://hub.docker.com/)
+        - [paperswithcode.com](https://paperswithcode.com/)
+        - [modelzoo.co](https://modelzoo.co/)
+        - [jiqizhixin.com](https://www.jiqizhixin.com/sota)
+        - [catalyzex.com](https://www.catalyzex.com/)
     - Zotero
     - 顶会
       - [52cv/ICCV2021](https://github.com/52CV/ICCV-Papers/blob/main/ICCV2021.md)

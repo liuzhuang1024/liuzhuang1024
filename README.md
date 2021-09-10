@@ -67,7 +67,10 @@
 
 ----
 ## 目标检测
-  + [Yolov5_DeepSort_Pytorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
+  + [文本检测]()
+    + [Yuliang-Liu/Box_Discretization_Network--BDN](https://github.com/Yuliang-Liu/Box_Discretization_Network)
+  + 表格检测
+    + [mdv3101/CDeCNet](https://github.com/mdv3101/CDeCNet)
   + [ATSS 目标检测采样策略](https://github.com/sfzhang15/ATSS)
   + [WeightedBoxesFusion 目标检测集成方法](https://github.com/ZFTurbo/Weighted-Boxes-Fusion)
   + [SoftTeacher](https://github.com/microsoft/SoftTeacher)
@@ -85,6 +88,9 @@
     + [DOTA-DOAI 多方向检测](https://github.com/SJTU-Thinklab-Det/DOTA-DOAI)
     + [OBBDetection](https://github.com/jbwang1997/OBBDetection)
     + [YOLOv5_DOTA_OBB](https://github.com/hukaixuan19970627/YOLOv5_DOTA_OBB)
+  + 目标跟踪
+    + [Yolov5_DeepSort_Pytorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
+
 ---
 ## 语义分割(暂停)
   - [Fast-SCNN-pytorch](https://github.com/Tramac/Fast-SCNN-pytorch)
@@ -118,8 +124,6 @@
 ## 冠军解决方案
   + [ICDAR2021-公式检测](https://github.com/Yuxiang1995/ICDAR2021_MFD)
 ---
-## 机器学习
-  + [炼丹神器｜端到端的机器学习和模型管理工具PyCaret](https://mp.weixin.qq.com/s/zCKD1FxgR6Z-3Qjd4cWXFQ)
 ---
 ## TODO
   - [ ] tldtr
@@ -240,6 +244,7 @@
     + [lambda-stack-deep-learning-software](https://lambdalabs.com/lambda-stack-deep-learning-software)
     + [ufoym/deepo](https://github.com/ufoym/deepo)
     + [Installing CUDA 10.2, CuDNN 7.6.5, TensorRT 7.0, Ubuntu 18.04](https://gist.github.com/tzvsi/222b3b22a847004a729744f89fe31255)
+  + [炼丹神器｜端到端的机器学习和模型管理工具PyCaret](https://mp.weixin.qq.com/s/zCKD1FxgR6Z-3Qjd4cWXFQ)
 
   + 穿透
     + frp
@@ -261,6 +266,7 @@
   - 订阅
     - [✈️ 免费机场 / 免费VPN -> 自动获取免 clash/v2ray/trojan/sr/ssr 订阅链接，间隔6小时持续更新 | 科学上网 | 翻墙](https://github.com/ermaozi/get_subscribe)
   - chrome
+    - TODO:添加插件操作
   - brave
   - 代理
     + switch-hosts
@@ -269,7 +275,18 @@
   - vscode
     - [VSCode查找和替换正则表达式转义字符整理](https://www.huliujia.com/blog/a2c7dc8ec28aa650df1ff43c580785decdeba8bc/)
     - [code-server](https://github.com/cdr/code-server)
-
+  - 可视化
+    - 模型可视化
+      - [Tools-to-Design-or-Visualize-Architecture-of-Neural-Network](https://github.com/ashishpatel26/Tools-to-Design-or-Visualize-Architecture-of-Neural-Network)
+    - 注意力可视化
+      - [Score-CAM](https://github.com/haofanwang/Score-CAM)
+      - [Visualizer](https://github.com/luo3300612/Visualizer)
+      - [idiap/attention-sampling](https://github.com/idiap/attention-sampling)
+    - 绘图/数据可视化
+      - [cheatsheets from matplotlib](https://github.com/matplotlib/cheatsheets)
+      - [lux-org/lux for notebook](https://github.com/lux-org/lux)
+      - [an-introduction-to-t-sne-with-python-example](https://towardsdatascience.com/an-introduction-to-t-sne-with-python-example-5a3a293108d1)
+      - [apache Superset](https://github.com/apache/superset)
 
 ---
 ## 数学
@@ -454,18 +471,7 @@
   - [autofaiss](https://github.com/criteo/autofaiss)
   - [faiss]()
 ---
-## 可视化
-  - 模型可视化
-    - [Tools-to-Design-or-Visualize-Architecture-of-Neural-Network](https://github.com/ashishpatel26/Tools-to-Design-or-Visualize-Architecture-of-Neural-Network)
-  - 注意力可视化
-    - [Score-CAM](https://github.com/haofanwang/Score-CAM)
-    - [Visualizer](https://github.com/luo3300612/Visualizer)
-    - [idiap/attention-sampling](https://github.com/idiap/attention-sampling)
-  - 绘图/数据可视化
-    - [cheatsheets from matplotlib](https://github.com/matplotlib/cheatsheets)
-    - [lux-org/lux for notebook](https://github.com/lux-org/lux)
-    - [an-introduction-to-t-sne-with-python-example](https://towardsdatascience.com/an-introduction-to-t-sne-with-python-example-5a3a293108d1)
-    - [apache Superset](https://github.com/apache/superset)
+
 
 ---
 ## 教程/学习

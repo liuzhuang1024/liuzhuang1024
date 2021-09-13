@@ -66,7 +66,8 @@
       - [Datasets per Topic](http://tc11.cvc.uab.es/datasets/type/)
 
 ----
-## 目标检测
+## 目标检测 
+  + [PeizeSun/OneNet](https://github.com/PeizeSun/OneNet)
   + [Yolov5_DeepSort_Pytorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
   + [ATSS 目标检测采样策略](https://github.com/sfzhang15/ATSS)
   + [WeightedBoxesFusion 目标检测集成方法](https://github.com/ZFTurbo/Weighted-Boxes-Fusion)

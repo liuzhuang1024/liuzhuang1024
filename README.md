@@ -175,6 +175,9 @@
 ----
 
 ## Pytorch
+  + [assafshocher/ResizeRight](https://github.com/assafshocher/ResizeRight)
+  + [kornia/kornia](https://github.com/kornia/kornia)
+  + [Learning to Resize Images for Computer Vision Tasks](https://arxiv.org/abs/2103.09950)
   + [pytorch/libtorch](https://github.com/pytorch/pytorch/blob/master/docs/libtorch.rst)
   + [pytorch/examples](https://github.com/pytorch/examples)
   + [pytorch-optimizer](https://github.com/jettify/pytorch-optimizer)
@@ -334,6 +337,8 @@
     - [Jianf-Wang/GRCNN](https://github.com/Jianf-Wang/GRCNN)
   - [clovaai/synthtiger](https://github.com/clovaai/synthtiger)
   - [评估](https://rrc.cvc.uab.es/?ch=16&com=tasks)
+  - [Enhanced CTC Loss](https://zhuanlan.zhihu.com/p/412187380)
+  - [icdar 评估](https://rrc.cvc.uab.es/?ch=16&com=tasks)
   - [sightseq](https://github.com/zhiqwang/sightseq)
     - [lightseq](https://github.com/bytedance/lightseq)
   - [mmocr](https://github.com/open-mmlab/mmocr)

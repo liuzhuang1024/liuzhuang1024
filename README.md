@@ -52,8 +52,10 @@
   - OCR
     - [OCR_ICDAR_label_revise](https://github.com/zcswdt/OCR_ICDAR_label_revise)
     - [OCR Dataset 大全](https://github.com/WenmuZhou/OCR_DataSet)
+
   - 数据增广
     - OCR数据增广
+      - [clovaai/synthtiger](https://github.com/clovaai/synthtiger)
       - [straug](https://github.com/roatienza/straug)
       - [Text-Image-Augmentation-python](https://github.com/RubanSeven/Text-Image-Augmentation-python)
     - [FMix](https://github.com/ecs-vlc/FMix)
@@ -67,6 +69,7 @@
 
 ----
 ## 目标检测 
+  + [DefTruth/lite.ai C++ 检测部署](https://github.com/DefTruth/lite.ai)
   + [PeizeSun/OneNet](https://github.com/PeizeSun/OneNet)
   + [Yolov5_DeepSort_Pytorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
   + [文本检测]()
@@ -221,6 +224,7 @@
   + Time
   + MarkDown
   + gpustat
+  + lsof -i:port 查看端口使用情况
   + Git
     - [commit之后，想撤销commit](https://blog.csdn.net/w958796636/article/details/53611133)
       - git checkout
@@ -268,7 +272,8 @@
   - 订阅
     - [✈️ 免费机场 / 免费VPN -> 自动获取免 clash/v2ray/trojan/sr/ssr 订阅链接，间隔6小时持续更新 | 科学上网 | 翻墙](https://github.com/ermaozi/get_subscribe)
   - chrome
-    - TODO:添加插件操作
+    - [iamadamdev/bypass-paywalls-chrome](https://github.com/iamadamdev/bypass-paywalls-chrome)
+    - [catalyzex](https://www.catalyzex.com/)
   - brave
   - 代理
     + switch-hosts
@@ -324,6 +329,10 @@
 
 ---
 ## OCR
+  - [TextStyleBrush](https://github.com/facebookresearch/IMGUR5K-Handwriting-Dataset)
+  - [Jianf-Wang/GRCNN-for-OCR](https://github.com/Jianf-Wang/GRCNN-for-OCR)
+    - [Jianf-Wang/GRCNN](https://github.com/Jianf-Wang/GRCNN)
+  - [clovaai/synthtiger](https://github.com/clovaai/synthtiger)
   - [评估](https://rrc.cvc.uab.es/?ch=16&com=tasks)
   - [sightseq](https://github.com/zhiqwang/sightseq)
     - [lightseq](https://github.com/bytedance/lightseq)
@@ -379,9 +388,11 @@
   - [x-transformers](https://github.com/lucidrains/x-transformers)
   - [longformer](https://github.com/allenai/longformer)
   - [huggingface transformers](https://github.com/huggingface/transformers)
+  - [Gsunshine/Enjoy-Hamburger](https://github.com/Gsunshine/Enjoy-Hamburger)
   - [fast-transformers](https://github.com/idiap/fast-transformers)
   - [NVIDIA FasterTransformer](https://github.com/NVIDIA/FasterTransformer)
   - [multidim-positional-encoding](https://github.com/tatp22/multidim-positional-encoding)
+  - [lucidrains/HTM-pytorch Hierarchical Transformer Memory](https://github.com/lucidrains/HTM-pytorch)
 
 ---
 
@@ -460,6 +471,7 @@
 
 ---
 ## 图像修复/超分
+  - [thunil/TecoGAN](https://github.com/thunil/TecoGAN)
   - [Cross-Camera Convolutional Color Constancy](https://github.com/mahmoudnafifi/C5)
   - [NVlabs imaginaire](https://github.com/NVlabs/imaginaire)
   - [MIMO-UNet](https://github.com/chosj95/MIMO-UNet)

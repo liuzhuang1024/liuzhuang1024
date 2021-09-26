@@ -158,6 +158,7 @@
 
 ----
 ## Other
+  + [虚拟试衣 virtual_try_on_use_deep_learning](https://github.com/hpc203/virtual_try_on_use_deep_learning)
   + [行人识重 deep-person-reid](https://github.com/KaiyangZhou/deep-person-reid "using pytorch-center-loss")
   + [DexiNed 边缘检测](https://github.com/xavysp/DexiNed)
   + [Screenshot-to-code Image-to-html](https://github.com/emilwallner/Screenshot-to-code)
@@ -281,7 +282,8 @@
   - 代理
     + switch-hosts
     + SwitchyOmega
-
+  - GPU主机市场
+    + [深度学习/云计算 - 【学生党】【GPU】16个云服务器资源大汇总](https://blog.csdn.net/weixin_42815609/article/details/106721934)
   - vscode
     - [VSCode查找和替换正则表达式转义字符整理](https://www.huliujia.com/blog/a2c7dc8ec28aa650df1ff43c580785decdeba8bc/)
     - [code-server](https://github.com/cdr/code-server)
@@ -332,6 +334,7 @@
 
 ---
 ## OCR
+  - [microsoft/trOCR transformer 关键信息抽取](https://github.com/microsoft/unilm)
   - [TextStyleBrush](https://github.com/facebookresearch/IMGUR5K-Handwriting-Dataset)
   - [Jianf-Wang/GRCNN-for-OCR](https://github.com/Jianf-Wang/GRCNN-for-OCR)
     - [Jianf-Wang/GRCNN](https://github.com/Jianf-Wang/GRCNN)

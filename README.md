@@ -69,6 +69,7 @@
 
 ----
 ## 目标检测 
+  + [Pix2seq: A Language Modeling Framework for Object Detection 语言模型搭建检测](https://arxiv.org/abs/2109.10852)
   + [DefTruth/lite.ai C++ 检测部署](https://github.com/DefTruth/lite.ai)
   + [PeizeSun/OneNet](https://github.com/PeizeSun/OneNet)
   + [Yolov5_DeepSort_Pytorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
@@ -334,6 +335,7 @@
 
 ---
 ## OCR
+  - [SpellGCN: Incorporating Phonological and Visual Similarities into Language Models for Chinese Spelling Check 基于BERT的中文纠错](https://arxiv.org/abs/2004.14166)
   - [microsoft/trOCR transformer 关键信息抽取](https://github.com/microsoft/unilm)
   - [TextStyleBrush](https://github.com/facebookresearch/IMGUR5K-Handwriting-Dataset)
   - [Jianf-Wang/GRCNN-for-OCR](https://github.com/Jianf-Wang/GRCNN-for-OCR)
@@ -428,7 +430,7 @@
     + string
     + string.translate
     + re
-
+    + Flashtext
 ---
 ## 部署
   - [编译libtorch相关](https://github.com/zhiqwang/yolov5-rt-stack/tree/master/deployment/libtorch)
@@ -479,6 +481,7 @@
 
 ---
 ## 图像修复/超分
+  - [edge-SR: Super-Resolution For The Masses 一层卷积进行超分](https://arxiv.org/abs/2108.10335)
   - [thunil/TecoGAN](https://github.com/thunil/TecoGAN)
   - [Cross-Camera Convolutional Color Constancy](https://github.com/mahmoudnafifi/C5)
   - [NVlabs imaginaire](https://github.com/NVlabs/imaginaire)

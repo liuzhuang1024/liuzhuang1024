@@ -223,6 +223,7 @@
 ---
 
 ## 高效工具
+  + [fanux/sealos k8s快速部署](https://github.com/fanux/sealos)
   + [命令行代理](profile)
   + Ray
   + wandb
@@ -431,6 +432,19 @@
     + string.translate
     + re
     + Flashtext
+  - 占用内存的分析
+    + torch 
+      + tensor.storage()
+    + numpy
+      + ndarray.nbytes
+    + python 对象
+      + sys.getsizeof()
+  - python 持久化
+    + pickle
+    + torch.save
+  - 常用的数据存储数据库
+    + lmdb
+    
 ---
 ## 部署
   - [编译libtorch相关](https://github.com/zhiqwang/yolov5-rt-stack/tree/master/deployment/libtorch)

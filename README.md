@@ -62,7 +62,7 @@
     - [Mixup]()
 
   + 常用数据集网站
-    - CHROME
+    + CHROME
       + [CHROME](https://www.isical.ac.in/~crohme/index.html)
       + [CHRAOME竞赛地址](http://www.iapr-tc11.org/mediawiki/index.php/CROHME:_Competition_on_Recognition_of_Online_Handwritten_Mathematical_Expressions)
       - [Datasets per Topic](http://tc11.cvc.uab.es/datasets/type/)
@@ -117,8 +117,8 @@
   + 激活函数
   + Center Loss
   + [SWA](https://github.com/timgaripov/swa)
-    - [PyTorch 1.6 now includes Stochastic Weight Averaging](https://pytorch.org/blog/pytorch-1.6-now-includes-stochastic-weight-averaging/)
-    - [SWALR](https://arxiv.org/abs/1803.05407)
+    + [PyTorch 1.6 now includes Stochastic Weight Averaging](https://pytorch.org/blog/pytorch-1.6-now-includes-stochastic-weight-averaging/)
+    + [SWALR](https://arxiv.org/abs/1803.05407)
   + 自集成(swa)/自蒸馏(self-distillation)
   + [Test Time Augmentation（TTA）]('对数据增广后进行预测')
   + [Ensemble-Pytorch](https://github.com/TorchEnsemble-Community/Ensemble-Pytorch)
@@ -500,6 +500,7 @@
 
 ---
 ## 图像修复/超分
+  - [xinntao/Real-ESRGAN-ncnn-vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan)
   - [edge-SR: Super-Resolution For The Masses 一层卷积进行超分](https://arxiv.org/abs/2108.10335)
   - [thunil/TecoGAN](https://github.com/thunil/TecoGAN)
   - [Cross-Camera Convolutional Color Constancy](https://github.com/mahmoudnafifi/C5)
@@ -579,7 +580,8 @@
   - [poki](https://poki.cn/)
 ### 工作&&职业规划&&心里辅导
   - [张大妈](https://hizdm.cn/city/beijing/)
-
+  - [yangyiRunning/Beijing-House 北京买房攻略](https://github.com/yangyiRunning/Beijing-House)
+  - [coder2gwy/coder2gwy 程序员考公](https://github.com/coder2gwy/coder2gwy)
 ### 项目
   - ssss
   - 

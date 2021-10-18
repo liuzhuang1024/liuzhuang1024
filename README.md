@@ -336,6 +336,10 @@
 
 ---
 ## OCR
+  - [yizhiwang96/deepvecfont 手写生成](https://github.com/yizhiwang96/deepvecfont)
+  - [Full Page Handwriting Recognition via Image to Sequence Extraction --transfoemer](https://arxiv.org/abs/2103.06450)
+  - [NRTR, a No-Recurrence Seq2Seq Model for Scene Text Recognition Belval/NRTR](https://github.com/Belval/NRTR.git)
+  - [From Two to One: A New Scene Text Recognizer with Visual Language Modeling Networ VisionLAN](https://github.com/wangyuxin87/VisionLAN)
   - [SpellGCN: Incorporating Phonological and Visual Similarities into Language Models for Chinese Spelling Check 基于BERT的中文纠错](https://arxiv.org/abs/2004.14166)
   - [microsoft/trOCR transformer 关键信息抽取](https://github.com/microsoft/unilm)
   - [TextStyleBrush](https://github.com/facebookresearch/IMGUR5K-Handwriting-Dataset)
@@ -466,6 +470,7 @@
     - 查看cuda安装成功 `nvcc -V`
     - [CUDA环境配置文件](profile)
   - TensorRT
+    - [shouxieai/tensorRT_Pro](https://github.com/shouxieai/tensorRT_Pro)
     - [NVIDIA/TensorRT](https://github.com/NVIDIA/TensorRT)
     - [NVIDIA-AI-IOT/torch2trt](https://github.com/NVIDIA-AI-IOT/torch2trt)
     - [NVIDIA/TRTorch](https://github.com/NVIDIA/TRTorch)

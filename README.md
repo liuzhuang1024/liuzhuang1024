@@ -177,6 +177,8 @@
 ----
 
 ## Pytorch
+  + [imankgoyal/NonDeepNetworks ParNet](https://github.com/imankgoyal/NonDeepNetworks)
+  + [TorchSSL/TorchSSL 弱监督集合](https://github.com/TorchSSL/TorchSSL)
   + [assafshocher/ResizeRight](https://github.com/assafshocher/ResizeRight)
   + [kornia/kornia](https://github.com/kornia/kornia)
   + [Learning to Resize Images for Computer Vision Tasks](https://arxiv.org/abs/2103.09950)

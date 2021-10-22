@@ -159,6 +159,7 @@
 
 ----
 ## Other
+  + [PeterL1n/RobustVideoMatting 字节跳动的实时视频绿幕](https://github.com/PeterL1n/RobustVideoMatting)
   + [虚拟试衣 virtual_try_on_use_deep_learning](https://github.com/hpc203/virtual_try_on_use_deep_learning)
   + [行人识重 deep-person-reid](https://github.com/KaiyangZhou/deep-person-reid "using pytorch-center-loss")
   + [DexiNed 边缘检测](https://github.com/xavysp/DexiNed)
@@ -338,6 +339,9 @@
 
 ---
 ## OCR
+  - [CyberAgentAILab/derendering-text](https://github.com/CyberAgentAILab/derendering-text)
+  - [gidariss/FeatureLearningRotNet RotNet](https://github.com/gidariss/FeatureLearningRotNet)
+  - [RecycleNet: An Overlapped Text Instance Recovery Approach 文本图像分离]()
   - [yizhiwang96/deepvecfont 手写生成](https://github.com/yizhiwang96/deepvecfont)
   - [Full Page Handwriting Recognition via Image to Sequence Extraction --transfoemer](https://arxiv.org/abs/2103.06450)
   - [NRTR, a No-Recurrence Seq2Seq Model for Scene Text Recognition Belval/NRTR](https://github.com/Belval/NRTR.git)

@@ -3,7 +3,7 @@
 ----
 ## 目录
 [TOC]
-
+/data/liuzhuang/get_nry_data/save_txt.txt
 ----
 ## 公式识别
   + [im2markup from Image-to-Markup Generation with Coarse-to-Fine Attention](https://github.com/harvardnlp/im2markup)
@@ -178,6 +178,7 @@
 ----
 
 ## Pytorch
+  + [quic/aimet 模型量化](https://github.com/quic/aimet)
   + [imankgoyal/NonDeepNetworks ParNet](https://github.com/imankgoyal/NonDeepNetworks)
   + [TorchSSL/TorchSSL 弱监督集合](https://github.com/TorchSSL/TorchSSL)
   + [assafshocher/ResizeRight](https://github.com/assafshocher/ResizeRight)
@@ -193,6 +194,7 @@
   + BatchNorm 很重要，也很有效
     + [Training BatchNorm and Only BatchNorm: On the Expressive Power of Random Features in CNNs](https://arxiv.org/abs/2003.00152)
   + 模型加速
+    + [tczhangzhi/pytorch-distributed 分布式demo](https://github.com/tczhangzhi/pytorch-distributed)
     + [contiguous_pytorch_params](https://github.com/PhilJd/contiguous_pytorch_params)
     + [DDP]()
     + [Pytorch amp/apex](https://pytorch.org/blog/accelerating-training-on-nvidia-gpus-with-pytorch-automatic-mixed-precision/)
@@ -228,6 +230,10 @@
 ## 高效工具
   + [fanux/sealos k8s快速部署](https://github.com/fanux/sealos)
   + [命令行代理](profile)
+  + vscode ssh配置文件设置代理 
+    + [使用代理连接 ssh](https://xjay.net/201906/ssh-with-proxy/)
+    + [vscode 通过代理连接远程服务器（win10）](https://zhuanlan.zhihu.com/p/337897010)
+    + [VSCode Remote ssh跳板机配置（windows平台](https://zhuanlan.zhihu.com/p/103578899?hmsr=toutiao.io)
   + Ray
   + wandb
   + Time
@@ -375,6 +381,7 @@
     - [Sequence-to-Sequence Contrastive Learning for Text Recognition
 ](https://arxiv.org/abs/2012.10873)
   - [文档矫正]()
+    - [thomasjhuang/deep-learning-for-document-dewarping](https://github.com/thomasjhuang/deep-learning-for-document-dewarping)
     - [Dewarping-Document-Image-By-Displacement-Flow-Estimation](https://github.com/gwxie/Dewarping-Document-Image-By-Displacement-Flow-Estimation)
     - [PiecewiseUnwarp](https://github.com/sagniklp/PiecewiseUnwarp)
   - TODO

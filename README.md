@@ -3,9 +3,9 @@
 ----
 ## 目录
 [TOC]
-/data/liuzhuang/get_nry_data/save_txt.txt
 ----
 ## 公式识别
+  + [wzlxjtu/PositionalEncoding2D](https://github.com/wzlxjtu/PositionalEncoding2D)
   + [im2markup from Image-to-Markup Generation with Coarse-to-Fine Attention](https://github.com/harvardnlp/im2markup)
   + [LaTeX-OCR pix2tex: Using a ViT to convert images of equations into LaTeX code.](https://github.com/lukas-blecher/LaTeX-OCR)
   + [image-to-latex transformer](https://github.com/kingyiusuen/image-to-latex)
@@ -29,6 +29,7 @@
     + [Handwritten Mathematical Expression Recognition with Bidirectionally Trained Transformer](https://arxiv.org/abs/2105.02412)
 ---
 ## 注意力机制
+  - [gordicaleksa/pytorch-GAT 图注意力机制](https://github.com/gordicaleksa/pytorch-GAT)
   - [External-Attention-pytorch](https://github.com/xmu-xiaoma666/External-Attention-pytorch)
   - [Image-Local-Attention](https://github.com/zzd1992/Image-Local-Attention)
   - 文章
@@ -178,9 +179,8 @@
 ----
 
 ## Pytorch
-  + [quic/aimet 模型量化](https://github.com/quic/aimet)
   + [imankgoyal/NonDeepNetworks ParNet](https://github.com/imankgoyal/NonDeepNetworks)
-  + [TorchSSL/TorchSSL 弱监督集合](https://github.com/TorchSSL/TorchSSL)
+
   + [assafshocher/ResizeRight](https://github.com/assafshocher/ResizeRight)
   + [kornia/kornia](https://github.com/kornia/kornia)
   + [Learning to Resize Images for Computer Vision Tasks](https://arxiv.org/abs/2103.09950)
@@ -323,6 +323,8 @@
   - [afatcoder/LeetcodeTop](https://github.com/afatcoder/LeetcodeTop)
 ---
 ## 蒸馏、弱监督、半监督、自学习、无监督
+  - [quic/aimet 模型量化](https://github.com/quic/aimet)
+  - [TorchSSL/TorchSSL 弱监督集合](https://github.com/TorchSSL/TorchSSL)
   - [微调预训练模型的新姿势——自集成和自蒸馏
 ](https://zhuanlan.zhihu.com/p/133804801)
   - [ICLR 2021 | SEED：自监督蒸馏学习，显著提升小模型性能！](https://www.aminer.cn/research_report/607965a1e409f29eb73e2e97)
@@ -468,6 +470,7 @@
   - 编译/运行库相关
     - ldd
     - cmake
+    - ccmake
     - make
     - bazel 编译工具
   - OpenCV

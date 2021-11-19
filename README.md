@@ -5,6 +5,9 @@
 [TOC]
 ----
 ## 公式识别
+  + [RobustScanner: Dynamically Enhancing Positional Clues for Robust Text Recognition](https://arxiv.org/abs/2007.07542)
+  + [Translating Math Formula Images to LaTeX Sequences Using Deep Neural Networks with Sequence-level Training](https://arxiv.org/abs/1908.11415)
+  + [ConvMath: A Convolutional Sequence Network for Mathematical Expression Recognition](https://www.semanticscholar.org/paper/ConvMath%3A-A-Convolutional-Sequence-Network-for-Yan-Zhang/7bd7c66be55ca10f9883be80be238fd3236b03a8#citing-papers)
   + [wzlxjtu/PositionalEncoding2D](https://github.com/wzlxjtu/PositionalEncoding2D)
   + [im2markup from Image-to-Markup Generation with Coarse-to-Fine Attention](https://github.com/harvardnlp/im2markup)
   + [LaTeX-OCR pix2tex: Using a ViT to convert images of equations into LaTeX code.](https://github.com/lukas-blecher/LaTeX-OCR)
@@ -179,6 +182,10 @@
 ----
 
 ## Pytorch
+  + [ritchieng/the-incredible-pytorch 教程](https://github.com/ritchieng/the-incredible-pytorch)
+  + 长尾问题
+    + [vandit15/Class-balanced-loss-pytorch](https://github.com/vandit15/Class-balanced-loss-pytorch)
+  + [facebookresearch/FixRes trick](https://github.com/facebookresearch/FixRes)
   + [imankgoyal/NonDeepNetworks ParNet](https://github.com/imankgoyal/NonDeepNetworks)
 
   + [assafshocher/ResizeRight](https://github.com/assafshocher/ResizeRight)
@@ -322,8 +329,13 @@
   - [LeetCode 题库](https://leetcode-cn.com/problemset/all/)
   - [afatcoder/LeetcodeTop](https://github.com/afatcoder/LeetcodeTop)
 ---
-## 蒸馏、弱监督、半监督、自学习、无监督
+## 蒸馏、弱监督、半监督、自学习、无监督、量化
+  - [yoshitomo-matsubara/torchdistill](https://github.com/yoshitomo-matsubara/torchdistill)
+  - [wyc-ruiker/HKD](https://github.com/wyc-ruiker/HKD)
+  - [alldbi/SuperMix](https://github.com/alldbi/SuperMix)
+  - [HobbitLong/RepDistiller](https://github.com/HobbitLong/RepDistiller)
   - [quic/aimet 模型量化](https://github.com/quic/aimet)
+  - [DeepVAC/deepvac](https://github.com/DeepVAC/deepvac)
   - [TorchSSL/TorchSSL 弱监督集合](https://github.com/TorchSSL/TorchSSL)
   - [微调预训练模型的新姿势——自集成和自蒸馏
 ](https://zhuanlan.zhihu.com/p/133804801)
@@ -451,6 +463,7 @@
     + string.translate
     + re
     + Flashtext
+    + [\u4e00-\u9fa5]
   - 占用内存的分析
     + torch 
       + tensor.storage()
@@ -516,6 +529,7 @@
 
 ---
 ## 图像修复/超分
+  - [MayankSingal/PyTorch-Image-Dehazing](https://github.com/MayankSingal/PyTorch-Image-Dehazing)
   - [xinntao/Real-ESRGAN-ncnn-vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan)
   - [edge-SR: Super-Resolution For The Masses 一层卷积进行超分](https://arxiv.org/abs/2108.10335)
   - [thunil/TecoGAN](https://github.com/thunil/TecoGAN)
@@ -532,7 +546,8 @@
   - [autofaiss](https://github.com/criteo/autofaiss)
   - [faiss]()
 ---
-
+## 强化学习
+ + [wangshusen/DRL](https://github.com/wangshusen/DRL)
 
 ---
 ## 教程/学习
@@ -541,6 +556,7 @@
     - [cdoco/common-regex](https://github.com/cdoco/common-regex)
     - [vi3k6i5/flashtext](https://github.com/vi3k6i5/flashtext)
     - re
+    - 中文正则 [\u4e00-\u9fa5]
   - C++
     - [folly](https://github.com/facebook/folly)
     - [入门](https://segmentfault.com/a/1190000037727214)
@@ -578,7 +594,7 @@
 ### 健身
   - [改善圆肩驼背](https://www.zhihu.com/zvideo/1397900110991364096)
 ### 阅读
-  - 万域之主
+  - 万域之王
   - 斗罗大陆
   - 明朝那些事
   - 公众号

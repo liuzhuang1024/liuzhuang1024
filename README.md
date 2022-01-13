@@ -253,6 +253,7 @@
       - git reset [--mixed [--soft [--hard ]]]
       - git stash
       - git stage
+    - ![img](WX20220113-172147@2x.png)
   + [torchtracer：一个管理 PyTorch AI 实验项目的工具](https://oidiotlin.com/torchtracer/)
   + [overleaf latex](https://www.overleaf.com/project)
   + 命令行工具
@@ -263,7 +264,8 @@
     + tmux
     + screen
     + hyper
-    + iTerm
+    + tabby
+    + iTerm2
     + Vim
       + [Vim 菜鸟](https://www.runoob.com/linux/linux-vim.html)
       + [Vim 入门](https://github.com/wsdjeg/vim-galore-zh_cn)
@@ -330,6 +332,7 @@
   - [afatcoder/LeetcodeTop](https://github.com/afatcoder/LeetcodeTop)
 ---
 ## 蒸馏、弱监督、半监督、自学习、无监督、量化
+  - [ZHANGHeng19931123/MutualGuide 检测蒸馏](https://github.com/ZHANGHeng19931123/MutualGuide)
   - [yoshitomo-matsubara/torchdistill](https://github.com/yoshitomo-matsubara/torchdistill)
   - [wyc-ruiker/HKD](https://github.com/wyc-ruiker/HKD)
   - [alldbi/SuperMix](https://github.com/alldbi/SuperMix)
@@ -551,6 +554,8 @@
 
 ---
 ## 教程/学习
+  - 英语
+    - [English-level-up-tips-for-Chinese](https://github.com/byoungd/English-level-up-tips-for-Chinese)
   - 正则
     - [ziishaned/learn-regex](https://github.com/ziishaned/learn-regex)
     - [cdoco/common-regex](https://github.com/cdoco/common-regex)
@@ -594,9 +599,11 @@
 ### 健身
   - [改善圆肩驼背](https://www.zhihu.com/zvideo/1397900110991364096)
 ### 阅读
-  - 万域之王
-  - 斗罗大陆
-  - 明朝那些事
+  - 小说
+    - 万域之王
+    - 斗罗大陆
+    - 明朝那些事
+    - 星门
   - 公众号
     - 量子位
     - Cver

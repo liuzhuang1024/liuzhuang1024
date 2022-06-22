@@ -100,7 +100,35 @@
     + [YOLOv5_DOTA_OBB](https://github.com/hukaixuan19970627/YOLOv5_DOTA_OBB)
   + 目标跟踪
     + [Yolov5_DeepSort_Pytorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
-
+---
+### 文本检测方法
++ [基于概率分布图的任意形状文本实例分割和检测方法（有源码](https://mp.weixin.qq.com/s/Z58PSrd7S6tix4KUItItEA)
++ [[CVPR2022] 端到端的场景文字检测与版面分析统一框架](https://mp.weixin.qq.com/s/B5uR-OKp6JGM-Ruy5if7iw)
++ [[CVPR 2022] 特征采样与分组：基于Transformer的场景文字检测方法](https://mp.weixin.qq.com/s/Wgq-kOwLyT0Q-8p-_GEVEA)
++ [滑铁卢大学：使用transformer的任意形状文本检测](https://wx.zsxq.com/mweb/views/topicdetail/topicdetail.html?topic_id=818242445818122&group_id=142181451122&inviter_id=28514284588581)
++ [ATSS](https://github.com/sfzhang15/ATSS)
+### 检测集成策略
++ [目标检测评价指标详解](https://mp.weixin.qq.com/s/76ZtQMbrknNEMkuAvxcmkw)
++ [Weighted boxes fusion](https://github.com/ZFTurbo/Weighted-Boxes-Fusion)
++ [涨点神器！南航提出AFF：注意力特征融合，即插即用！可用于分类、检测和分割等](https://mp.weixin.qq.com/s/MYo7pEPyv0LPuSm0ZfV7AQ)
++ [在目标检测被“遗忘”领域进行探索后，百度开源最新力作UMOP：即插即用、无痛涨点](https://mp.weixin.qq.com/s/tegyM9pdPi__k-COrBts1g)
++ [竞赛经验｜Kaggle竞赛中使用YoloV5将物体检测的性能翻倍的心路历程](https://mp.weixin.qq.com/s/Lccn8o6thVr4NEfZbSDMJw)
++ [涨点神器！SIoU：目标检测的新损失函数，提高准确性和训练速度！](https://mp.weixin.qq.com/s/GccVlESY8hql779eMZnxww)
++ [目标检测正负样本区分策略和平衡策略总结](https://mp.weixin.qq.com/s/A9Fa602lKbKwvP8VCtrV2w)
++ [ashi|小目标Trick | Detectron2、MMDetection、YOLOv5都通用的小目标检测解决方案](https://mp.weixin.qq.com/s/3jP-HPVevAjuU-XSopdy9A)
++ [EDA: Exploratory Data Analysis]()
++ [TTA]()
++ [softmax-nms]()
++ [OHEM]()
++ [SWA]()
++ [RoIAlign]()
++ [多尺度训练、推理]()
++ [根据batchsize的大小适当调整bn的类型]()
++ [目标检测比赛提高mAP的方法](https://www.cnblogs.com/zi-wang/p/12537034.html)
++ [弯曲文本检测策略]()
+### 文本加测数据集
++ [hiertext](https://github.com/google-research-datasets/hiertext)
++ 
 ---
 ## 语义分割(暂停)
   - [Fast-SCNN-pytorch](https://github.com/Tramac/Fast-SCNN-pytorch)
@@ -137,16 +165,16 @@
 ---
 ## TODO
   - [ ] tldtr
-  - [ ] 阅读master源码
-  - [ ] 阅读codeWAP源码
-  - [ ] 阅读Attention源码
+  - [x] 阅读master源码
+  - [x] 阅读codeWAP源码
+  - [x] 阅读Attention源码
   - [x] 实现Center Loss
   - [ ] 实现ACE
   - [x] 实现SWA
   - [x] 实现Pytorch AMP
-  - [ ] 从头实现CRNN，实现Encoder-Decoder
-  - [ ] 自己实现一套训练框架
-  - [ ] 阅读Transformer源码并理解
+  - [x] 从头实现CRNN，实现Encoder-Decoder
+  - [x] 自己实现一套训练框架
+  - [x] 阅读Transformer源码并理解
   - [x] [度量学习]()
   - [x] 阅读[Focal CTC Loss](https://downloads.hindawi.com/journals/complexity/2019/9345861.pdf)
   - [x] Center Loss
@@ -604,6 +632,8 @@
     - 斗罗大陆
     - 明朝那些事
     - 星门
+    - 一念永恒
+    - 少年歌行
   - 公众号
     - 量子位
     - Cver

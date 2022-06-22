@@ -14,3 +14,9 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$TORCH_PATH/lib/
 
 # 导入临时文件夹
 export TMPDIR=new_path
+
+
+ZSH_THEME="half-life"
+export C_INCLUDE_PATH  
+export CPLUS_INCLUDE_PATH  
+export LIBRARY_PATH  

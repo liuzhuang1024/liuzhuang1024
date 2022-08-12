@@ -128,7 +128,11 @@
 + [弯曲文本检测策略]()
 ### 文本加测数据集
 + [hiertext](https://github.com/google-research-datasets/hiertext)
-+ 
++ icdar
++ ctw
++ total text
++ openimage
++ cocotext
 ---
 ## 语义分割(暂停)
   - [Fast-SCNN-pytorch](https://github.com/Tramac/Fast-SCNN-pytorch)
@@ -139,7 +143,7 @@
   + [Markdown快速入门](https://sspai.com/post/45816)
 ---
 
-## [trick 大全]()
+## trick 大全
   + 数据增广
   + 梯度正则
   + 学习率调整方法
@@ -507,7 +511,30 @@
     + torch.save
   - 常用的数据存储数据库
     + lmdb
-    
+  - 采样
+    - random
+      - choice
+      - sample
+    - itertools
+      - product(p, q, … [repeat=1])
+      - permutations(p[, r])
+      - combinations(p, r)
+      - combinations_with_replacement(p, r)
+  - Debug
+  ```python
+          {
+            "name": "Python: Dist Current File",
+            "type": "python",
+            "justMyCode": false,
+            "request": "attach",
+            "connect": {
+                "host": "localhost",
+                "port": 5678
+            }
+        // python -m debugpy --listen 5678 --wait-for-client
+        }
+
+  ```
 ---
 ## 部署
   - [编译libtorch相关](https://github.com/zhiqwang/yolov5-rt-stack/tree/master/deployment/libtorch)

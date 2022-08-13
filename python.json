@@ -28,15 +28,19 @@
 			"$0"
 		],
 	},
-	"import torch":{
+	"torch":{
 		"prefix": "torch",
 		"body": [
 			"import torch",
 			"from torch import nn",
 			"from torch.nn import functional as F",
 			"from torchvision.transforms import transforms",
-			"from torch.utils.data import Dataset, DataLoader",
+			"from torch.utils.data import Dataset, DataLoader, DistributedSampler",
+			"import torch.distributed as dist",
+			"from torch.nn.parallel import DistributedDataParallel as DDP",
+			"import torch.optim as optim",
 			"",
+			"from einops import rearrange, reduce",
 			"from pathlib import Path",
 			"from natsort import natsorted",
 			"from PIL import Image",
@@ -44,8 +48,29 @@
 			"import math",
 			"import cv2",
 			"import pandas as pd",
+			"from IPython import embed",
+			"",
+			"import time",
+			"import os",
+			"",
+			"from tensorboardX import SummaryWriter",
 			"",
 			"$0",
 		],
+	},
+	"seed":{
+		"prefix": "seed",
+		"body": [
+			"import random",
+			"import numpy as np",
+			"import torch",
+			"random.seed(1024)",
+			"np.random.seed(1024)",
+			"torch.manual_seed(1024)",
+			"torch.cuda.manual_seed_all(1024)",
+			"torch.backends.cudnn.deterministic = True",
+			"torch.backends.cudnn.benchmark = False",
+			""
+		]
 	}
 }

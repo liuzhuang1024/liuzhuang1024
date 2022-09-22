@@ -17,6 +17,8 @@
   + [math-formula-recognition WAP](https://github.com/jungomi/math-formula-recognition)
   + **[Pytorch-Handwritten-Mathematical-Expression-Recognition WAP](https://github.com/whywhs/Pytorch-Handwritten-Mathematical-Expression-Recognition)**
   + [BTTR: BiTransformer](https://github.com/Green-Wood/BTTR)
+  + [CAN]()
+  + [CoMer]()
   + [Master-Ocr]()
   + [Master-Table]()
   + [文章]()
@@ -363,7 +365,7 @@
   - [LeetCode 题库](https://leetcode-cn.com/problemset/all/)
   - [afatcoder/LeetcodeTop](https://github.com/afatcoder/LeetcodeTop)
 ---
-## 蒸馏、弱监督、半监督、自学习、无监督、量化
+## 蒸馏、弱监督、半监督、自学习、无监督、量化(hot)
   - [ZHANGHeng19931123/MutualGuide 检测蒸馏](https://github.com/ZHANGHeng19931123/MutualGuide)
   - [yoshitomo-matsubara/torchdistill](https://github.com/yoshitomo-matsubara/torchdistill)
   - [wyc-ruiker/HKD](https://github.com/wyc-ruiker/HKD)
@@ -599,6 +601,8 @@
   - [xindongzhang/ECBSR](https://github.com/xindongzhang/ECBSR)
   - [xiaomi-automl/FALSR](https://github.com/xiaomi-automl/FALSR)
   - [Thmen/EGVSR](https://github.com/Thmen/EGVSR)
+  - [Restomer]()
+  - [AirNet]()
 ---
 ## 图像检索
   - [autofaiss](https://github.com/criteo/autofaiss)

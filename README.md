@@ -1,4 +1,6 @@
 **<div align="center">工作<img src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel5.png"/>整理</div>**
+----
+`工作日常：打开VSCODE开始新的一天`
 
 ----
 ## 目录

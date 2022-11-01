@@ -1,39 +1,36 @@
 **<div align="center">工作<img src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel5.png"/>整理</div>**
 ----
-`工作日常：打开VSCODE开始新的一天`
+`工作日常：打开Github开始新的一天`
 
-----
-## 目录
-[TOC]
-----
+
 ## 公式识别
-  + [RobustScanner: Dynamically Enhancing Positional Clues for Robust Text Recognition](https://arxiv.org/abs/2007.07542)
-  + [Translating Math Formula Images to LaTeX Sequences Using Deep Neural Networks with Sequence-level Training](https://arxiv.org/abs/1908.11415)
-  + [ConvMath: A Convolutional Sequence Network for Mathematical Expression Recognition](https://www.semanticscholar.org/paper/ConvMath%3A-A-Convolutional-Sequence-Network-for-Yan-Zhang/7bd7c66be55ca10f9883be80be238fd3236b03a8#citing-papers)
-  + [wzlxjtu/PositionalEncoding2D](https://github.com/wzlxjtu/PositionalEncoding2D)
-  + [im2markup from Image-to-Markup Generation with Coarse-to-Fine Attention](https://github.com/harvardnlp/im2markup)
-  + [LaTeX-OCR pix2tex: Using a ViT to convert images of equations into LaTeX code.](https://github.com/lukas-blecher/LaTeX-OCR)
-  + [image-to-latex transformer](https://github.com/kingyiusuen/image-to-latex)
-  + [im2latex: Seq2Seq model with Attention + Beam Search for Image to LaTeX, similar to Show, Attend and Tell and Harvard's paper and dataset.](https://github.com/guillaumegenthial/im2latex)
-  + [im2latex: Pytorch implemention of Deep CNN Encoder + LSTM Decoder with Attention for Image to Latex](https://github.com/luopeixiang/im2latex)
-  + [math-formula-recognition WAP](https://github.com/jungomi/math-formula-recognition)
-  + **[Pytorch-Handwritten-Mathematical-Expression-Recognition WAP](https://github.com/whywhs/Pytorch-Handwritten-Mathematical-Expression-Recognition)**
-  + [BTTR: BiTransformer](https://github.com/Green-Wood/BTTR)
-  + [CAN]()
-  + [CoMer]()
-  + [Master-Ocr]()
-  + [Master-Table]()
-  + [文章]()
-    + [Seq2Seq for LaTeX generation](https://guillaumegenthial.github.io/image-to-latex.html)
-    + [基于Seq2Seq的公式识别引擎](https://zhuanlan.zhihu.com/p/183182208)
-  + 论文
-    + [Multi-Scale Attention with Dense Encoder for Handwritten Mathematical Expression Recognition](https://arxiv.org/pdf/1801.03530.pdf)
-    + [Watch, attend and parse: An end-to-end neural network based approach to handwritten mathematical expression recognition](http://staff.ustc.edu.cn/~jundu/Publications/publications/PR17-1.pdf)
-    + [MASTER: Multi-Aspect Non-local Network forScene Text Recognition](https://arxiv.org/pdf/1910.02562.pdf "master-ocr")
-    + [Handwritten Mathematical Expression Recognition with Bidirectionally Trained Transformer](https://arxiv.org/abs/2105.02412)
-    + [Recognizing handwritten mathematical expressions via paired dual loss attentionnetwork and printed mathematical expressions](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w34/Le_Recognizing_Handwritten_Mathematical_Expressions_via_Paired_Dual_Loss_Attention_Network_CVPRW_2020_paper.pdf '有点自监督的意思')
-    + [DenseWAP-TD](http://proceedings.mlr.press/v119/zhang20g/zhang20g.pdf)
-    + [Handwritten Mathematical Expression Recognition with Bidirectionally Trained Transformer](https://arxiv.org/abs/2105.02412)
+  - [RobustScanner: Dynamically Enhancing Positional Clues for Robust Text Recognition](https://arxiv.org/abs/2007.07542)
+  - [Translating Math Formula Images to LaTeX Sequences Using Deep Neural Networks with Sequence-level Training](https://arxiv.org/abs/1908.11415)
+  - [ConvMath: A Convolutional Sequence Network for Mathematical Expression Recognition](https://www.semanticscholar.org/paper/ConvMath%3A-A-Convolutional-Sequence-Network-for-Yan-Zhang/7bd7c66be55ca10f9883be80be238fd3236b03a8#citing-papers)
+  - [wzlxjtu/PositionalEncoding2D](https://github.com/wzlxjtu/PositionalEncoding2D)
+  - [im2markup from Image-to-Markup Generation with Coarse-to-Fine Attention](https://github.com/harvardnlp/im2markup)
+  - [LaTeX-OCR pix2tex: Using a ViT to convert images of equations into LaTeX code.](https://github.com/lukas-blecher/LaTeX-OCR)
+  - [image-to-latex transformer](https://github.com/kingyiusuen/image-to-latex)
+  - [im2latex: Seq2Seq model with Attention - Beam Search for Image to LaTeX, similar to Show, Attend and Tell and Harvard's paper and dataset.](https://github.com/guillaumegenthial/im2latex)
+  - [im2latex: Pytorch implemention of Deep CNN Encoder - LSTM Decoder with Attention for Image to Latex](https://github.com/luopeixiang/im2latex)
+  - [math-formula-recognition WAP](https://github.com/jungomi/math-formula-recognition)
+  - **[Pytorch-Handwritten-Mathematical-Expression-Recognition WAP](https://github.com/whywhs/Pytorch-Handwritten-Mathematical-Expression-Recognition)**
+  - [BTTR: BiTransformer](https://github.com/Green-Wood/BTTR)
+  - [CAN]()
+  - [CoMER]()
+  - [Master-Ocr]()
+  - [Master-Table]()
+  - [文章]()
+    - [Seq2Seq for LaTeX generation](https://guillaumegenthial.github.io/image-to-latex.html)
+    - [基于Seq2Seq的公式识别引擎](https://zhuanlan.zhihu.com/p/183182208)
+  - 论文
+    - [Multi-Scale Attention with Dense Encoder for Handwritten Mathematical Expression Recognition](https://arxiv.org/pdf/1801.03530.pdf)
+    - [Watch, attend and parse: An end-to-end neural network based approach to handwritten mathematical expression recognition](http://staff.ustc.edu.cn/~jundu/Publications/publications/PR17-1.pdf)
+    - [MASTER: Multi-Aspect Non-local Network forScene Text Recognition](https://arxiv.org/pdf/1910.02562.pdf "master-ocr")
+    - [Handwritten Mathematical Expression Recognition with Bidirectionally Trained Transformer](https://arxiv.org/abs/2105.02412)
+    - [Recognizing handwritten mathematical expressions via paired dual loss attentionnetwork and printed mathematical expressions](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w34/Le_Recognizing_Handwritten_Mathematical_Expressions_via_Paired_Dual_Loss_Attention_Network_CVPRW_2020_paper.pdf '有点自监督的意思')
+    - [DenseWAP-TD](http://proceedings.mlr.press/v119/zhang20g/zhang20g.pdf)
+    - [Handwritten Mathematical Expression Recognition with Bidirectionally Trained Transformer](https://arxiv.org/abs/2105.02412)
 ---
 ## 注意力机制
   - [gordicaleksa/pytorch-GAT 图注意力机制](https://github.com/gordicaleksa/pytorch-GAT)
@@ -56,7 +53,7 @@
   - [超神经](https://hyper.ai/datasets)
   - *[zenodo.org](https://zenodo.org/)*
   - 数据合成
-    + [最完美的数学公式转图片：纯Python实现，可设置字体、字号、颜色和分辨率](https://zhuanlan.zhihu.com/p/383951999)  
+    - [最完美的数学公式转图片：纯Python实现，可设置字体、字号、颜色和分辨率](https://zhuanlan.zhihu.com/p/383951999)  
   - OCR
     - [OCR_ICDAR_label_revise](https://github.com/zcswdt/OCR_ICDAR_label_revise)
     - [OCR Dataset 大全](https://github.com/WenmuZhou/OCR_DataSet)
@@ -69,106 +66,106 @@
     - [FMix](https://github.com/ecs-vlc/FMix)
     - [Mixup]()
 
-  + 常用数据集网站
-    + CHROME
-      + [CHROME](https://www.isical.ac.in/~crohme/index.html)
-      + [CHRAOME竞赛地址](http://www.iapr-tc11.org/mediawiki/index.php/CROHME:_Competition_on_Recognition_of_Online_Handwritten_Mathematical_Expressions)
+  - 常用数据集网站
+    - CHROME
+      - [CHROME](https://www.isical.ac.in/~crohme/index.html)
+      - [CHRAOME竞赛地址](http://www.iapr-tc11.org/mediawiki/index.php/CROHME:_Competition_on_Recognition_of_Online_Handwritten_Mathematical_Expressions)
       - [Datasets per Topic](http://tc11.cvc.uab.es/datasets/type/)
 
 ----
 ## 目标检测 
-  + [Pix2seq: A Language Modeling Framework for Object Detection 语言模型搭建检测](https://arxiv.org/abs/2109.10852)
-  + [DefTruth/lite.ai C++ 检测部署](https://github.com/DefTruth/lite.ai)
-  + [PeizeSun/OneNet](https://github.com/PeizeSun/OneNet)
-  + [Yolov5_DeepSort_Pytorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
-  + [文本检测]()
-    + [Yuliang-Liu/Box_Discretization_Network--BDN](https://github.com/Yuliang-Liu/Box_Discretization_Network)
-  + 表格检测
-    + [mdv3101/CDeCNet](https://github.com/mdv3101/CDeCNet)
-  + [ATSS 目标检测采样策略](https://github.com/sfzhang15/ATSS)
-  + [WeightedBoxesFusion 目标检测集成方法](https://github.com/ZFTurbo/Weighted-Boxes-Fusion)
-  + [SoftTeacher](https://github.com/microsoft/SoftTeacher)
-  + 单阶段
-    + [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX)
-    + [YOLOV5](https://github.com/ultralytics/yolov5)
-    + [TOOD](https://github.com/fcjian/TOOD)
-    + [nanodet](https://github.com/RangiLyu/nanodet)
-    + [Yolo-FastestV2](https://github.com/dog-qiuqiu/Yolo-FastestV2)
-    + [yolov5-rt-stack](https://github.com/zhiqwang/yolov5-rt-stack)
-  + 部署
-    + [YOLOv5_NCNN](https://github.com/cmdbug/YOLOv5_NCNN)
+  - [Pix2seq: A Language Modeling Framework for Object Detection 语言模型搭建检测](https://arxiv.org/abs/2109.10852)
+  - [DefTruth/lite.ai C+- 检测部署](https://github.com/DefTruth/lite.ai)
+  - [PeizeSun/OneNet](https://github.com/PeizeSun/OneNet)
+  - [Yolov5_DeepSort_Pytorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
+  - [文本检测]()
+    - [Yuliang-Liu/Box_Discretization_Network--BDN](https://github.com/Yuliang-Liu/Box_Discretization_Network)
+  - 表格检测
+    - [mdv3101/CDeCNet](https://github.com/mdv3101/CDeCNet)
+  - [ATSS 目标检测采样策略](https://github.com/sfzhang15/ATSS)
+  - [WeightedBoxesFusion 目标检测集成方法](https://github.com/ZFTurbo/Weighted-Boxes-Fusion)
+  - [SoftTeacher](https://github.com/microsoft/SoftTeacher)
+  - 单阶段
+    - [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX)
+    - [YOLOV5](https://github.com/ultralytics/yolov5)
+    - [TOOD](https://github.com/fcjian/TOOD)
+    - [nanodet](https://github.com/RangiLyu/nanodet)
+    - [Yolo-FastestV2](https://github.com/dog-qiuqiu/Yolo-FastestV2)
+    - [yolov5-rt-stack](https://github.com/zhiqwang/yolov5-rt-stack)
+  - 部署
+    - [YOLOv5_NCNN](https://github.com/cmdbug/YOLOv5_NCNN)
 
-  + 多方向
-    + [DOTA-DOAI 多方向检测](https://github.com/SJTU-Thinklab-Det/DOTA-DOAI)
-    + [OBBDetection](https://github.com/jbwang1997/OBBDetection)
-    + [YOLOv5_DOTA_OBB](https://github.com/hukaixuan19970627/YOLOv5_DOTA_OBB)
-  + 目标跟踪
-    + [Yolov5_DeepSort_Pytorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
+  - 多方向
+    - [DOTA-DOAI 多方向检测](https://github.com/SJTU-Thinklab-Det/DOTA-DOAI)
+    - [OBBDetection](https://github.com/jbwang1997/OBBDetection)
+    - [YOLOv5_DOTA_OBB](https://github.com/hukaixuan19970627/YOLOv5_DOTA_OBB)
+  - 目标跟踪
+    - [Yolov5_DeepSort_Pytorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
 ---
 ### 文本检测方法
-+ [基于概率分布图的任意形状文本实例分割和检测方法（有源码](https://mp.weixin.qq.com/s/Z58PSrd7S6tix4KUItItEA)
-+ [[CVPR2022] 端到端的场景文字检测与版面分析统一框架](https://mp.weixin.qq.com/s/B5uR-OKp6JGM-Ruy5if7iw)
-+ [[CVPR 2022] 特征采样与分组：基于Transformer的场景文字检测方法](https://mp.weixin.qq.com/s/Wgq-kOwLyT0Q-8p-_GEVEA)
-+ [滑铁卢大学：使用transformer的任意形状文本检测](https://wx.zsxq.com/mweb/views/topicdetail/topicdetail.html?topic_id=818242445818122&group_id=142181451122&inviter_id=28514284588581)
-+ [ATSS](https://github.com/sfzhang15/ATSS)
+- [基于概率分布图的任意形状文本实例分割和检测方法（有源码](https://mp.weixin.qq.com/s/Z58PSrd7S6tix4KUItItEA)
+- [[CVPR2022] 端到端的场景文字检测与版面分析统一框架](https://mp.weixin.qq.com/s/B5uR-OKp6JGM-Ruy5if7iw)
+- [[CVPR 2022] 特征采样与分组：基于Transformer的场景文字检测方法](https://mp.weixin.qq.com/s/Wgq-kOwLyT0Q-8p-_GEVEA)
+- [滑铁卢大学：使用transformer的任意形状文本检测](https://wx.zsxq.com/mweb/views/topicdetail/topicdetail.html?topic_id=818242445818122&group_id=142181451122&inviter_id=28514284588581)
+- [ATSS](https://github.com/sfzhang15/ATSS)
 ### 检测集成策略
-+ [目标检测评价指标详解](https://mp.weixin.qq.com/s/76ZtQMbrknNEMkuAvxcmkw)
-+ [Weighted boxes fusion](https://github.com/ZFTurbo/Weighted-Boxes-Fusion)
-+ [涨点神器！南航提出AFF：注意力特征融合，即插即用！可用于分类、检测和分割等](https://mp.weixin.qq.com/s/MYo7pEPyv0LPuSm0ZfV7AQ)
-+ [在目标检测被“遗忘”领域进行探索后，百度开源最新力作UMOP：即插即用、无痛涨点](https://mp.weixin.qq.com/s/tegyM9pdPi__k-COrBts1g)
-+ [竞赛经验｜Kaggle竞赛中使用YoloV5将物体检测的性能翻倍的心路历程](https://mp.weixin.qq.com/s/Lccn8o6thVr4NEfZbSDMJw)
-+ [涨点神器！SIoU：目标检测的新损失函数，提高准确性和训练速度！](https://mp.weixin.qq.com/s/GccVlESY8hql779eMZnxww)
-+ [目标检测正负样本区分策略和平衡策略总结](https://mp.weixin.qq.com/s/A9Fa602lKbKwvP8VCtrV2w)
-+ [ashi|小目标Trick | Detectron2、MMDetection、YOLOv5都通用的小目标检测解决方案](https://mp.weixin.qq.com/s/3jP-HPVevAjuU-XSopdy9A)
-+ [EDA: Exploratory Data Analysis]()
-+ [TTA]()
-+ [softmax-nms]()
-+ [OHEM]()
-+ [SWA]()
-+ [RoIAlign]()
-+ [多尺度训练、推理]()
-+ [根据batchsize的大小适当调整bn的类型]()
-+ [目标检测比赛提高mAP的方法](https://www.cnblogs.com/zi-wang/p/12537034.html)
-+ [弯曲文本检测策略]()
+- [目标检测评价指标详解](https://mp.weixin.qq.com/s/76ZtQMbrknNEMkuAvxcmkw)
+- [Weighted boxes fusion](https://github.com/ZFTurbo/Weighted-Boxes-Fusion)
+- [涨点神器！南航提出AFF：注意力特征融合，即插即用！可用于分类、检测和分割等](https://mp.weixin.qq.com/s/MYo7pEPyv0LPuSm0ZfV7AQ)
+- [在目标检测被“遗忘”领域进行探索后，百度开源最新力作UMOP：即插即用、无痛涨点](https://mp.weixin.qq.com/s/tegyM9pdPi__k-COrBts1g)
+- [竞赛经验｜Kaggle竞赛中使用YoloV5将物体检测的性能翻倍的心路历程](https://mp.weixin.qq.com/s/Lccn8o6thVr4NEfZbSDMJw)
+- [涨点神器！SIoU：目标检测的新损失函数，提高准确性和训练速度！](https://mp.weixin.qq.com/s/GccVlESY8hql779eMZnxww)
+- [目标检测正负样本区分策略和平衡策略总结](https://mp.weixin.qq.com/s/A9Fa602lKbKwvP8VCtrV2w)
+- [ashi|小目标Trick | Detectron2、MMDetection、YOLOv5都通用的小目标检测解决方案](https://mp.weixin.qq.com/s/3jP-HPVevAjuU-XSopdy9A)
+- [EDA: Exploratory Data Analysis]()
+- [TTA]()
+- [softmax-nms]()
+- [OHEM]()
+- [SWA]()
+- [RoIAlign]()
+- [多尺度训练、推理]()
+- [根据batchsize的大小适当调整bn的类型]()
+- [目标检测比赛提高mAP的方法](https://www.cnblogs.com/zi-wang/p/12537034.html)
+- [弯曲文本检测策略]()
 ### 文本加测数据集
-+ [hiertext](https://github.com/google-research-datasets/hiertext)
-+ icdar
-+ ctw
-+ total text
-+ openimage
-+ cocotext
+- [hiertext](https://github.com/google-research-datasets/hiertext)
+- icdar
+- ctw
+- total text
+- openimage
+- cocotext
 ---
 ## 语义分割(暂停)
   - [Fast-SCNN-pytorch](https://github.com/Tramac/Fast-SCNN-pytorch)
 ---
 ## MarkDown
-  + [MarkDown-常用操作](https://x-pp.github.io/2019/04/18/markdown%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/)
-  + [拓展](https://blog.csdn.net/m0_37925202/article/details/80461714)
-  + [Markdown快速入门](https://sspai.com/post/45816)
+  - [MarkDown-常用操作](https://x-pp.github.io/2019/04/18/markdown%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/)
+  - [拓展](https://blog.csdn.net/m0_37925202/article/details/80461714)
+  - [Markdown快速入门](https://sspai.com/post/45816)
 ---
 
 ## trick 大全
-  + 数据增广
-  + 梯度正则
-  + 学习率调整方法
-  + 权重正则
-  + 多卡训练
-  + 注意力机制
-  + 激活函数
-  + Center Loss
-  + [SWA](https://github.com/timgaripov/swa)
-    + [PyTorch 1.6 now includes Stochastic Weight Averaging](https://pytorch.org/blog/pytorch-1.6-now-includes-stochastic-weight-averaging/)
-    + [SWALR](https://arxiv.org/abs/1803.05407)
-  + 自集成(swa)/自蒸馏(self-distillation)
-  + [Test Time Augmentation（TTA）]('对数据增广后进行预测')
-  + [Ensemble-Pytorch](https://github.com/TorchEnsemble-Community/Ensemble-Pytorch)
-  + [MEAL-V2 KL散度以及对抗损失](https://github.com/szq0214/MEAL-V2)
-  + 数据平衡
-    + [如何处理非平衡数据](https://www.junjianli.cn/2019/12/26/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E9%9D%9E%E5%B9%B3%E8%A1%A1%E6%95%B0%E6%8D%AE/)
-    + [Pytorch不均衡数据集采样器](https://zhuanlan.zhihu.com/p/391830097)
+  - 数据增广
+  - 梯度正则
+  - 学习率调整方法
+  - 权重正则
+  - 多卡训练
+  - 注意力机制
+  - 激活函数
+  - Center Loss
+  - [SWA](https://github.com/timgaripov/swa)
+    - [PyTorch 1.6 now includes Stochastic Weight Averaging](https://pytorch.org/blog/pytorch-1.6-now-includes-stochastic-weight-averaging/)
+    - [SWALR](https://arxiv.org/abs/1803.05407)
+  - 自集成(swa)/自蒸馏(self-distillation)
+  - [Test Time Augmentation（TTA）]('对数据增广后进行预测')
+  - [Ensemble-Pytorch](https://github.com/TorchEnsemble-Community/Ensemble-Pytorch)
+  - [MEAL-V2 KL散度以及对抗损失](https://github.com/szq0214/MEAL-V2)
+  - 数据平衡
+    - [如何处理非平衡数据](https://www.junjianli.cn/2019/12/26/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E9%9D%9E%E5%B9%B3%E8%A1%A1%E6%95%B0%E6%8D%AE/)
+    - [Pytorch不均衡数据集采样器](https://zhuanlan.zhihu.com/p/391830097)
 ---
 ## 冠军解决方案
-  + [ICDAR2021-公式检测](https://github.com/Yuxiang1995/ICDAR2021_MFD)
+  - [ICDAR2021-公式检测](https://github.com/Yuxiang1995/ICDAR2021_MFD)
 ---
 ---
 ## TODO
@@ -186,12 +183,12 @@
   - [x] [度量学习]()
   - [x] 阅读[Focal CTC Loss](https://downloads.hindawi.com/journals/complexity/2019/9345861.pdf)
   - [x] Center Loss
-    + Code
+    - Code
       - [pytorch-center-loss](https://github.com/KaiyangZhou/pytorch-center-loss)
       - [crnn-ctc-centerloss](https://github.com/tommyMessi/crnn_ctc-centerloss)
-    + 论文
-      + [Center-Loss](https://ydwen.github.io/papers/WenECCV16.pdf)
-    + 文章
+    - 论文
+      - [Center-Loss](https://ydwen.github.io/papers/WenECCV16.pdf)
+    - 文章
       - [辅助理解 1](https://blog.csdn.net/fxwfxw7037681/article/details/114440117)
       - [辅助理解 2](https://blog.csdn.net/jacke121/article/details/90480434?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-2.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-2.control)
   - [ ] [图像处理](https://legacy.imagemagick.org/Usage/distorts/#shepards?tdsourcetag=s_pcqq_aiomsg)
@@ -199,133 +196,134 @@
 
 ----
 ## Other
-  + [PeterL1n/RobustVideoMatting 字节跳动的实时视频绿幕](https://github.com/PeterL1n/RobustVideoMatting)
-  + [虚拟试衣 virtual_try_on_use_deep_learning](https://github.com/hpc203/virtual_try_on_use_deep_learning)
-  + [行人识重 deep-person-reid](https://github.com/KaiyangZhou/deep-person-reid "using pytorch-center-loss")
-  + [DexiNed 边缘检测](https://github.com/xavysp/DexiNed)
-  + [Screenshot-to-code Image-to-html](https://github.com/emilwallner/Screenshot-to-code)
-  + 语音
-    + [Realtime-Voice-Clone-Chinese](https://github.com/babysor/Realtime-Voice-Clone-Chinese)
-    + [espnet 包含语音大部分功能](https://github.com/espnet/espnet)
-  + [LearningToCountEverything](https://github.com/cvlab-stonybrook/LearningToCountEverything)
-  + [skelnet 基于Unet的骨架识别](https://github.com/roatienza/skelnet)
-  + [pytorch-tools](https://github.com/bonlime/pytorch-tools)
-  + [soho Seeing Out of tHe bOx: End-to-End Pre-training for Vision-Language Representation Learning](https://github.com/researchmm/soho)
+  - [PeterL1n/RobustVideoMatting 字节跳动的实时视频绿幕](https://github.com/PeterL1n/RobustVideoMatting)
+  - [虚拟试衣 virtual_try_on_use_deep_learning](https://github.com/hpc203/virtual_try_on_use_deep_learning)
+  - [行人识重 deep-person-reid](https://github.com/KaiyangZhou/deep-person-reid "using pytorch-center-loss")
+  - [DexiNed 边缘检测](https://github.com/xavysp/DexiNed)
+  - [Screenshot-to-code Image-to-html](https://github.com/emilwallner/Screenshot-to-code)
+  - 语音
+    - [Realtime-Voice-Clone-Chinese](https://github.com/babysor/Realtime-Voice-Clone-Chinese)
+    - [espnet 包含语音大部分功能](https://github.com/espnet/espnet)
+  - [LearningToCountEverything](https://github.com/cvlab-stonybrook/LearningToCountEverything)
+  - [skelnet 基于Unet的骨架识别](https://github.com/roatienza/skelnet)
+  - [pytorch-tools](https://github.com/bonlime/pytorch-tools)
+  - [soho Seeing Out of tHe bOx: End-to-End Pre-training for Vision-Language Representation Learning](https://github.com/researchmm/soho)
   - [PeterL1n/RobustVideoMatting](https://github.com/PeterL1n/RobustVideoMatting)
-  + [pillow-simd pillow加速](https://github.com/uploadcare/pillow-simd)
-  + [pytracking](https://github.com/visionml/pytracking)
+  - [pillow-simd pillow加速](https://github.com/uploadcare/pillow-simd)
+  - [pytracking](https://github.com/visionml/pytracking)
 
 ----
 
 ## Pytorch
-  + [ritchieng/the-incredible-pytorch 教程](https://github.com/ritchieng/the-incredible-pytorch)
-  + 长尾问题
-    + [vandit15/Class-balanced-loss-pytorch](https://github.com/vandit15/Class-balanced-loss-pytorch)
-  + [facebookresearch/FixRes trick](https://github.com/facebookresearch/FixRes)
-  + [imankgoyal/NonDeepNetworks ParNet](https://github.com/imankgoyal/NonDeepNetworks)
+  - Pytorch的一些基本操作
+  - [ritchieng/the-incredible-pytorch 教程](https://github.com/ritchieng/the-incredible-pytorch)
+  - 长尾问题
+    - [vandit15/Class-balanced-loss-pytorch](https://github.com/vandit15/Class-balanced-loss-pytorch)
+  - [facebookresearch/FixRes trick](https://github.com/facebookresearch/FixRes)
+  - [imankgoyal/NonDeepNetworks ParNet](https://github.com/imankgoyal/NonDeepNetworks)
 
-  + [assafshocher/ResizeRight](https://github.com/assafshocher/ResizeRight)
-  + [kornia/kornia](https://github.com/kornia/kornia)
-  + [Learning to Resize Images for Computer Vision Tasks](https://arxiv.org/abs/2103.09950)
-  + [pytorch/libtorch](https://github.com/pytorch/pytorch/blob/master/docs/libtorch.rst)
-  + [pytorch/examples](https://github.com/pytorch/examples)
-  + [pytorch-optimizer](https://github.com/jettify/pytorch-optimizer)
-  + [victoresque/pytorch-template](https://github.com/victoresque/pytorch-template)
-  + [pytorch-metric-learning](https://github.com/KevinMusgrave/pytorch-metric-learning) 
-  + [自定义操作torch.autograd.Function](https://zhuanlan.zhihu.com/p/344802526)
-  + [pytorch-loss](https://github.com/CoinCheung/pytorch-loss)
-  + BatchNorm 很重要，也很有效
-    + [Training BatchNorm and Only BatchNorm: On the Expressive Power of Random Features in CNNs](https://arxiv.org/abs/2003.00152)
-  + 模型加速
-    + [tczhangzhi/pytorch-distributed 分布式demo](https://github.com/tczhangzhi/pytorch-distributed)
-    + [contiguous_pytorch_params](https://github.com/PhilJd/contiguous_pytorch_params)
-    + [DDP]()
-    + [Pytorch amp/apex](https://pytorch.org/blog/accelerating-training-on-nvidia-gpus-with-pytorch-automatic-mixed-precision/)
-      + [多精度训练教程 非官网](https://mp.weixin.qq.com/s/HKWsM6iDNCmDsu7aDeDwbw)
-    + [fairscale](https://github.com/facebookresearch/fairscale)
-    + [Pytorch MP](https://discuss.pytorch.org/t/return-from-mp-spawn/94302/2)
-  + 无监督
-    + [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch '半监督')
-    + [Dino]('无监督')
-  + Pytorch 入门
-    + [code-of-learn-deep-learning-with-pytorch](https://github.com/L1aoXingyu/code-of-learn-deep-learning-with-pytorch)
-    + [PyTorch-Tutorial 莫烦](https://github.com/MorvanZhou/PyTorch-Tutorial)
-  + [KL散度理解以及使用pytorch计算KL散度](https://zhuanlan.zhihu.com/p/339613080)
-  + [AutoClip: Adaptive Gradient Clipping](https://github.com/pseeth/autoclip)
-  + [timm](https://github.com/rwightman/pytorch-image-models)
-  + [Test Time Augmentation（TTA）]('对数据增广后进行预测')
-  + [Ensemble-Pytorch](https://github.com/TorchEnsemble-Community/Ensemble-Pytorch)
-  + [MEAL-V2 KL散度以及对抗损失](https://github.com/szq0214/MEAL-V2)
-  + 数据平衡
-    + [如何处理非平衡数据](https://www.junjianli.cn/2019/12/26/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E9%9D%9E%E5%B9%B3%E8%A1%A1%E6%95%B0%E6%8D%AE/)
-    + [Pytorch不均衡数据集采样器](https://zhuanlan.zhihu.com/p/391830097)
-    + [imbalanced-dataset-sampler](https://github.com/ufoym/imbalanced-dataset-sampler)
-    + [Class-balanced-loss-pytorch](https://github.com/vandit15/Class-balanced-loss-pytorch)
-  + CNN
-    + [DiverseBranchBlock](https://github.com/DingXiaoH/DiverseBranchBlock 'Diverse Branch Block: Building a Convolution as an Inception-like Unit')
-  + [lightly 弱监督](https://github.com/lightly-ai/lightly)
+  - [assafshocher/ResizeRight](https://github.com/assafshocher/ResizeRight)
+  - [kornia/kornia](https://github.com/kornia/kornia)
+  - [Learning to Resize Images for Computer Vision Tasks](https://arxiv.org/abs/2103.09950)
+  - [pytorch/libtorch](https://github.com/pytorch/pytorch/blob/master/docs/libtorch.rst)
+  - [pytorch/examples](https://github.com/pytorch/examples)
+  - [pytorch-optimizer](https://github.com/jettify/pytorch-optimizer)
+  - [victoresque/pytorch-template](https://github.com/victoresque/pytorch-template)
+  - [pytorch-metric-learning](https://github.com/KevinMusgrave/pytorch-metric-learning) 
+  - [自定义操作torch.autograd.Function](https://zhuanlan.zhihu.com/p/344802526)
+  - [pytorch-loss](https://github.com/CoinCheung/pytorch-loss)
+  - BatchNorm 很重要，也很有效
+    - [Training BatchNorm and Only BatchNorm: On the Expressive Power of Random Features in CNNs](https://arxiv.org/abs/2003.00152)
+  - 模型加速
+    - [tczhangzhi/pytorch-distributed 分布式demo](https://github.com/tczhangzhi/pytorch-distributed)
+    - [contiguous_pytorch_params](https://github.com/PhilJd/contiguous_pytorch_params)
+    - [DDP]()
+    - [Pytorch amp/apex](https://pytorch.org/blog/accelerating-training-on-nvidia-gpus-with-pytorch-automatic-mixed-precision/)
+      - [多精度训练教程 非官网](https://mp.weixin.qq.com/s/HKWsM6iDNCmDsu7aDeDwbw)
+    - [fairscale](https://github.com/facebookresearch/fairscale)
+    - [Pytorch MP](https://discuss.pytorch.org/t/return-from-mp-spawn/94302/2)
+  - 无监督
+    - [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch '半监督')
+    - [Dino]('无监督')
+  - Pytorch 入门
+    - [code-of-learn-deep-learning-with-pytorch](https://github.com/L1aoXingyu/code-of-learn-deep-learning-with-pytorch)
+    - [PyTorch-Tutorial 莫烦](https://github.com/MorvanZhou/PyTorch-Tutorial)
+  - [KL散度理解以及使用pytorch计算KL散度](https://zhuanlan.zhihu.com/p/339613080)
+  - [AutoClip: Adaptive Gradient Clipping](https://github.com/pseeth/autoclip)
+  - [timm](https://github.com/rwightman/pytorch-image-models)
+  - [Test Time Augmentation（TTA）]('对数据增广后进行预测')
+  - [Ensemble-Pytorch](https://github.com/TorchEnsemble-Community/Ensemble-Pytorch)
+  - [MEAL-V2 KL散度以及对抗损失](https://github.com/szq0214/MEAL-V2)
+  - 数据平衡
+    - [如何处理非平衡数据](https://www.junjianli.cn/2019/12/26/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E9%9D%9E%E5%B9%B3%E8%A1%A1%E6%95%B0%E6%8D%AE/)
+    - [Pytorch不均衡数据集采样器](https://zhuanlan.zhihu.com/p/391830097)
+    - [imbalanced-dataset-sampler](https://github.com/ufoym/imbalanced-dataset-sampler)
+    - [Class-balanced-loss-pytorch](https://github.com/vandit15/Class-balanced-loss-pytorch)
+  - CNN
+    - [DiverseBranchBlock](https://github.com/DingXiaoH/DiverseBranchBlock 'Diverse Branch Block: Building a Convolution as an Inception-like Unit')
+  - [lightly 弱监督](https://github.com/lightly-ai/lightly)
 
-  + [mit-han-lab/once-for-all](https://github.com/mit-han-lab/once-for-all)
-  + [IntelLabs/distiller](https://github.com/IntelLabs/distiller)
+  - [mit-han-lab/once-for-all](https://github.com/mit-han-lab/once-for-all)
+  - [IntelLabs/distiller](https://github.com/IntelLabs/distiller)
 
 ---
 
 ## 高效工具
-  + [fanux/sealos k8s快速部署](https://github.com/fanux/sealos)
-  + [命令行代理](profile)
-  + vscode ssh配置文件设置代理 
-    + [使用代理连接 ssh](https://xjay.net/201906/ssh-with-proxy/)
-    + [vscode 通过代理连接远程服务器（win10）](https://zhuanlan.zhihu.com/p/337897010)
-    + [VSCode Remote ssh跳板机配置（windows平台](https://zhuanlan.zhihu.com/p/103578899?hmsr=toutiao.io)
-  + Ray
-  + wandb
-  + Time
-  + MarkDown
-  + gpustat
-  + lsof -i:port 查看端口使用情况
-  + Git
+  - [fanux/sealos k8s快速部署](https://github.com/fanux/sealos)
+  - [命令行代理](profile)
+  - vscode ssh配置文件设置代理 
+    - [使用代理连接 ssh](https://xjay.net/201906/ssh-with-proxy/)
+    - [vscode 通过代理连接远程服务器（win10）](https://zhuanlan.zhihu.com/p/337897010)
+    - [VSCode Remote ssh跳板机配置（windows平台](https://zhuanlan.zhihu.com/p/103578899?hmsr=toutiao.io)
+  - Ray
+  - wandb
+  - Time
+  - MarkDown
+  - gpustat
+  - lsof -i:port 查看端口使用情况
+  - Git
     - [commit之后，想撤销commit](https://blog.csdn.net/w958796636/article/details/53611133)
       - git checkout
       - git reset [--mixed [--soft [--hard ]]]
       - git stash
       - git stage
     - ![img](WX20220113-172147@2x.png)
-  + [torchtracer：一个管理 PyTorch AI 实验项目的工具](https://oidiotlin.com/torchtracer/)
-  + [overleaf latex](https://www.overleaf.com/project)
-  + 命令行工具
-    + bash
-    + zsh
-    + starship
-    + fzf
-    + tmux
-    + screen
-    + hyper
-    + tabby
-    + iTerm2
-    + Vim
-      + [Vim 菜鸟](https://www.runoob.com/linux/linux-vim.html)
-      + [Vim 入门](https://github.com/wsdjeg/vim-galore-zh_cn)
-      + [Vim 插件](https://zhuanlan.zhihu.com/p/139847548)
-  + 深度学习/环境配置
-    + [lambda-stack-deep-learning-software](https://lambdalabs.com/lambda-stack-deep-learning-software)
-    + [ufoym/deepo](https://github.com/ufoym/deepo)
-    + [Installing CUDA 10.2, CuDNN 7.6.5, TensorRT 7.0, Ubuntu 18.04](https://gist.github.com/tzvsi/222b3b22a847004a729744f89fe31255)
-  + [炼丹神器｜端到端的机器学习和模型管理工具PyCaret](https://mp.weixin.qq.com/s/zCKD1FxgR6Z-3Qjd4cWXFQ)
+  - [torchtracer：一个管理 PyTorch AI 实验项目的工具](https://oidiotlin.com/torchtracer/)
+  - [overleaf latex](https://www.overleaf.com/project)
+  - 命令行工具
+    - bash
+    - zsh
+    - starship
+    - fzf
+    - tmux
+    - screen
+    - hyper
+    - tabby
+    - iTerm2
+    - Vim
+      - [Vim 菜鸟](https://www.runoob.com/linux/linux-vim.html)
+      - [Vim 入门](https://github.com/wsdjeg/vim-galore-zh_cn)
+      - [Vim 插件](https://zhuanlan.zhihu.com/p/139847548)
+  - 深度学习/环境配置
+    - [lambda-stack-deep-learning-software](https://lambdalabs.com/lambda-stack-deep-learning-software)
+    - [ufoym/deepo](https://github.com/ufoym/deepo)
+    - [Installing CUDA 10.2, CuDNN 7.6.5, TensorRT 7.0, Ubuntu 18.04](https://gist.github.com/tzvsi/222b3b22a847004a729744f89fe31255)
+  - [炼丹神器｜端到端的机器学习和模型管理工具PyCaret](https://mp.weixin.qq.com/s/zCKD1FxgR6Z-3Qjd4cWXFQ)
 
-  + 穿透
-    + frp
-    + cploar
-    + ssh
-    + zerotier
-    + clash
-  + Win
-    + win 自启动目录 shell:startup
-  +  自建云盘
+  - 穿透
+    - frp
+    - cploar
+    - ssh
+    - zerotier
+    - clash
+  - Win
+    - win 自启动目录 shell:startup
+  -  自建云盘
      - [自建云盘教程](https://zhuanlan.zhihu.com/p/44103820)
      - [win 局域网共享](https://zhuanlan.zhihu.com/p/83983289)
      - [smb://]()
      - [nextcloud](https://github.com/nextcloud/server)
-  + Github
+  - Github
     - [fastgit](hub.fastgit.org)
     - Github520
     - [github1s](https://github.com/conwnet/github1s)
@@ -336,10 +334,10 @@
     - [catalyzex](https://www.catalyzex.com/)
   - brave
   - 代理
-    + switch-hosts
-    + SwitchyOmega
+    - switch-hosts
+    - SwitchyOmega
   - GPU主机市场
-    + [深度学习/云计算 - 【学生党】【GPU】16个云服务器资源大汇总](https://blog.csdn.net/weixin_42815609/article/details/106721934)
+    - [深度学习/云计算 - 【学生党】【GPU】16个云服务器资源大汇总](https://blog.csdn.net/weixin_42815609/article/details/106721934)
   - vscode
     - [VSCode查找和替换正则表达式转义字符整理](https://www.huliujia.com/blog/a2c7dc8ec28aa650df1ff43c580785decdeba8bc/)
     - [code-server](https://github.com/cdr/code-server)
@@ -481,14 +479,14 @@
   - help
     - [code example](https://www.programcreek.com/python/)
   - 格式处理相关
-    + pprint
-    + rich
-    + [python-tabulate](https://github.com/astanin/python-tabulate)
-    + [prettytable]()
-    + [Typer]()
-    + [click]()
-    + [args]()
-    + [icecream]()
+    - pprint
+    - rich
+    - [python-tabulate](https://github.com/astanin/python-tabulate)
+    - [prettytable]()
+    - [Typer]()
+    - [click]()
+    - [args]()
+    - [icecream]()
   - 常用内置函数
     - int
     - bin
@@ -497,24 +495,24 @@
     - ord
     - chr
   - 字符串处理相关
-    + unicodedata
-    + string
-    + string.translate
-    + re
-    + Flashtext
-    + [\u4e00-\u9fa5]
+    - unicodedata
+    - string
+    - string.translate
+    - re
+    - Flashtext
+    - [\u4e00-\u9fa5]
   - 占用内存的分析
-    + torch 
-      + tensor.storage()
-    + numpy
-      + ndarray.nbytes
-    + python 对象
-      + sys.getsizeof()
+    - torch 
+      - tensor.storage()
+    - numpy
+      - ndarray.nbytes
+    - python 对象
+      - sys.getsizeof()
   - python 持久化
-    + pickle
-    + torch.save
+    - pickle
+    - torch.save
   - 常用的数据存储数据库
-    + lmdb
+    - lmdb
   - 采样
     - random
       - choice
@@ -578,7 +576,7 @@
       - [server](https://github.com/triton-inference-server/server)
   - [Flask+Gunicorn+Nginx]()
   - [Savior](https://github.com/novioleo/Savior)
-  - [async-ml-inference FastAPI + Celery](https://github.com/FerrariDG/async-ml-inference)
+  - [async-ml-inference FastAPI - Celery](https://github.com/FerrariDG/async-ml-inference)
   - [SDBI(Simple Dynamic Batching Inference)](https://github.com/YellowOldOdd/SDBI)
   - [Flask 应用如何部署](https://www.cnblogs.com/hellohorld/p/10033720.html)
   - [fastapi](https://github.com/tiangolo/fastapi)
@@ -611,7 +609,7 @@
   - [faiss]()
 ---
 ## 强化学习
- + [wangshusen/DRL](https://github.com/wangshusen/DRL)
+ - [wangshusen/DRL](https://github.com/wangshusen/DRL)
 
 ---
 ## 教程/学习
@@ -689,3 +687,8 @@
   - 
 ---
 ## Fighting
+- [【腾讯文档】技术整理](https://docs.qq.com/doc/DQ2xVdXl5a0t6cVlB)
+- [【腾讯文档】算法整理
+](https://docs.qq.com/doc/DQ2d5bXFETU1HbkdL)
+- [【腾讯文档】待办事项](
+https://docs.qq.com/doc/DQ2d2Y0hTTXZ0S25y)

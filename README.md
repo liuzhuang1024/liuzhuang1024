@@ -51,7 +51,7 @@
 ## DataSet
   - [graviti](https://gas.graviti.cn/open-datasets)
   - [超神经](https://hyper.ai/datasets)
-  - *[zenodo.org](https://zenodo.org/)*
+  - [zenodo.org](https://zenodo.org/)
   - 数据合成
     - [最完美的数学公式转图片：纯Python实现，可设置字体、字号、颜色和分辨率](https://zhuanlan.zhihu.com/p/383951999)  
   - OCR
@@ -221,7 +221,6 @@
     - [vandit15/Class-balanced-loss-pytorch](https://github.com/vandit15/Class-balanced-loss-pytorch)
   - [facebookresearch/FixRes trick](https://github.com/facebookresearch/FixRes)
   - [imankgoyal/NonDeepNetworks ParNet](https://github.com/imankgoyal/NonDeepNetworks)
-
   - [assafshocher/ResizeRight](https://github.com/assafshocher/ResizeRight)
   - [kornia/kornia](https://github.com/kornia/kornia)
   - [Learning to Resize Images for Computer Vision Tasks](https://arxiv.org/abs/2103.09950)
@@ -287,7 +286,7 @@
       - git reset [--mixed [--soft [--hard ]]]
       - git stash
       - git stage
-    - ![img](WX20220113-172147@2x.png)
+    - ![img](images/WX20220113-172147@2x.png)
   - [torchtracer：一个管理 PyTorch AI 实验项目的工具](https://oidiotlin.com/torchtracer/)
   - [overleaf latex](https://www.overleaf.com/project)
   - 命令行工具
@@ -665,11 +664,13 @@
     - 星门
     - 一念永恒
     - 少年歌行
+  - 漫画
+    - 妖怪名单
+    - 传武
+    - 大神仙
   - 公众号
     - 量子位
-    - Cver
     - 52CV
-    - 极市
   - 常用网站
     - Github
     - 知乎
@@ -685,7 +686,15 @@
 ### 项目
   - ssss
   - 
----
+### 竞赛
+  - CVPR2022 UG2+ 赛道三 冠军
+  - 科大讯飞 多学科公式识别 冠军
+  - TIE2022 端到端 第六
+
+### 论文复现
+  - sss
+### 开源项目
+  - sss
 ## Fighting
 - [【腾讯文档】技术整理](https://docs.qq.com/doc/DQ2xVdXl5a0t6cVlB)
 - [【腾讯文档】算法整理

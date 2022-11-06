@@ -95,7 +95,6 @@
     - [yolov5-rt-stack](https://github.com/zhiqwang/yolov5-rt-stack)
   - 部署
     - [YOLOv5_NCNN](https://github.com/cmdbug/YOLOv5_NCNN)
-
   - 多方向
     - [DOTA-DOAI 多方向检测](https://github.com/SJTU-Thinklab-Det/DOTA-DOAI)
     - [OBBDetection](https://github.com/jbwang1997/OBBDetection)
@@ -103,13 +102,13 @@
   - 目标跟踪
     - [Yolov5_DeepSort_Pytorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
 ---
-### 文本检测方法
+## 文本检测方法
 - [基于概率分布图的任意形状文本实例分割和检测方法（有源码](https://mp.weixin.qq.com/s/Z58PSrd7S6tix4KUItItEA)
 - [[CVPR2022] 端到端的场景文字检测与版面分析统一框架](https://mp.weixin.qq.com/s/B5uR-OKp6JGM-Ruy5if7iw)
 - [[CVPR 2022] 特征采样与分组：基于Transformer的场景文字检测方法](https://mp.weixin.qq.com/s/Wgq-kOwLyT0Q-8p-_GEVEA)
 - [滑铁卢大学：使用transformer的任意形状文本检测](https://wx.zsxq.com/mweb/views/topicdetail/topicdetail.html?topic_id=818242445818122&group_id=142181451122&inviter_id=28514284588581)
 - [ATSS](https://github.com/sfzhang15/ATSS)
-### 检测集成策略
+## 检测集成策略
 - [目标检测评价指标详解](https://mp.weixin.qq.com/s/76ZtQMbrknNEMkuAvxcmkw)
 - [Weighted boxes fusion](https://github.com/ZFTurbo/Weighted-Boxes-Fusion)
 - [涨点神器！南航提出AFF：注意力特征融合，即插即用！可用于分类、检测和分割等](https://mp.weixin.qq.com/s/MYo7pEPyv0LPuSm0ZfV7AQ)
@@ -128,7 +127,7 @@
 - [根据batchsize的大小适当调整bn的类型]()
 - [目标检测比赛提高mAP的方法](https://www.cnblogs.com/zi-wang/p/12537034.html)
 - [弯曲文本检测策略]()
-### 文本加测数据集
+## 文本加测数据集
 - [hiertext](https://github.com/google-research-datasets/hiertext)
 - icdar
 - ctw
@@ -193,54 +192,54 @@
 ----
 
 ## Pytorch
-  - Pytorch的一些基本操作
-  - [ritchieng/the-incredible-pytorch 教程](https://github.com/ritchieng/the-incredible-pytorch)
-  - 长尾问题
-    - [vandit15/Class-balanced-loss-pytorch](https://github.com/vandit15/Class-balanced-loss-pytorch)
-  - [facebookresearch/FixRes trick](https://github.com/facebookresearch/FixRes)
-  - [imankgoyal/NonDeepNetworks ParNet](https://github.com/imankgoyal/NonDeepNetworks)
-  - [assafshocher/ResizeRight](https://github.com/assafshocher/ResizeRight)
-  - [kornia/kornia](https://github.com/kornia/kornia)
-  - [Learning to Resize Images for Computer Vision Tasks](https://arxiv.org/abs/2103.09950)
-  - [pytorch/libtorch](https://github.com/pytorch/pytorch/blob/master/docs/libtorch.rst)
-  - [pytorch/examples](https://github.com/pytorch/examples)
-  - [pytorch-optimizer](https://github.com/jettify/pytorch-optimizer)
-  - [victoresque/pytorch-template](https://github.com/victoresque/pytorch-template)
-  - [pytorch-metric-learning](https://github.com/KevinMusgrave/pytorch-metric-learning) 
-  - [自定义操作torch.autograd.Function](https://zhuanlan.zhihu.com/p/344802526)
-  - [pytorch-loss](https://github.com/CoinCheung/pytorch-loss)
-  - BatchNorm 很重要，也很有效
-    - [Training BatchNorm and Only BatchNorm: On the Expressive Power of Random Features in CNNs](https://arxiv.org/abs/2003.00152)
-  - 模型加速
-    - [tczhangzhi/pytorch-distributed 分布式demo](https://github.com/tczhangzhi/pytorch-distributed)
-    - [contiguous_pytorch_params](https://github.com/PhilJd/contiguous_pytorch_params)
-    - [DDP]()
-    - [Pytorch amp/apex](https://pytorch.org/blog/accelerating-training-on-nvidia-gpus-with-pytorch-automatic-mixed-precision/)
-      - [多精度训练教程 非官网](https://mp.weixin.qq.com/s/HKWsM6iDNCmDsu7aDeDwbw)
-    - [fairscale](https://github.com/facebookresearch/fairscale)
-    - [Pytorch MP](https://discuss.pytorch.org/t/return-from-mp-spawn/94302/2)
-  - 无监督
-    - [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch '半监督')
-    - [Dino]('无监督')
-  - Pytorch 入门
-    - [code-of-learn-deep-learning-with-pytorch](https://github.com/L1aoXingyu/code-of-learn-deep-learning-with-pytorch)
-    - [PyTorch-Tutorial 莫烦](https://github.com/MorvanZhou/PyTorch-Tutorial)
-  - [KL散度理解以及使用pytorch计算KL散度](https://zhuanlan.zhihu.com/p/339613080)
-  - [AutoClip: Adaptive Gradient Clipping](https://github.com/pseeth/autoclip)
-  - [timm](https://github.com/rwightman/pytorch-image-models)
-  - [Test Time Augmentation（TTA）]('对数据增广后进行预测')
-  - [Ensemble-Pytorch](https://github.com/TorchEnsemble-Community/Ensemble-Pytorch)
-  - [MEAL-V2 KL散度以及对抗损失](https://github.com/szq0214/MEAL-V2)
-  - 数据平衡
-    - [如何处理非平衡数据](https://www.junjianli.cn/2019/12/26/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E9%9D%9E%E5%B9%B3%E8%A1%A1%E6%95%B0%E6%8D%AE/)
-    - [Pytorch不均衡数据集采样器](https://zhuanlan.zhihu.com/p/391830097)
-    - [imbalanced-dataset-sampler](https://github.com/ufoym/imbalanced-dataset-sampler)
-    - [Class-balanced-loss-pytorch](https://github.com/vandit15/Class-balanced-loss-pytorch)
-  - CNN
-    - [DiverseBranchBlock](https://github.com/DingXiaoH/DiverseBranchBlock 'Diverse Branch Block: Building a Convolution as an Inception-like Unit')
-  - [lightly 弱监督](https://github.com/lightly-ai/lightly)
-  - [mit-han-lab/once-for-all](https://github.com/mit-han-lab/once-for-all)
-  - [IntelLabs/distiller](https://github.com/IntelLabs/distiller)
+- Pytorch的一些基本操作
+- [ritchieng/the-incredible-pytorch 教程](https://github.com/ritchieng/the-incredible-pytorch)
+- 长尾问题
+  - [vandit15/Class-balanced-loss-pytorch](https://github.com/vandit15/Class-balanced-loss-pytorch)
+- [facebookresearch/FixRes trick](https://github.com/facebookresearch/FixRes)
+- [imankgoyal/NonDeepNetworks ParNet](https://github.com/imankgoyal/NonDeepNetworks)
+- [assafshocher/ResizeRight](https://github.com/assafshocher/ResizeRight)
+- [kornia/kornia](https://github.com/kornia/kornia)
+- [Learning to Resize Images for Computer Vision Tasks](https://arxiv.org/abs/2103.09950)
+- [pytorch/libtorch](https://github.com/pytorch/pytorch/blob/master/docs/libtorch.rst)
+- [pytorch/examples](https://github.com/pytorch/examples)
+- [pytorch-optimizer](https://github.com/jettify/pytorch-optimizer)
+- [victoresque/pytorch-template](https://github.com/victoresque/pytorch-template)
+- [pytorch-metric-learning](https://github.com/KevinMusgrave/pytorch-metric-learning) 
+- [自定义操作torch.autograd.Function](https://zhuanlan.zhihu.com/p/344802526)
+- [pytorch-loss](https://github.com/CoinCheung/pytorch-loss)
+- BatchNorm 很重要，也很有效
+  - [Training BatchNorm and Only BatchNorm: On the Expressive Power of Random Features in CNNs](https://arxiv.org/abs/2003.00152)
+- 模型加速
+  - [tczhangzhi/pytorch-distributed 分布式demo](https://github.com/tczhangzhi/pytorch-distributed)
+  - [contiguous_pytorch_params](https://github.com/PhilJd/contiguous_pytorch_params)
+  - [DDP]()
+  - [Pytorch amp/apex](https://pytorch.org/blog/accelerating-training-on-nvidia-gpus-with-pytorch-automatic-mixed-precision/)
+    - [多精度训练教程 非官网](https://mp.weixin.qq.com/s/HKWsM6iDNCmDsu7aDeDwbw)
+  - [fairscale](https://github.com/facebookresearch/fairscale)
+  - [Pytorch MP](https://discuss.pytorch.org/t/return-from-mp-spawn/94302/2)
+- 无监督
+  - [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch '半监督')
+  - [Dino]('无监督')
+- Pytorch 入门
+  - [code-of-learn-deep-learning-with-pytorch](https://github.com/L1aoXingyu/code-of-learn-deep-learning-with-pytorch)
+  - [PyTorch-Tutorial 莫烦](https://github.com/MorvanZhou/PyTorch-Tutorial)
+- [KL散度理解以及使用pytorch计算KL散度](https://zhuanlan.zhihu.com/p/339613080)
+- [AutoClip: Adaptive Gradient Clipping](https://github.com/pseeth/autoclip)
+- [timm](https://github.com/rwightman/pytorch-image-models)
+- [Test Time Augmentation（TTA）]('对数据增广后进行预测')
+- [Ensemble-Pytorch](https://github.com/TorchEnsemble-Community/Ensemble-Pytorch)
+- [MEAL-V2 KL散度以及对抗损失](https://github.com/szq0214/MEAL-V2)
+- 数据平衡
+  - [如何处理非平衡数据](https://www.junjianli.cn/2019/12/26/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E9%9D%9E%E5%B9%B3%E8%A1%A1%E6%95%B0%E6%8D%AE/)
+  - [Pytorch不均衡数据集采样器](https://zhuanlan.zhihu.com/p/391830097)
+  - [imbalanced-dataset-sampler](https://github.com/ufoym/imbalanced-dataset-sampler)
+  - [Class-balanced-loss-pytorch](https://github.com/vandit15/Class-balanced-loss-pytorch)
+- CNN
+  - [DiverseBranchBlock](https://github.com/DingXiaoH/DiverseBranchBlock 'Diverse Branch Block: Building a Convolution as an Inception-like Unit')
+- [lightly 弱监督](https://github.com/lightly-ai/lightly)
+- [mit-han-lab/once-for-all](https://github.com/mit-han-lab/once-for-all)
+- [IntelLabs/distiller](https://github.com/IntelLabs/distiller)
 
 ---
 
@@ -342,27 +341,27 @@
   - [afatcoder/LeetcodeTop](https://github.com/afatcoder/LeetcodeTop)
 ---
 ## 蒸馏、弱监督、半监督、自学习、无监督、量化(hot)
-  - [ZHANGHeng19931123/MutualGuide 检测蒸馏](https://github.com/ZHANGHeng19931123/MutualGuide)
-  - [yoshitomo-matsubara/torchdistill](https://github.com/yoshitomo-matsubara/torchdistill)
-  - [wyc-ruiker/HKD](https://github.com/wyc-ruiker/HKD)
-  - [alldbi/SuperMix](https://github.com/alldbi/SuperMix)
-  - [HobbitLong/RepDistiller](https://github.com/HobbitLong/RepDistiller)
-  - [quic/aimet 模型量化](https://github.com/quic/aimet)
-  - [DeepVAC/deepvac](https://github.com/DeepVAC/deepvac)
-  - [TorchSSL/TorchSSL 弱监督集合](https://github.com/TorchSSL/TorchSSL)
-  - [微调预训练模型的新姿势——自集成和自蒸馏](https://zhuanlan.zhihu.com/p/133804801)
-  - [ICLR 2021 | SEED：自监督蒸馏学习，显著提升小模型性能！](https://www.aminer.cn/research_report/607965a1e409f29eb73e2e97)
-    - [SEED: Self-supervised Distillation For Visual Representation](https://arxiv.org/abs/2101.04731)
-  - [Three mysteries in deep learning: Ensemble, knowledge distillation, and self-distillation](https://www.microsoft.com/en-us/research/blog/three-mysteries-in-deep-learning-ensemble-knowledge-distillation-and-self-distillation/)
-  - [pseudo-labeling-to-deal-with-small-datasets-what-why-how](https://towardsdatascience.com/pseudo-labeling-to-deal-with-small-datasets-what-why-how-fd6f903213af)
-  - **[R-Drop](https://github.com/dropreg/R-Drop)**
-  - [STR-Fewer-Labels](https://github.com/ku21fan/STR-Fewer-Labels)
-  - [Sequence-to-Sequence Contrastive Learning for Text Recognition](https://arxiv.org/abs/2012.10873)
-  - 自蒸馏
-    - [Be Your Own Teacher: Improve the Performance of Convolutional NeuralNetworks via Self Distillation](https://arxiv.org/pdf/1905.08094.pdf)
-    - [Even your Teacher Needs Guidance: Ground-Truth Targets Dampen Regularization Imposed by Self-Distillation](https://arxiv.org/pdf/2102.13088.pdf)
-    - [Data-Distortion Guided Self-Distillation for Deep Neural Networks](https://github.com/youngerous/ddgsd-pytorch 'code')
-  - [awesome-knowledge-distillation](https://github.com/dkozlov/awesome-knowledge-distillation)
+- [ZHANGHeng19931123/MutualGuide 检测蒸馏](https://github.com/ZHANGHeng19931123/MutualGuide)
+- [yoshitomo-matsubara/torchdistill](https://github.com/yoshitomo-matsubara/torchdistill)
+- [wyc-ruiker/HKD](https://github.com/wyc-ruiker/HKD)
+- [alldbi/SuperMix](https://github.com/alldbi/SuperMix)
+- [HobbitLong/RepDistiller](https://github.com/HobbitLong/RepDistiller)
+- [quic/aimet 模型量化](https://github.com/quic/aimet)
+- [DeepVAC/deepvac](https://github.com/DeepVAC/deepvac)
+- [TorchSSL/TorchSSL 弱监督集合](https://github.com/TorchSSL/TorchSSL)
+- [微调预训练模型的新姿势——自集成和自蒸馏](https://zhuanlan.zhihu.com/p/133804801)
+- [ICLR 2021 | SEED：自监督蒸馏学习，显著提升小模型性能！](https://www.aminer.cn/research_report/607965a1e409f29eb73e2e97)
+  - [SEED: Self-supervised Distillation For Visual Representation](https://arxiv.org/abs/2101.04731)
+- [Three mysteries in deep learning: Ensemble, knowledge distillation, and self-distillation](https://www.microsoft.com/en-us/research/blog/three-mysteries-in-deep-learning-ensemble-knowledge-distillation-and-self-distillation/)
+- [pseudo-labeling-to-deal-with-small-datasets-what-why-how](https://towardsdatascience.com/pseudo-labeling-to-deal-with-small-datasets-what-why-how-fd6f903213af)
+- **[R-Drop](https://github.com/dropreg/R-Drop)**
+- [STR-Fewer-Labels](https://github.com/ku21fan/STR-Fewer-Labels)
+- [Sequence-to-Sequence Contrastive Learning for Text Recognition](https://arxiv.org/abs/2012.10873)
+- 自蒸馏
+  - [Be Your Own Teacher: Improve the Performance of Convolutional NeuralNetworks via Self Distillation](https://arxiv.org/pdf/1905.08094.pdf)
+  - [Even your Teacher Needs Guidance: Ground-Truth Targets Dampen Regularization Imposed by Self-Distillation](https://arxiv.org/pdf/2102.13088.pdf)
+  - [Data-Distortion Guided Self-Distillation for Deep Neural Networks](https://github.com/youngerous/ddgsd-pytorch 'code')
+- [awesome-knowledge-distillation](https://github.com/dkozlov/awesome-knowledge-distillation)
 
 - [Visualizer](https://github.com/luo3300612/Visualizer)
 ## 文本图像生成

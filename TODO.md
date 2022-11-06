@@ -1,27 +1,48 @@
 ### DAILY TODO
-+ [X] 印刷公式训练
-+ [X] 印刷公式数据整合
-+ [X] 竖式整理
-+ [X] 手写计算pipeline
-+ [] 阅读MoCo
-+ [] 常见算法梳理
-+ [] 工作内容总结
-+ [] 常见paper阅读
-+ [] 常见loss、激活函数梳理并熟知原理
-+ [] 常见分类模型分析
-+ [] 深度学习底层理论
-+ [] Pytorch工作原理
-+ [] lc算法 mid
-+ [] 识别相关算法
-+ [] 检测相管算法
-+ [] 沟通事宜
-+ [] 学习打破常态
-+ [] python 底层总结
-+ [] 常见trick使用，心得
-+ [] 价值观
-
+- [X] 印刷公式训练
+- [X] 印刷公式数据整合
+- [X] 竖式整理
+- [X] 手写计算pipeline
+- [] 阅读MoCo
+- [] 常见算法梳理
+- [] 工作内容总结
+- [] 常见paper阅读
+- [] 常见loss、激活函数梳理并熟知原理
+- [] 常见分类模型分析
+- [] 深度学习底层理论
+- [] Pytorch工作原理
+- [] lc算法 mid
+- [] 识别相关算法
+- [] 检测相管算法
+- [] 沟通事宜
+- [] 学习打破常态
+- [] python 底层总结
+- [] 常见trick使用，心得
+- [] 价值观
+- [x] 阅读master源码
+- [x] 阅读codeWAP源码
+- [x] 阅读Attention源码
+- [x] 实现Center Loss
+- [ ] 实现ACE
+- [x] 实现SWA
+- [x] 实现Pytorch AMP
+- [x] 从头实现CRNN，实现Encoder-Decoder
+- [x] 自己实现一套训练框架
+- [x] 阅读Transformer源码并理解
+- [x] [度量学习]()
+- [x] 阅读[Focal CTC Loss](https://downloads.hindawi.com/journals/complexity/2019/9345861.pdf)
+- [x] Center Loss
+- Code
+    - [pytorch-center-loss](https://github.com/KaiyangZhou/pytorch-center-loss)
+    - [crnn-ctc-centerloss](https://github.com/tommyMessi/crnn_ctc-centerloss)
+- 论文
+    - [Center-Loss](https://ydwen.github.io/papers/WenECCV16.pdf)
+- 文章
+    - [辅助理解 1](https://blog.csdn.net/fxwfxw7037681/article/details/114440117)
+    - [辅助理解 2](https://blog.csdn.net/jacke121/article/details/90480434?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-2.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-2.control)
+- [ ] [图像处理](https://legacy.imagemagick.org/Usage/distorts/#shepards?tdsourcetag=s_pcqq_aiomsg)
 ### WEEKY TODO
-+ []
+- []
 
 ### 2022 YEARS TODO
-+ []
+- []

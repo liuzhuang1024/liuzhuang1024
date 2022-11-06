@@ -20,6 +20,7 @@
   - [CoMER]()
   - [Master-Ocr]()
   - [Master-Table]()
+  - [SAN](https://github.com/tal-tech/SAN)
   - [文章]()
     - [Seq2Seq for LaTeX generation](https://guillaumegenthial.github.io/image-to-latex.html)
     - [基于Seq2Seq的公式识别引擎](https://zhuanlan.zhihu.com/p/183182208)
@@ -169,31 +170,8 @@
 ---
 ---
 ## TODO
-  - [ ] tldtr
-  - [x] 阅读master源码
-  - [x] 阅读codeWAP源码
-  - [x] 阅读Attention源码
-  - [x] 实现Center Loss
-  - [ ] 实现ACE
-  - [x] 实现SWA
-  - [x] 实现Pytorch AMP
-  - [x] 从头实现CRNN，实现Encoder-Decoder
-  - [x] 自己实现一套训练框架
-  - [x] 阅读Transformer源码并理解
-  - [x] [度量学习]()
-  - [x] 阅读[Focal CTC Loss](https://downloads.hindawi.com/journals/complexity/2019/9345861.pdf)
-  - [x] Center Loss
-    - Code
-      - [pytorch-center-loss](https://github.com/KaiyangZhou/pytorch-center-loss)
-      - [crnn-ctc-centerloss](https://github.com/tommyMessi/crnn_ctc-centerloss)
-    - 论文
-      - [Center-Loss](https://ydwen.github.io/papers/WenECCV16.pdf)
-    - 文章
-      - [辅助理解 1](https://blog.csdn.net/fxwfxw7037681/article/details/114440117)
-      - [辅助理解 2](https://blog.csdn.net/jacke121/article/details/90480434?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-2.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-2.control)
-  - [ ] [图像处理](https://legacy.imagemagick.org/Usage/distorts/#shepards?tdsourcetag=s_pcqq_aiomsg)
+- 移动到[TODO.md](TODO.md)
     
-
 ----
 ## Other
   - [PeterL1n/RobustVideoMatting 字节跳动的实时视频绿幕](https://github.com/PeterL1n/RobustVideoMatting)
@@ -261,7 +239,6 @@
   - CNN
     - [DiverseBranchBlock](https://github.com/DingXiaoH/DiverseBranchBlock 'Diverse Branch Block: Building a Convolution as an Inception-like Unit')
   - [lightly 弱监督](https://github.com/lightly-ai/lightly)
-
   - [mit-han-lab/once-for-all](https://github.com/mit-han-lab/once-for-all)
   - [IntelLabs/distiller](https://github.com/IntelLabs/distiller)
 
@@ -373,26 +350,26 @@
   - [quic/aimet 模型量化](https://github.com/quic/aimet)
   - [DeepVAC/deepvac](https://github.com/DeepVAC/deepvac)
   - [TorchSSL/TorchSSL 弱监督集合](https://github.com/TorchSSL/TorchSSL)
-  - [微调预训练模型的新姿势——自集成和自蒸馏
-](https://zhuanlan.zhihu.com/p/133804801)
+  - [微调预训练模型的新姿势——自集成和自蒸馏](https://zhuanlan.zhihu.com/p/133804801)
   - [ICLR 2021 | SEED：自监督蒸馏学习，显著提升小模型性能！](https://www.aminer.cn/research_report/607965a1e409f29eb73e2e97)
     - [SEED: Self-supervised Distillation For Visual Representation](https://arxiv.org/abs/2101.04731)
   - [Three mysteries in deep learning: Ensemble, knowledge distillation, and self-distillation](https://www.microsoft.com/en-us/research/blog/three-mysteries-in-deep-learning-ensemble-knowledge-distillation-and-self-distillation/)
   - [pseudo-labeling-to-deal-with-small-datasets-what-why-how](https://towardsdatascience.com/pseudo-labeling-to-deal-with-small-datasets-what-why-how-fd6f903213af)
   - **[R-Drop](https://github.com/dropreg/R-Drop)**
   - [STR-Fewer-Labels](https://github.com/ku21fan/STR-Fewer-Labels)
-  - [Sequence-to-Sequence Contrastive Learning for Text Recognition
-](https://arxiv.org/abs/2012.10873)
+  - [Sequence-to-Sequence Contrastive Learning for Text Recognition](https://arxiv.org/abs/2012.10873)
   - 自蒸馏
     - [Be Your Own Teacher: Improve the Performance of Convolutional NeuralNetworks via Self Distillation](https://arxiv.org/pdf/1905.08094.pdf)
-    - [Even your Teacher Needs Guidance: Ground-Truth Targets Dampen Regularization Imposed by Self-Distillation
-](https://arxiv.org/pdf/2102.13088.pdf)
-    - [Data-Distortion Guided Self-Distillation for Deep Neural Networks
-](https://github.com/youngerous/ddgsd-pytorch 'code')
+    - [Even your Teacher Needs Guidance: Ground-Truth Targets Dampen Regularization Imposed by Self-Distillation](https://arxiv.org/pdf/2102.13088.pdf)
+    - [Data-Distortion Guided Self-Distillation for Deep Neural Networks](https://github.com/youngerous/ddgsd-pytorch 'code')
   - [awesome-knowledge-distillation](https://github.com/dkozlov/awesome-knowledge-distillation)
 
 - [Visualizer](https://github.com/luo3300612/Visualizer)
-
+## 文本图像生成
+- [Handwriting-Transformers](https://github.com/ankanbhunia/Handwriting-Transformers)
+- [Transformer_STR](https://github.com/opconty/Transformer_STR.git)
+- [handwriting-synthesis](https://github.91chi.fun/https://github.com/sjvasquez/handwriting-synthesis.git)
+- [Generating-Sequences-With-Recurrent-Neural-Networks](https://github.91chi.fun/https://github.com/TengHu/Generating-Sequences-With-Recurrent-Neural-Networks.git)
 ---
 ## OCR
   - [CyberAgentAILab/derendering-text](https://github.com/CyberAgentAILab/derendering-text)
@@ -428,8 +405,7 @@
   - [textocr facebook](https://textvqa.org/?p=/textocr)
   - 弱监督
     - [STR-Fewer-Labels](https://github.com/ku21fan/STR-Fewer-Labels)
-    - [Sequence-to-Sequence Contrastive Learning for Text Recognition
-](https://arxiv.org/abs/2012.10873)
+    - [Sequence-to-Sequence Contrastive Learning for Text Recognition](https://arxiv.org/abs/2012.10873)
   - [文档矫正]()
     - [thomasjhuang/deep-learning-for-document-dewarping](https://github.com/thomasjhuang/deep-learning-for-document-dewarping)
     - [Dewarping-Document-Image-By-Displacement-Flow-Estimation](https://github.com/gwxie/Dewarping-Document-Image-By-Displacement-Flow-Estimation)
@@ -475,67 +451,67 @@
 ---
 
 ## Python
-  - help
-    - [code example](https://www.programcreek.com/python/)
-  - 格式处理相关
-    - pprint
-    - rich
-    - [python-tabulate](https://github.com/astanin/python-tabulate)
-    - [prettytable]()
-    - [Typer]()
-    - [click]()
-    - [args]()
-    - [icecream]()
-  - 常用内置函数
-    - int
-    - bin
-    - oct
-    - hex
-    - ord
-    - chr
-  - 字符串处理相关
-    - unicodedata
-    - string
-    - string.translate
-    - re
-    - Flashtext
-    - [\u4e00-\u9fa5]
-  - 占用内存的分析
-    - torch 
-      - tensor.storage()
-    - numpy
-      - ndarray.nbytes
-    - python 对象
-      - sys.getsizeof()
-  - python 持久化
-    - pickle
-    - torch.save
-  - 常用的数据存储数据库
-    - lmdb
-  - 采样
-    - random
-      - choice
-      - sample
-    - itertools
-      - product(p, q, … [repeat=1])
-      - permutations(p[, r])
-      - combinations(p, r)
-      - combinations_with_replacement(p, r)
-  - Debug
-  ```python
-          {
-            "name": "Python: Dist Current File",
-            "type": "python",
-            "justMyCode": false,
-            "request": "attach",
-            "connect": {
-                "host": "localhost",
-                "port": 5678
-            }
-        // python -m debugpy --listen 5678 --wait-for-client
-        }
+- help
+  - [code example](https://www.programcreek.com/python/)
+- 格式处理相关
+  - pprint
+  - rich
+  - [python-tabulate](https://github.com/astanin/python-tabulate)
+  - [prettytable]()
+  - [Typer]()
+  - [click]()
+  - [args]()
+  - [icecream]()
+- 常用内置函数
+  - int
+  - bin
+  - oct
+  - hex
+  - ord
+  - chr
+- 字符串处理相关
+  - unicodedata
+  - string
+  - string.translate
+  - re
+  - Flashtext
+  - [\u4e00-\u9fa5]
+- 占用内存的分析
+  - torch 
+    - tensor.storage()
+  - numpy
+    - ndarray.nbytes
+  - python 对象
+    - sys.getsizeof()
+- python 持久化
+  - pickle
+  - torch.save
+- 常用的数据存储数据库
+  - lmdb
+- 采样
+  - random
+    - choice
+    - sample
+  - itertools
+    - product(p, q, … [repeat=1])
+    - permutations(p[, r])
+    - combinations(p, r)
+    - combinations_with_replacement(p, r)
+- Debug
+```python
+        {
+          "name": "Python: Dist Current File",
+          "type": "python",
+          "justMyCode": false,
+          "request": "attach",
+          "connect": {
+              "host": "localhost",
+              "port": 5678
+          }
+      // python -m debugpy --listen 5678 --wait-for-client
+      }
 
-  ```
+```
 ---
 ## 部署
   - [编译libtorch相关](https://github.com/zhiqwang/yolov5-rt-stack/tree/master/deployment/libtorch)
@@ -697,7 +673,5 @@
   - sss
 ## Fighting
 - [【腾讯文档】技术整理](https://docs.qq.com/doc/DQ2xVdXl5a0t6cVlB)
-- [【腾讯文档】算法整理
-](https://docs.qq.com/doc/DQ2d5bXFETU1HbkdL)
-- [【腾讯文档】待办事项](
-https://docs.qq.com/doc/DQ2d2Y0hTTXZ0S25y)
+- [【腾讯文档】算法整理](https://docs.qq.com/doc/DQ2d5bXFETU1HbkdL)
+- [【腾讯文档】待办事项](https://docs.qq.com/doc/DQ2d2Y0hTTXZ0S25y)

@@ -475,6 +475,7 @@
   - re
   - Flashtext
   - [\u4e00-\u9fa5]
+  - Levenshtein
 - 占用内存的分析
   - torch 
     - tensor.storage()
@@ -482,6 +483,8 @@
     - ndarray.nbytes
   - python 对象
     - sys.getsizeof()
+  - psutils
+
 - python 持久化
   - pickle
   - torch.save
@@ -663,7 +666,8 @@
   - 
 ### 竞赛
   - CVPR2022 UG2+ 赛道三 冠军
-  - 科大讯飞 多学科公式识别 冠军
+  - 科大讯飞 2022多学科公式识别 冠军
+  - 科大讯飞 2023复杂场景公式识别 冠军
   - TIE2022 端到端 第六
 
 ### 论文复现

@@ -1,9 +1,10 @@
 **<div align="center">工作<img src="https://csdnimg.cn/release/blogv2/dist/pc/img/npsFeel5.png"/>整理</div>**
-----
+-
 `工作日常：打开Github开始新的一天`
 
 
 ## 公式识别
+  - [SAM](https://github.com/liuzhuang1024/SAM)
   - [RobustScanner: Dynamically Enhancing Positional Clues for Robust Text Recognition](https://arxiv.org/abs/2007.07542)
   - [Translating Math Formula Images to LaTeX Sequences Using Deep Neural Networks with Sequence-level Training](https://arxiv.org/abs/1908.11415)
   - [ConvMath: A Convolutional Sequence Network for Mathematical Expression Recognition](https://www.semanticscholar.org/paper/ConvMath%3A-A-Convolutional-Sequence-Network-for-Yan-Zhang/7bd7c66be55ca10f9883be80be238fd3236b03a8#citing-papers)
@@ -32,7 +33,7 @@
     - [Recognizing handwritten mathematical expressions via paired dual loss attentionnetwork and printed mathematical expressions](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w34/Le_Recognizing_Handwritten_Mathematical_Expressions_via_Paired_Dual_Loss_Attention_Network_CVPRW_2020_paper.pdf '有点自监督的意思')
     - [DenseWAP-TD](http://proceedings.mlr.press/v119/zhang20g/zhang20g.pdf)
     - [Handwritten Mathematical Expression Recognition with Bidirectionally Trained Transformer](https://arxiv.org/abs/2105.02412)
----
+
 ## 注意力机制
   - [gordicaleksa/pytorch-GAT 图注意力机制](https://github.com/gordicaleksa/pytorch-GAT)
   - [External-Attention-pytorch](https://github.com/xmu-xiaoma666/External-Attention-pytorch)
@@ -47,7 +48,7 @@
     - [Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
     - [Attention Craving RNNS: Building Up To Transformer Networks](https://towardsdatascience.com/attention-craving-rnns-a-journey-into-attention-mechanisms-eec840fbc26f)
 
-----
+
 
 ## DataSet
   - [graviti](https://gas.graviti.cn/open-datasets)
@@ -73,7 +74,7 @@
       - [CHRAOME竞赛地址](http://www.iapr-tc11.org/mediawiki/index.php/CROHME:_Competition_on_Recognition_of_Online_Handwritten_Mathematical_Expressions)
       - [Datasets per Topic](http://tc11.cvc.uab.es/datasets/type/)
 
-----
+
 ## 目标检测 
   - [Pix2seq: A Language Modeling Framework for Object Detection 语言模型搭建检测](https://arxiv.org/abs/2109.10852)
   - [DefTruth/lite.ai C+- 检测部署](https://github.com/DefTruth/lite.ai)
@@ -101,7 +102,7 @@
     - [YOLOv5_DOTA_OBB](https://github.com/hukaixuan19970627/YOLOv5_DOTA_OBB)
   - 目标跟踪
     - [Yolov5_DeepSort_Pytorch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
----
+
 ## 文本检测方法
 - [基于概率分布图的任意形状文本实例分割和检测方法（有源码](https://mp.weixin.qq.com/s/Z58PSrd7S6tix4KUItItEA)
 - [[CVPR2022] 端到端的场景文字检测与版面分析统一框架](https://mp.weixin.qq.com/s/B5uR-OKp6JGM-Ruy5if7iw)
@@ -128,21 +129,24 @@
 - [目标检测比赛提高mAP的方法](https://www.cnblogs.com/zi-wang/p/12537034.html)
 - [弯曲文本检测策略]()
 ## 文本加测数据集
-- [hiertext](https://github.com/google-research-datasets/hiertext)
-- icdar
-- ctw
-- total text
-- openimage
-- cocotext
----
+
+<ol>
+<li> [hiertext](https://github.com/google-research-datasets/hiertext)
+<li> icdar
+<li> ctw
+<li> total text
+<li> openimage
+<li> cocotext
+</ol>
+
 ## 语义分割(暂停)
-  - [Fast-SCNN-pytorch](https://github.com/Tramac/Fast-SCNN-pytorch)
----
+- [Fast-SCNN-pytorch](https://github.com/Tramac/Fast-SCNN-pytorch)
+
 ## MarkDown
-  - [MarkDown-常用操作](https://x-pp.github.io/2019/04/18/markdown%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/)
-  - [拓展](https://blog.csdn.net/m0_37925202/article/details/80461714)
-  - [Markdown快速入门](https://sspai.com/post/45816)
----
+- [MarkDown-常用操作](https://x-pp.github.io/2019/04/18/markdown%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/)
+- [拓展](https://blog.csdn.net/m0_37925202/article/details/80461714)
+- [Markdown快速入门](https://sspai.com/post/45816)
+
 
 ## trick 大全
   - 数据增广
@@ -163,15 +167,15 @@
   - 数据平衡
     - [如何处理非平衡数据](https://www.junjianli.cn/2019/12/26/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E9%9D%9E%E5%B9%B3%E8%A1%A1%E6%95%B0%E6%8D%AE/)
     - [Pytorch不均衡数据集采样器](https://zhuanlan.zhihu.com/p/391830097)
----
+
 ## 冠军解决方案
   - [ICDAR2021-公式检测](https://github.com/Yuxiang1995/ICDAR2021_MFD)
----
----
+
+
 ## TODO
 - 移动到[TODO.md](TODO.md)
     
-----
+-
 ## Other
   - [PeterL1n/RobustVideoMatting 字节跳动的实时视频绿幕](https://github.com/PeterL1n/RobustVideoMatting)
   - [虚拟试衣 virtual_try_on_use_deep_learning](https://github.com/hpc203/virtual_try_on_use_deep_learning)
@@ -189,7 +193,7 @@
   - [pillow-simd pillow加速](https://github.com/uploadcare/pillow-simd)
   - [pytracking](https://github.com/visionml/pytracking)
 
-----
+-
 
 ## Pytorch
 - Pytorch的一些基本操作
@@ -241,7 +245,7 @@
 - [mit-han-lab/once-for-all](https://github.com/mit-han-lab/once-for-all)
 - [IntelLabs/distiller](https://github.com/IntelLabs/distiller)
 
----
+
 
 ## 高效工具
   - [fanux/sealos k8s快速部署](https://github.com/fanux/sealos)
@@ -329,17 +333,17 @@
       - [an-introduction-to-t-sne-with-python-example](https://towardsdatascience.com/an-introduction-to-t-sne-with-python-example-5a3a293108d1)
       - [apache Superset](https://github.com/apache/superset)
 
----
+
 ## 数学
   - [Animation engine for explanatory math videos](https://github.com/3b1b/manim)
     - [3b1b](https://space.bilibili.com/88461692/)
 
----
+
 
 ## LeetCode
   - [LeetCode 题库](https://leetcode-cn.com/problemset/all/)
   - [afatcoder/LeetcodeTop](https://github.com/afatcoder/LeetcodeTop)
----
+
 ## 蒸馏、弱监督、半监督、自学习、无监督、量化(hot)
 - [ZHANGHeng19931123/MutualGuide 检测蒸馏](https://github.com/ZHANGHeng19931123/MutualGuide)
 - [yoshitomo-matsubara/torchdistill](https://github.com/yoshitomo-matsubara/torchdistill)
@@ -369,7 +373,7 @@
 - [Transformer_STR](https://github.com/opconty/Transformer_STR.git)
 - [handwriting-synthesis](https://github.91chi.fun/https://github.com/sjvasquez/handwriting-synthesis.git)
 - [Generating-Sequences-With-Recurrent-Neural-Networks](https://github.91chi.fun/https://github.com/TengHu/Generating-Sequences-With-Recurrent-Neural-Networks.git)
----
+
 ## OCR
   - [CyberAgentAILab/derendering-text](https://github.com/CyberAgentAILab/derendering-text)
   - [gidariss/FeatureLearningRotNet RotNet](https://github.com/gidariss/FeatureLearningRotNet)
@@ -432,7 +436,7 @@
   - [PDF-Resume-Information-Extraction](https://github.com/Agwave/PDF-Resume-Information-Extraction)
     
 
----
+
 ## Transformer
   - Vision Transformer
     - [CvT](https://github.com/microsoft/CvT)
@@ -447,7 +451,7 @@
   - [multidim-positional-encoding](https://github.com/tatp22/multidim-positional-encoding)
   - [lucidrains/HTM-pytorch Hierarchical Transformer Memory](https://github.com/lucidrains/HTM-pytorch)
 
----
+
 
 ## Python
 - help
@@ -461,6 +465,11 @@
   - [click]()
   - [args]()
   - [icecream]()
+  - [mitmproxy]()
+  - [requests]()
+  - [subprocess]()
+  - [seleinum]()
+  - 
 - 常用内置函数
   - int
   - bin
@@ -474,7 +483,7 @@
   - string.translate
   - re
   - Flashtext
-  - [\u4e00-\u9fa5]
+  - 中文字符串正则-[\u4e00-\u9fa5]()
   - Levenshtein
 - 占用内存的分析
   - torch 
@@ -500,6 +509,7 @@
     - combinations(p, r)
     - combinations_with_replacement(p, r)
 - Debug
+- Remote Debug:****
 ```python
         {
           "name": "Python: Dist Current File",
@@ -514,7 +524,7 @@
       }
 
 ```
----
+
 ## 部署
   - [编译libtorch相关](https://github.com/zhiqwang/yolov5-rt-stack/tree/master/deployment/libtorch)
   - 编译/运行库相关
@@ -564,7 +574,7 @@
   - [kubeflow/kfserving](https://github.com/kubeflow/kfserving)
   - [ahkarami/Deep-Learning-in-Production](https://github.com/ahkarami/Deep-Learning-in-Production)
 
----
+
 ## 图像修复/超分
   - [MayankSingal/PyTorch-Image-Dehazing](https://github.com/MayankSingal/PyTorch-Image-Dehazing)
   - [xinntao/Real-ESRGAN-ncnn-vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan)
@@ -580,15 +590,14 @@
   - [Thmen/EGVSR](https://github.com/Thmen/EGVSR)
   - [Restomer]()
   - [AirNet]()
----
+
 ## 图像检索
   - [autofaiss](https://github.com/criteo/autofaiss)
   - [faiss]()
----
+
 ## 强化学习
  - [wangshusen/DRL](https://github.com/wangshusen/DRL)
 
----
 ## 教程/学习
   - 英语
     - [English-level-up-tips-for-Chinese](https://github.com/byoungd/English-level-up-tips-for-Chinese)
@@ -631,7 +640,7 @@
     - [electron](https://github.com/electron/electron)
     - [QT]()
 ## 个人发展
----
+
 ### 健身
   - [改善圆肩驼背](https://www.zhihu.com/zvideo/1397900110991364096)
 ### 阅读

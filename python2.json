@@ -1,0 +1,76 @@
+{
+	// Place your snippets for python here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Python Snippets": {
+		"prefix": "pyinfo",
+		"body": [
+			"# -*- coding: utf-8 -*-",
+			"",
+			"# Author: Zhuang Liu",
+			"# E-mail: 1028741371@qq.com",
+			"# Date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+			"# Description: ${1:Description}",
+			"",
+			"${0:$SELECTION}"
+		],
+		"description": "Insert encoding and author information"
+	},
+	"Python Walk": {
+		"prefix": "walk",
+		"body": [
+		"for root, _, files in os.walk(\"${1}\"):",
+		"	for file in files:",
+		"		file_path = os.path.join(root, file)",
+		"		${0:$SELECTION}"
+		],
+	},
+	"Logging Configuration with FileHandler": {
+		"prefix": "logconfig",
+		"body": [
+			"import logging",
+			"",
+			"# Configure the logging",
+			"logging.basicConfig(",
+			"    level=logging.${1:DEBUG},",
+			"    format='%(asctime)s - %(name)s - %(levelname)s : [%(filename)s:%(lineno)d] : %(message)s',",
+			"    handlers=[",
+			"        logging.StreamHandler(),",
+			"        logging.FileHandler('${2:app.log}', mode='a')  # Change 'app.log' to your log file name",
+			"    ]",
+			")",
+			"",
+			"${0:logger} = logging.getLogger(__name__)",
+		],
+		"description": "Configure logging with FileHandler"
+	},
+	
+	"exception_handler": {
+		"prefix": "exception_handler",
+		"body": [
+			"import traceback",
+			"",
+			"def exception_handler(func):",
+			"	def wrapper(*args, **kwargs):",
+			"		try:",
+			"			result = func(*args, **kwargs)",
+			"			return result",
+			"		except Exception as e:",
+			"			traceback.print_exc()",
+			"		return None",
+			"	return wrapper",
+			"${0}",
+		],
+		"description": ""
+	}
+}
